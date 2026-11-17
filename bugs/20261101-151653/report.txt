@@ -1,0 +1,21 @@
+id: 20261101-151653
+description: hole in geo here now
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 15:16:53
+frame: 283
+camera: -912.95 -2067.58 158.27
+angles: -31.75 330.96 0.00
+forward: 0.74 -0.41 0.53
+floor_below: 138.69
+aim_hit: 5177.63 -5449.19 4468.53
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -912.95 -2067.58 138.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -913.0 -2067.6 138.7 331.0 -31.7 30
+screenshot: data/bugs/20261101-151653.png
+recording: data/bugs/20261101-151653.rec (play 20261101-151653)

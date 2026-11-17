@@ -1,0 +1,12 @@
+id: 20261105-181409-183212
+description: Not sure why my draw grid failed here
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-05 18:31:58
+view: 2D Sectors
+shown: Edit
+camera: 1182.59 -240.64 97.17
+angles: 5.21 14.64 0.00
+build_camera: 18921 3850 -24876 angle 1965 sector 11
+view2d: 14736.82 4643.95 zoom 0.1176
+screenshot: screenshot.png

@@ -1,0 +1,21 @@
+id: 20261027-203158
+description: ignore last bug mistake!
+map: maps/e4m3.map
+engine: godot
+date: 2026-10-27 20:31:58
+frame: 4895
+camera: -1506.22 -985.53 214.03
+angles: 18.29 50.82 0.00
+forward: 0.60 0.74 -0.31
+floor_below: 148.03
+aim_hit: -1263.73 -688.03 87.15
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 404.2
+aim_object: world
+aim_texture: blood/0195
+player_origin: -1504.63 -984.32 198.11
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1504.6 -984.3 148.0 50.8 18.3 194
+screenshot: data/bugs/20261027-203158.png
+recording: data/bugs/20261027-203158.rec (play 20261027-203158)

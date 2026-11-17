@@ -1,0 +1,21 @@
+id: 20261019-102445
+description: portal rendering is strange when getting close to the portal when jumping for a frame or so, just as camera is between I guess?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 10:24:45
+frame: 128
+camera: -913.13 -2080.00 158.98
+angles: -4.29 359.01 0.00
+forward: 1.00 -0.02 0.07
+floor_below: 103.49
+aim_hit: -832.03 -2081.40 165.06
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 81.3
+aim_object: world
+aim_texture: blood/0421
+player_origin: -913.13 -2080.00 138.18
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -913.1 -2080.0 103.5 359.0 -4.3
+screenshot: data/bugs/20261019-102445.png
+recording: data/bugs/20261019-102445.rec (play 20261019-102445)

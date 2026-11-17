@@ -1,0 +1,21 @@
+id: 20261031-142950
+description: changing weather settings is still somewhat bugged and is either not responding or removing all weather
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-31 14:29:50
+frame: 3378
+camera: -1577.39 409.31 16.25
+angles: 1.00 38.97 0.00
+forward: 0.78 0.63 -0.02
+floor_below: -5.31
+aim_hit: 4790.78 5560.51 -127.02
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1577.82 408.93 -5.31
+player_health: 81
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1577.8 408.9 -5.3 39.0 1.0 8
+screenshot: data/bugs/20261031-142950.png
+recording: data/bugs/20261031-142950.rec (play 20261031-142950)

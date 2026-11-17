@@ -1,0 +1,21 @@
+id: 20261026-182832
+description: missing geo
+map: maps/e3m6.map
+engine: godot
+date: 2026-10-26 18:28:32
+frame: 2588
+camera: -848.66 -1074.22 -369.05
+angles: -0.45 59.47 0.00
+forward: 0.51 0.86 0.01
+floor_below: -423.97
+aim_hit: -765.69 -933.52 -367.76
+aim_normal: -0.54 -0.84 -0.00
+aim_distance: 163.3
+aim_object: world
+aim_texture: blood/1005
+player_origin: -851.27 -1074.56 -389.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -851.3 -1074.6 -424.0 59.5 -0.4
+screenshot: data/bugs/20261026-182832.png
+recording: data/bugs/20261026-182832.rec (play 20261026-182832)

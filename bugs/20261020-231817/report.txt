@@ -1,0 +1,21 @@
+id: 20261020-231817
+description: very bad performance
+map: maps/e1m6.map
+engine: godot
+date: 2026-10-20 23:18:17
+frame: 4950
+camera: 643.32 1338.33 -473.62
+angles: 7.19 232.96 0.00
+forward: -0.60 -0.79 -0.13
+floor_below: -527.97
+aim_hit: 383.95 994.60 -527.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 434.0
+aim_object: world
+aim_texture: blood/0529_p5
+player_origin: 643.78 1339.85 -493.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 643.8 1339.9 -528.0 233.0 7.2
+screenshot: data/bugs/20261020-231817.png
+recording: data/bugs/20261020-231817.rec (play 20261020-231817)

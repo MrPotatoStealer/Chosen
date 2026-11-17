@@ -1,0 +1,21 @@
+id: 20261031-113518
+description: same bug when dooor is moving
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-31 11:35:18
+frame: 1805
+camera: 1170.24 1056.99 -255.95
+angles: 44.88 59.72 0.00
+forward: 0.36 0.61 -0.71
+floor_below: -281.31
+aim_hit: 4097.20 6069.75 -6036.43
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 1169.81 1056.33 -281.31
+player_health: 102
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1169.8 1056.3 -281.3 59.7 44.9 251
+screenshot: data/bugs/20261031-113518.png
+recording: data/bugs/20261031-113518.rec (play 20261031-113518)

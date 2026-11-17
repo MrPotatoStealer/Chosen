@@ -1,0 +1,21 @@
+id: 20261031-093142
+description: incorrect geo a piece is seen that should not be visible
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-31 09:31:42
+frame: 3402
+camera: -1076.25 1086.63 74.59
+angles: 25.95 245.50 0.00
+forward: -0.37 -0.82 -0.44
+floor_below: 50.69
+aim_hit: -4130.77 -5615.98 -3510.63
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1076.25 1086.63 50.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1076.3 1086.6 50.7 245.5 26.0 381
+screenshot: data/bugs/20261031-093142.png
+recording: data/bugs/20261031-093142.rec (play 20261031-093142)

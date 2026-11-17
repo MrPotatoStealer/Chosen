@@ -1,0 +1,21 @@
+id: 20261031-142902
+description: ground fog disappearing in some angles
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-31 14:29:02
+frame: 3311
+camera: -1537.07 448.37 14.69
+angles: -27.11 357.59 0.00
+forward: 0.89 -0.04 0.46
+floor_below: -5.31
+aim_hit: 5748.19 141.42 3748.28
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1537.07 448.37 -5.31
+player_health: 81
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1537.1 448.4 -5.3 357.6 -27.1 8
+screenshot: data/bugs/20261031-142902.png
+recording: data/bugs/20261031-142902.rec (play 20261031-142902)

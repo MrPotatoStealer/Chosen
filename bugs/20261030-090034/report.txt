@@ -1,0 +1,21 @@
+id: 20261030-090034
+description: some issues here with flickering when rebuilding meshes
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-30 09:00:34
+frame: 2177
+camera: 2084.40 -2599.24 56.79
+angles: 1.46 88.53 0.00
+forward: 0.03 1.00 -0.03
+floor_below: 0.03
+aim_hit: 2102.52 -1893.94 38.76
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 705.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 2084.40 -2599.24 34.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2084.4 -2599.2 0.0 88.5 1.5 25
+screenshot: data/bugs/20261030-090034.png
+recording: data/bugs/20261030-090034.rec (play 20261030-090034)

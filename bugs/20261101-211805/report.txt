@@ -1,0 +1,21 @@
+id: 20261101-211805
+description: same here dynamic light is a bit off from the actual lantern
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 21:18:05
+frame: 1130
+camera: 35.99 -2569.08 104.47
+angles: -3.23 112.17 0.00
+forward: -0.38 0.92 0.06
+floor_below: 82.69
+aim_hit: 16.00 -2520.03 107.46
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 53.0
+aim_object: decoration#17 type 0 pic 640 stat 0
+aim_texture: 
+player_origin: 35.99 -2569.08 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 36.0 -2569.1 82.7 112.2 -3.2 18
+screenshot: data/bugs/20261101-211805.png
+recording: data/bugs/20261101-211805.rec (play 20261101-211805)

@@ -1,0 +1,17 @@
+id: 20261015-232326
+description: fire should not be visible before blowing up the funeral home
+map: maps/e1m1.bsp
+date: 2026-10-15 23:23:26
+camera: 699.34 -2462.66 -55.97
+angles: -7.92 -214.14 0.00
+forward: -0.82 0.56 0.14
+floor_below: -111.97
+aim_hit: 531.32 -2348.72 -27.73
+aim_normal: 0.71 -0.71 -0.00
+aim_distance: 205.0
+aim_object: world
+aim_texture: textures/blood/1011
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 699.3 -2462.7 -112.0 -214.1 -7.9
+screenshot: data/bugs/20261015-232326.png

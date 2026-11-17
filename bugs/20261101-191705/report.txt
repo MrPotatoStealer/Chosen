@@ -1,0 +1,21 @@
+id: 20261101-191705
+description: starting e1m6 and you die instantly, think you are spawning in the wrong sectors since its a room in room
+map: maps/e1m6.map
+engine: godot
+date: 2026-11-01 19:17:05
+frame: 70
+camera: -836.00 1931.81 -758.50
+angles: 0.00 284.77 0.00
+forward: 0.25 -0.97 -0.00
+floor_below: -773.64
+aim_hit: -806.48 1819.84 -758.50
+aim_normal: 0.00 1.00 0.00
+aim_distance: 115.8
+aim_object: dude_cultist_shotgun#407 type 202 pic 2875 stat 6
+aim_texture: 
+player_origin: -836.00 1931.81 -773.64
+player_health: 0
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -836.0 1931.8 -773.6 284.8 0.0 257
+screenshot: data/bugs/20261101-191705.png
+recording: data/bugs/20261101-191705.rec (play 20261101-191705)

@@ -1,0 +1,21 @@
+id: 20261028-174211
+description: missing water surface?
+map: maps/mrw01.map
+engine: godot
+date: 2026-10-28 17:42:11
+frame: 5952
+camera: 5821.55 -2434.90 141.74
+angles: 57.17 78.03 0.00
+forward: 0.11 0.53 -0.84
+floor_below: 79.03
+aim_hit: 5831.41 -2388.37 68.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 87.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 5821.55 -2434.90 113.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 5821.5 -2434.9 79.0 78.0 57.2 563
+screenshot: data/bugs/20261028-174211.png
+recording: data/bugs/20261028-174211.rec (play 20261028-174211)

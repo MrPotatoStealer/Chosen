@@ -1,0 +1,21 @@
+id: 20261019-205912
+description: performance issue looking this way
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 20:59:12
+frame: 1553
+camera: 416.34 1429.34 -14.94
+angles: 5.02 273.94 0.00
+forward: 0.07 -0.99 -0.09
+floor_below: -71.97
+aim_hit: 420.57 1368.03 -20.33
+aim_normal: 0.00 1.00 0.00
+aim_distance: 61.7
+aim_object: blood_sector#8(sector74)
+aim_texture: blood/0199
+player_origin: 416.34 1429.34 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 416.3 1429.3 -72.0 273.9 5.0
+screenshot: data/bugs/20261019-205912.png
+recording: data/bugs/20261019-205912.rec (play 20261019-205912)

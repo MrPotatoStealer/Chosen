@@ -1,0 +1,21 @@
+id: 20261030-171348
+description: hole in geo herew
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-30 17:13:48
+frame: 216
+camera: 165.19 -774.49 -22.39
+angles: 13.20 211.53 0.00
+forward: -0.83 -0.51 -0.23
+floor_below: -79.97
+aim_hit: -148.49 -966.95 -108.71
+aim_normal: 0.89 0.45 -0.00
+aim_distance: 378.0
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 165.13 -774.38 -45.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 165.1 -774.4 -80.0 211.5 13.2 114
+screenshot: data/bugs/20261030-171348.png
+recording: data/bugs/20261030-171348.rec (play 20261030-171348)

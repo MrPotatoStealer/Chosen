@@ -1,0 +1,17 @@
+id: 20261015-161005
+description: coffing lid is not closed at start
+map: maps/e1m1.bsp
+date: 2026-10-15 16:10:05
+camera: -419.03 -1873.72 65.40
+angles: 7.71 -177.21 0.00
+forward: -0.99 -0.05 -0.13
+floor_below: 8.03
+aim_hit: -583.97 -1881.76 43.03
+aim_normal: 1.00 0.00 0.00
+aim_distance: 166.6
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -419.0 -1873.7 8.0 -177.2 7.7
+screenshot: data/bugs/20261015-161005.png

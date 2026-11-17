@@ -1,0 +1,21 @@
+id: 20261023-094911
+description: more geo wholes
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:49:11
+frame: 1082
+camera: -1405.80 1913.19 123.05
+angles: 34.31 288.45 0.00
+forward: 0.26 -0.78 -0.56
+floor_below: 70.04
+aim_hit: -1381.72 1841.02 71.13
+aim_normal: -0.41 -0.00 0.91
+aim_distance: 92.1
+aim_object: blood_sector#0(sector1)
+aim_texture: blood_flat/2448
+player_origin: -1405.80 1913.19 98.38
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1405.8 1913.2 70.0 288.5 34.3
+screenshot: data/bugs/20261023-094911.png
+recording: data/bugs/20261023-094911.rec (play 20261023-094911)

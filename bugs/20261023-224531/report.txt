@@ -1,0 +1,21 @@
+id: 20261023-224531
+description: diving suit ui visor is missing under water
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-23 22:45:31
+frame: 2170
+camera: -1999.82 1318.16 -24.79
+angles: 8.30 248.00 0.00
+forward: -0.37 -0.92 -0.14
+floor_below: -135.97
+aim_hit: -2175.97 882.09 -93.40
+aim_normal: 1.00 0.00 0.00
+aim_distance: 475.3
+aim_object: world
+aim_texture: blood/0230
+player_origin: -1999.86 1318.16 -45.75
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1999.9 1318.2 -136.0 248.0 8.3
+screenshot: data/bugs/20261023-224531.png
+recording: data/bugs/20261023-224531.rec (play 20261023-224531)

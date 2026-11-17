@@ -1,0 +1,21 @@
+id: 20261026-130808
+description: invisisble collision
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-26 13:08:08
+frame: 3648
+camera: -540.79 790.23 73.75
+angles: 14.78 154.70 0.00
+forward: -0.87 0.41 -0.26
+floor_below: 16.03
+aim_hit: -619.54 827.45 50.77
+aim_normal: 0.71 -0.71 0.00
+aim_distance: 90.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -540.84 790.34 50.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -540.8 790.3 16.0 154.7 14.8
+screenshot: data/bugs/20261026-130808.png
+recording: data/bugs/20261026-130808.rec (play 20261026-130808)

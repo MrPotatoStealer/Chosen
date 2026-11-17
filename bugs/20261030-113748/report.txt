@@ -1,0 +1,21 @@
+id: 20261030-113748
+description: have to spam click to get boat going?
+map: mods/dw/maps/dwe3m1.map
+engine: godot
+date: 2026-10-30 11:37:48
+frame: 703
+camera: -107.74 -443.57 -406.88
+angles: 14.19 219.87 0.00
+forward: -0.74 -0.62 -0.25
+floor_below: -463.97
+aim_hit: -244.62 -557.89 -451.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 184.0
+aim_object: world
+aim_texture: blood/0028_p1
+player_origin: -107.96 -443.31 -429.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -108.0 -443.3 -464.0 219.9 14.2 575
+screenshot: data/bugs/20261030-113748.png
+recording: data/bugs/20261030-113748.rec (play 20261030-113748)

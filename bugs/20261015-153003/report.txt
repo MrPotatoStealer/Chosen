@@ -1,0 +1,17 @@
+id: 20261015-153003
+description: Incorrect texture, should be the hedge texture, same as next to it
+map: maps/e1m1.bsp
+date: 2026-10-15 15:30:03
+camera: -232.66 -2585.66 104.89
+angles: 1.91 -254.07 0.00
+forward: -0.27 0.96 -0.03
+floor_below: 48.03
+aim_hit: -276.51 -2432.03 99.56
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 159.8
+aim_object: world
+aim_texture: textures/blood/0329
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -232.7 -2585.7 48.0 -254.1 1.9
+screenshot: data/bugs/20261015-153003.png

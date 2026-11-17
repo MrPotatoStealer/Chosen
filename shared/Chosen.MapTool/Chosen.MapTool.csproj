@@ -1,0 +1,15 @@
+<!-- Chosen Blood module (GPL v2): maptool, the command-line checks of the map formats (no Godot). -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>maptool</AssemblyName>
+    <RootNamespace>Chosen.MapTool</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chosen.Blood\Chosen.Blood.csproj" />
+    <ProjectReference Include="..\Chosen.Engine\Chosen.Engine.csproj" />
+  </ItemGroup>
+</Project>

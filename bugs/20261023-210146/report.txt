@@ -1,0 +1,21 @@
+id: 20261023-210146
+description: duplicate doors here flickering
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 21:01:46
+frame: 5048
+camera: 341.37 2118.16 25.38
+angles: 9.65 116.80 0.00
+forward: -0.44 0.88 -0.17
+floor_below: -31.97
+aim_hit: 324.30 2151.97 18.94
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 38.4
+aim_object: world
+aim_texture: blood_above/0199_v72_71
+player_origin: 341.37 2118.16 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 341.4 2118.2 -32.0 116.8 9.6
+screenshot: data/bugs/20261023-210146.png
+recording: data/bugs/20261023-210146.rec (play 20261023-210146)

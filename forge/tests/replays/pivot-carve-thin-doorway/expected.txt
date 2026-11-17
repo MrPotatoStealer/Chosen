@@ -1,0 +1,7 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+26aa229b9f7226b6	
+3da603fe7280c0d6	Drag sectors
+e82e246a88a2cf76	Drag sectors
+e82e246a88a2cf76	Drag sectors
+6a9841760bf97a9f	pivot carved

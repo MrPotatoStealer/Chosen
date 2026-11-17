@@ -1,0 +1,21 @@
+id: 20261101-211859
+description: I wonder if there is some way to make the sky blend better when using fog?
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 21:18:59
+frame: 1870
+camera: 393.49 -2689.05 -56.58
+angles: -17.95 354.69 0.00
+forward: 0.95 -0.09 0.31
+floor_below: -77.31
+aim_hit: 8153.24 -3410.15 2468.35
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 393.55 -2689.05 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 393.6 -2689.1 -77.3 354.7 -18.0 65
+screenshot: data/bugs/20261101-211859.png
+recording: data/bugs/20261101-211859.rec (play 20261101-211859)

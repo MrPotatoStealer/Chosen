@@ -1,0 +1,21 @@
+id: 20261030-171329
+description: performance here is terrible
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-30 17:13:29
+frame: 128
+camera: 532.60 -1193.06 -79.14
+angles: 2.57 144.41 0.00
+forward: -0.81 0.58 -0.04
+floor_below: -95.97
+aim_hit: 155.75 -923.35 -99.97
+aim_normal: 0.98 -0.18 0.00
+aim_distance: 463.9
+aim_object: blood_sector#12(sector114)
+aim_texture: blood/2490
+player_origin: 532.60 -1193.06 -101.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 532.6 -1193.1 -96.0 144.4 2.6 93
+screenshot: data/bugs/20261030-171329.png
+recording: data/bugs/20261030-171329.rec (play 20261030-171329)

@@ -1,0 +1,21 @@
+id: 20261028-085657
+description: collision on falling teleport you up on the platform, in NBlood you hit the platform side and fall down into the lave. Here you somehow teleport up on the platform instead
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-28 08:56:57
+frame: 704
+camera: 440.43 7.89 -40.60
+angles: 16.94 2.73 0.00
+forward: 0.96 0.05 -0.29
+floor_below: -95.97
+aim_hit: 622.02 16.55 -95.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 190.0
+aim_object: world
+aim_texture: blood/2039
+player_origin: 441.63 8.62 -61.89
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 441.6 8.6 -96.0 2.7 16.9 310
+screenshot: data/bugs/20261028-085657.png
+recording: data/bugs/20261028-085657.rec (play 20261028-085657)

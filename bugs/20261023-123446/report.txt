@@ -1,0 +1,21 @@
+id: 20261023-123446
+description: messed up door
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 12:34:46
+frame: 1385
+camera: 20.53 -1674.30 309.06
+angles: 4.88 199.48 0.00
+forward: -0.94 -0.33 -0.09
+floor_below: 252.03
+aim_hit: -95.97 -1715.52 298.50
+aim_normal: 1.00 0.00 0.00
+aim_distance: 124.0
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 20.53 -1674.34 286.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 20.5 -1674.3 252.0 199.5 4.9
+screenshot: data/bugs/20261023-123446.png
+recording: data/bugs/20261023-123446.rec (play 20261023-123446)

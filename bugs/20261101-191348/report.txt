@@ -1,0 +1,21 @@
+id: 20261101-191348
+description: when flying and outside any sector then show all sectors to make it easier to navigate when flying around
+map: maps/e3m5.map
+engine: godot
+date: 2026-11-01 19:13:48
+frame: 448
+camera: 702.54 -603.94 291.80
+angles: 0.00 180.00 0.00
+forward: -1.00 -0.00 -0.00
+floor_below: -77.31
+aim_hit: -7489.46 -603.94 291.80
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 1340.00 -448.00 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1340.0 -448.0 -77.3 180.0 0.0 197
+screenshot: data/bugs/20261101-191348.png
+recording: data/bugs/20261101-191348.rec (play 20261101-191348)

@@ -1,0 +1,21 @@
+id: 20261031-220507
+description: try make rain look more pixelated and fit better with the style of the game. Slow down the speed of the rain.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 22:05:07
+frame: 1080
+camera: -88.14 -2509.57 104.92
+angles: 3.43 262.25 0.00
+forward: -0.13 -0.99 -0.06
+floor_below: 82.69
+aim_hit: -133.08 -2839.97 84.92
+aim_normal: 0.00 1.00 0.00
+aim_distance: 334.0
+aim_object: decoration#16 type 0 pic 704 stat 0
+aim_texture: 
+player_origin: -88.14 -2509.57 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -88.1 -2509.6 82.7 262.3 3.4 18
+screenshot: data/bugs/20261031-220507.png
+recording: data/bugs/20261031-220507.rec (play 20261031-220507)

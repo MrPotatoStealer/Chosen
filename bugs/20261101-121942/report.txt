@@ -1,0 +1,21 @@
+id: 20261101-121942
+description: glowing pixels causing some strange issues on some sprites
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 12:19:42
+frame: 618
+camera: -148.02 -1850.58 64.49
+angles: -2.51 118.31 0.00
+forward: -0.47 0.88 0.04
+floor_below: 42.69
+aim_hit: -196.38 -1760.78 68.96
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 102.1
+aim_object: thing_object_explode#153 type 417 pic 128 stat 4
+aim_texture: 
+player_origin: -148.02 -1850.44 42.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -148.0 -1850.4 42.7 118.3 -2.5 149
+screenshot: data/bugs/20261101-121942.png
+recording: data/bugs/20261101-121942.rec (play 20261101-121942)

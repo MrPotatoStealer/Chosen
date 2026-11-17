@@ -1,0 +1,17 @@
+id: 20261016-095646
+description: zombie spawns on top of grave, should be on the ground
+map: maps/E1M1.bsp
+date: 2026-10-16 09:56:46
+camera: 797.35 -2726.06 -56.31
+angles: -11.32 -334.69 0.00
+forward: 0.89 0.42 0.20
+floor_below: -111.97
+aim_hit: 1195.97 -2537.52 31.97
+aim_normal: -0.00 -0.00 -1.00
+aim_distance: 449.7
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 797.3 -2726.1 -112.0 -334.7 -11.3
+screenshot: data/bugs/20261016-095646.png

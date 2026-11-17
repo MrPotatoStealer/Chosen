@@ -1,0 +1,17 @@
+id: 20261016-100058
+description: vase requires multiple hits to destroy with pitchfork, incorrect damage or hp?
+map: maps/E1M1.bsp
+date: 2026-10-16 10:00:58
+camera: 644.86 -1769.84 -29.71
+angles: 17.62 -175.52 0.00
+forward: -0.95 -0.07 -0.30
+floor_below: -87.97
+aim_hit: 461.99 -1784.16 -87.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 192.5
+aim_object: world
+aim_texture: textures/blood/1008
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 644.9 -1769.8 -88.0 -175.5 17.6
+screenshot: data/bugs/20261016-100058.png

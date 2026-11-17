@@ -1,0 +1,21 @@
+id: 20261019-143701
+description: is this shelf to bright?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 14:37:01
+frame: 4311
+camera: 514.28 -2017.59 104.39
+angles: -4.82 128.50 0.00
+forward: -0.62 0.78 0.08
+floor_below: 48.03
+aim_hit: 423.94 -1904.03 116.62
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 145.6
+aim_object: blood_sector#9(sector70)
+aim_texture: blood/0255
+player_origin: 514.28 -2017.59 82.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 514.3 -2017.6 48.0 128.5 -4.8
+screenshot: data/bugs/20261019-143701.png
+recording: data/bugs/20261019-143701.rec (play 20261019-143701)

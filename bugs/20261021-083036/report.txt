@@ -1,0 +1,21 @@
+id: 20261021-083036
+description: this does not look correct? Compare to NBlood
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-21 08:30:36
+frame: 1022
+camera: 2071.79 -2582.24 56.98
+angles: 3.76 63.69 0.00
+forward: 0.44 0.89 -0.07
+floor_below: 0.03
+aim_hit: 2133.57 -2457.30 47.81
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 139.7
+aim_object: blood_sector#8(sector30)
+aim_texture: blood/0230
+player_origin: 2071.79 -2582.24 34.72
+player_health: 82
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2071.8 -2582.2 0.0 63.7 3.8
+screenshot: data/bugs/20261021-083036.png
+recording: data/bugs/20261021-083036.rec (play 20261021-083036)

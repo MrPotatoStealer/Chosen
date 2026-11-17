@@ -1,0 +1,17 @@
+id: 20261016-095536
+description: sprites missing a bit of transparency
+map: maps/E1M1.bsp
+date: 2026-10-16 09:55:36
+camera: -358.72 -1789.47 90.53
+angles: -23.66 -33.29 0.00
+forward: 0.77 -0.50 0.40
+floor_below: 36.03
+aim_hit: -226.26 -1876.46 159.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 173.0
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -358.7 -1789.5 36.0 -33.3 -23.7
+screenshot: data/bugs/20261016-095536.png

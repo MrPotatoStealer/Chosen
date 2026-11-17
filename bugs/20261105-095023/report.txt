@@ -1,0 +1,21 @@
+id: 20261105-095023
+description: I fell from wall and ended up in the wrong sector room-over-room issue
+map: maps/test.map
+engine: godot
+date: 2026-11-05 09:50:23
+frame: 434
+camera: 467.11 41.23 58.50
+angles: 9.24 171.07 0.00
+forward: -0.98 0.15 -0.16
+floor_below: 34.11
+aim_hit: -7520.63 1296.01 -1256.90
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3840 stat 6
+aim_texture: 
+player_origin: 467.49 42.88 34.11
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 467.5 42.9 34.1 171.1 9.2 16
+screenshot: data/bugs/20261105-095023.png
+recording: data/bugs/20261105-095023.rec (play 20261105-095023)

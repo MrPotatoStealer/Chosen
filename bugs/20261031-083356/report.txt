@@ -1,0 +1,21 @@
+id: 20261031-083356
+description: can't select episodes in main menu
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 08:33:56
+frame: 1584
+camera: 626.07 -2714.86 -56.02
+angles: -10.23 89.47 0.00
+forward: 0.01 0.98 0.18
+floor_below: -77.31
+aim_hit: 701.04 5346.56 1398.88
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 626.07 -2714.86 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 626.1 -2714.9 -77.3 89.5 -10.2 65
+screenshot: data/bugs/20261031-083356.png
+recording: data/bugs/20261031-083356.rec (play 20261031-083356)

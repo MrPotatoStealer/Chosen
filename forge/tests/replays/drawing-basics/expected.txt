@@ -1,0 +1,42 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+5d51b07a87e09c50	
+050d76400486ada8	Draw sector
+044c9377f4b2a08d	Draw sector
+12dc13608eb9de85	Draw a room in sector 0
+03e6e35f99ec33c6	Drag sectors
+12dc13608eb9de85	Draw a room in sector 0
+7256911400d598de	Split sector 0
+4bff35a42a412248	Draw sector
+7256911400d598de	Split sector 0
+7e479c209bd8e0ae	Draw sector
+f3b7d69513fba505	Extend sector 4
+4016655f76d9f186	Insert point
+1a6c6e95c9af4f06	Insert point
+2bb4a96f874fafc0	Delete point
+b2aafafe12447f26	Delete wall
+4a9ad3d975da58e7	Insert sprite
+9a69c88f9fc82397	Insert sprite
+a76f0832af8ecd97	floors
+cff018ccda5fe2e5	Edit Sector 3
+ba2f0ba99d885c22	New layer
+57f895571c76fdf2	Draw sector
+f829a25432623fc4	Move 1 sprite to a layer
+4385fa4c75969c1e	Move 1 sector to a layer
+f829a25432623fc4	Move 1 sprite to a layer
+fa944954346ffa63	Draw sector
+2192ec2828cc9eab	New layer
+cff018ccda5fe2e5	Edit Sector 3
+a76f0832af8ecd97	floors
+9a69c88f9fc82397	Insert sprite
+4a9ad3d975da58e7	Insert sprite
+b2aafafe12447f26	Delete wall
+2bb4a96f874fafc0	Delete point
+1a6c6e95c9af4f06	Insert point
+f3b7d69513fba505	Extend sector 4
+7e479c209bd8e0ae	Draw sector
+7256911400d598de	Split sector 0
+12dc13608eb9de85	Draw a room in sector 0
+044c9377f4b2a08d	Draw sector
+050d76400486ada8	Draw sector
+5d51b07a87e09c50	

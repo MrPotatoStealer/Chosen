@@ -1,0 +1,21 @@
+id: 20261103-125459
+description: strange 1 frame here when I move between sectors and the visibility seems to be incorrect causing a fast flicker for 1 frame.
+map: maps/test.map
+engine: godot
+date: 2026-11-03 12:54:59
+frame: 170
+camera: -148.81 25.87 58.32
+angles: 22.64 357.76 0.00
+forward: 0.92 -0.04 -0.38
+floor_below: 34.69
+aim_hit: 7406.24 -270.17 -3094.84
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -148.81 25.87 34.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp -148.8 25.9 34.7 357.8 22.6 2
+screenshot: data/bugs/20261103-125459.png
+recording: data/bugs/20261103-125459.rec (play 20261103-125459)

@@ -1,0 +1,21 @@
+id: 20261020-231435
+description: think boss don't have correct hp, died very fast
+map: maps/e1m7.map
+engine: godot
+date: 2026-10-20 23:14:35
+frame: 2781
+camera: -296.93 -1639.53 217.42
+angles: 10.23 62.01 0.00
+forward: 0.46 0.87 -0.18
+floor_below: 160.03
+aim_hit: 64.48 -959.57 78.45
+aim_normal: 0.71 -0.71 0.00
+aim_distance: 782.5
+aim_object: world
+aim_texture: blood/0091
+player_origin: -296.93 -1639.53 194.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -296.9 -1639.5 160.0 62.0 10.2
+screenshot: data/bugs/20261020-231435.png
+recording: data/bugs/20261020-231435.rec (play 20261020-231435)

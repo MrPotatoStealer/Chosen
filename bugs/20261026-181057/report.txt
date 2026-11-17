@@ -1,0 +1,21 @@
+id: 20261026-181057
+description: hitting some strange collision here with the napalm
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-26 18:10:57
+frame: 6502
+camera: 4709.60 2720.54 -313.94
+angles: -34.12 36.56 0.00
+forward: 0.66 0.49 0.56
+floor_below: -367.97
+aim_hit: 4796.62 2785.07 -240.53
+aim_normal: 0.00 -0.00 -1.00
+aim_distance: 130.9
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 4709.35 2720.48 -333.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4709.4 2720.5 -368.0 36.6 -34.1
+screenshot: data/bugs/20261026-181057.png
+recording: data/bugs/20261026-181057.rec (play 20261026-181057)

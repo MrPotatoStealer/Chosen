@@ -1,0 +1,21 @@
+id: 20261021-083656
+description: look over secondary fire of the staff weapon, it seems to also don't do anythign
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-21 08:36:56
+frame: 813
+camera: 1542.84 -1899.18 -102.24
+angles: 11.35 77.44 0.00
+forward: 0.21 0.96 -0.20
+floor_below: -159.97
+aim_hit: 1605.38 -1618.54 -159.97
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 293.3
+aim_object: world
+aim_texture: blood/0250
+player_origin: 1543.16 -1899.03 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1543.2 -1899.0 -160.0 77.4 11.4
+screenshot: data/bugs/20261021-083656.png
+recording: data/bugs/20261021-083656.rec (play 20261021-083656)

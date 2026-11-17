@@ -1,0 +1,21 @@
+id: 20261028-103255
+description: here is the part where flickering happening
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-28 10:32:55
+frame: 1187
+camera: 5318.81 1559.56 -342.10
+angles: -5.91 354.77 0.00
+forward: 0.99 -0.09 0.10
+floor_below: -367.97
+aim_hit: 5343.97 1557.25 -339.49
+aim_normal: 0.00 0.00 0.00
+aim_distance: 25.4
+aim_object: world
+aim_texture: blood/0255
+player_origin: 5318.81 1559.56 -340.25
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 5318.8 1559.6 -368.0 354.8 -5.9 65
+screenshot: data/bugs/20261028-103255.png
+recording: data/bugs/20261028-103255.rec (play 20261028-103255)

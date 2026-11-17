@@ -1,0 +1,17 @@
+id: 20261015-212742
+description: portals have small gap on don't align perfectly
+map: maps/e1m1.bsp
+date: 2026-10-15 21:27:42
+camera: -499.81 -1957.00 67.37
+angles: 27.90 -313.34 0.00
+forward: 0.61 0.64 -0.47
+floor_below: 8.03
+aim_hit: -464.37 -1919.44 40.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 58.4
+aim_object: world
+aim_texture: textures/blood/0273
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -499.8 -1957.0 8.0 -313.3 27.9
+screenshot: data/bugs/20261015-212742.png

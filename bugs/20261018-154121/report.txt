@@ -1,0 +1,18 @@
+id: 20261018-154121
+description: sprite is not rotating with sector
+map: maps/E1M2.bsp
+date: 2026-10-18 15:41:21
+camera: 444.72 -1983.84 297.41
+angles: 7.88 -237.09 0.00
+forward: -0.54 0.83 -0.14
+floor_below: 240.03
+aim_hit: 299.99 -1760.20 260.54
+aim_normal: 0.61 -0.79 -0.00
+aim_distance: 268.9
+aim_object: world
+aim_texture: textures/blood/0276
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 444.7 -1983.8 240.0 -237.1 7.9
+screenshot: data/bugs/20261018-154121.png
+recording: data/bugs/20261018-154121.rec (replaybug 20261018-154121)

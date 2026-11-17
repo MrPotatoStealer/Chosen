@@ -1,0 +1,21 @@
+id: 20261022-083332
+description: missing swimming volume here
+map: maps/e2m9.map
+engine: godot
+date: 2026-10-22 08:33:32
+frame: 548
+camera: 740.87 285.51 121.10
+angles: 6.06 229.24 0.00
+forward: -0.65 -0.75 -0.11
+floor_below: 64.03
+aim_hit: 389.80 -121.81 64.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 540.8
+aim_object: world
+aim_texture: blood/0041_p10
+player_origin: 740.87 285.46 98.72
+player_health: 97
+video: 3440x1440 fullscreen 1 hudsize 3
+goto: warp 740.9 285.5 64.0 229.2 6.1
+screenshot: data/bugs/20261022-083332.png
+recording: data/bugs/20261022-083332.rec (play 20261022-083332)

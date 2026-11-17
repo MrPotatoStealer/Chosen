@@ -1,0 +1,1 @@
+A door (a room in the big sector) copied and pasted elsewhere in it: a room in it, joined by red walls (it was pasted over the sector, unseen); undoing a paste that left its sectors selected then copying no longer crashes (the session's arrows in Draw Grid made W/S, its Shift+O Shift+wheel)

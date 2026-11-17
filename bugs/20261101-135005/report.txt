@@ -1,0 +1,21 @@
+id: 20261101-135005
+description: lots of frame stuttering here
+map: maps/cp01.map
+engine: godot
+date: 2026-11-01 13:50:05
+frame: 408
+camera: -928.86 -1058.31 44.92
+angles: 3.37 355.32 0.00
+forward: 0.99 -0.08 -0.06
+floor_below: 22.69
+aim_hit: 7221.74 -1725.53 -436.07
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -928.86 -1058.31 22.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -928.9 -1058.3 22.7 355.3 3.4 629
+screenshot: data/bugs/20261101-135005.png
+recording: data/bugs/20261101-135005.rec (play 20261101-135005)

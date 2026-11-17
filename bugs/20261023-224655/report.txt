@@ -1,0 +1,21 @@
+id: 20261023-224655
+description: performance issue at this spot as well
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-23 22:46:55
+frame: 3802
+camera: 586.55 -895.01 -78.85
+angles: 6.19 98.15 0.00
+forward: -0.14 0.98 -0.11
+floor_below: -135.97
+aim_hit: 512.28 -376.22 -135.68
+aim_normal: 1.00 -0.03 0.00
+aim_distance: 527.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 586.55 -895.01 -101.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 586.6 -895.0 -136.0 98.1 6.2
+screenshot: data/bugs/20261023-224655.png
+recording: data/bugs/20261023-224655.rec (play 20261023-224655)

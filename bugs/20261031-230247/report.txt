@@ -1,0 +1,21 @@
+id: 20261031-230247
+description: mist pixel size don't show up until you leave menu and come back
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 23:02:47
+frame: 1958
+camera: 422.46 -2815.01 -55.41
+angles: 0.99 44.06 0.00
+forward: 0.72 0.70 -0.02
+floor_below: -77.31
+aim_hit: 6308.72 2880.67 -196.95
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 422.65 -2814.88 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 422.6 -2814.9 -77.3 44.1 1.0 65
+screenshot: data/bugs/20261031-230247.png
+recording: data/bugs/20261031-230247.rec (play 20261031-230247)

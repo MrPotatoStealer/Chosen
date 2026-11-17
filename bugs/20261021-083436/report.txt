@@ -1,0 +1,21 @@
+id: 20261021-083436
+description: using voodoo doll without enemies nearby should damage player instead
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-21 08:34:36
+frame: 2170
+camera: 1959.89 -2514.15 24.91
+angles: 9.83 94.34 0.00
+forward: -0.07 0.98 -0.17
+floor_below: -38.89
+aim_hit: 1926.96 -2080.03 -50.55
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 441.9
+aim_object: world
+aim_texture: blood/0042
+player_origin: 1959.84 -2513.66 2.05
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1959.8 -2513.7 -38.9 94.3 9.8
+screenshot: data/bugs/20261021-083436.png
+recording: data/bugs/20261021-083436.rec (play 20261021-083436)

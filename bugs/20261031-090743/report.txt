@@ -1,0 +1,21 @@
+id: 20261031-090743
+description: can't break window, and window is missing its collision
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-31 09:07:43
+frame: 1101
+camera: 49.83 -212.12 -89.05
+angles: 11.01 -0.00 0.00
+forward: 0.98 -0.00 -0.19
+floor_below: -105.64
+aim_hit: 8091.15 -212.12 -1653.01
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 49.83 -213.62 -105.64
+player_health: 0
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 49.8 -213.6 -105.6 -0.0 11.0 287
+screenshot: data/bugs/20261031-090743.png
+recording: data/bugs/20261031-090743.rec (play 20261031-090743)

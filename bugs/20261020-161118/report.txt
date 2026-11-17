@@ -1,0 +1,21 @@
+id: 20261020-161118
+description: slight whole in geo
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-20 16:11:18
+frame: 3305
+camera: 165.53 73.47 28.37
+angles: -16.37 349.08 0.00
+forward: 0.94 -0.18 0.28
+floor_below: -30.64
+aim_hit: 211.88 64.53 42.24
+aim_normal: 0.00 1.00 0.00
+aim_distance: 49.2
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 165.53 73.47 7.54
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 3
+goto: warp 165.5 73.5 -30.6 349.1 -16.4
+screenshot: data/bugs/20261020-161118.png
+recording: data/bugs/20261020-161118.rec (play 20261020-161118)

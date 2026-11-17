@@ -1,0 +1,21 @@
+id: 20261029-125840
+description: shore is white when riding boat
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 12:58:40
+frame: 419
+camera: -73.61 -965.67 -450.55
+angles: 11.02 94.82 0.00
+forward: -0.08 0.98 -0.19
+floor_below: -475.97
+aim_hit: -84.57 -835.64 -475.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 132.9
+aim_object: blood_sector#6(sector115)
+aim_texture: blood/0034_p1
+player_origin: -73.74 -963.46 -473.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -73.7 -963.5 -476.0 94.8 11.0 148
+screenshot: data/bugs/20261029-125840.png
+recording: data/bugs/20261029-125840.rec (play 20261029-125840)

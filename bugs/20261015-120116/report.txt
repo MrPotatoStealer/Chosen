@@ -1,0 +1,17 @@
+id: 20261015-120116
+description: no collision on the round sliding door, interaction is not working on it as well.
+map: maps/e1m1.bsp
+date: 2026-10-15 12:01:16
+camera: 18.23 -1941.25 65.62
+angles: 10.24 -267.67 0.00
+forward: -0.04 0.98 -0.18
+floor_below: 8.03
+aim_hit: 15.69 -1878.81 54.33
+aim_normal: -0.36 -0.93 0.00
+aim_distance: 63.5
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp 18.2 -1941.2 8.0 -267.7 10.2
+screenshot: data/bugs/20261015-120116.png

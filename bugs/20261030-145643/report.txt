@@ -1,0 +1,21 @@
+id: 20261030-145643
+description: AO needs to take the light into account? the dark edges looks pretty bad with the fog
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-30 14:56:43
+frame: 819
+camera: -169.50 -2700.51 104.87
+angles: 2.71 60.42 0.00
+forward: 0.49 0.87 -0.05
+floor_below: 48.03
+aim_hit: -48.89 -2488.03 93.32
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 244.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -169.50 -2700.51 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -169.5 -2700.5 48.0 60.4 2.7 100
+screenshot: data/bugs/20261030-145643.png
+recording: data/bugs/20261030-145643.rec (play 20261030-145643)

@@ -1,0 +1,21 @@
+id: 20261031-113433
+description: gaps in water geo when boat is moving
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-31 11:34:33
+frame: 907
+camera: 16.70 -2320.99 -450.21
+angles: 15.44 136.84 0.00
+forward: -0.70 0.66 -0.27
+floor_below: -473.31
+aim_hit: -5743.39 3080.06 -2631.71
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 16.06 -2310.50 -473.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 16.1 -2310.5 -473.3 136.8 15.4 148
+screenshot: data/bugs/20261031-113433.png
+recording: data/bugs/20261031-113433.rec (play 20261031-113433)

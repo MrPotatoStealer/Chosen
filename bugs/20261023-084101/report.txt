@@ -1,0 +1,21 @@
+id: 20261023-084101
+description: the moving sheet does not look correct when it moves to the side. In NBlood it looks like it's moving in sync with the tilting?
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 08:41:01
+frame: 980
+camera: -1479.75 2094.67 138.85
+angles: 28.63 297.17 0.00
+forward: 0.40 -0.78 -0.48
+floor_below: 80.03
+aim_hit: -1427.93 1993.71 76.91
+aim_normal: 0.00 0.00 1.00
+aim_distance: 129.3
+aim_object: blood_sector#19(sector1)
+aim_texture: blood/2915
+player_origin: -1479.75 2094.67 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1479.7 2094.7 80.0 297.2 28.6
+screenshot: data/bugs/20261023-084101.png
+recording: data/bugs/20261023-084101.rec (play 20261023-084101)

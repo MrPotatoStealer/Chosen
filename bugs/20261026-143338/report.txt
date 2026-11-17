@@ -1,0 +1,21 @@
+id: 20261026-143338
+description: sky looks strange
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 14:33:38
+frame: 769
+camera: -58.57 -2307.33 165.83
+angles: -55.52 4.04 0.00
+forward: 0.56 0.04 0.82
+floor_below: 68.03
+aim_hit: 22.02 -2301.64 283.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 142.7
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: -58.60 -2307.33 148.38
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -58.6 -2307.3 68.0 4.0 -55.5
+screenshot: data/bugs/20261026-143338.png
+recording: data/bugs/20261026-143338.rec (play 20261026-143338)

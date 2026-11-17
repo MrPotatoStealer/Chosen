@@ -1,0 +1,17 @@
+id: 20261016-100021
+description: sprites are not animated, also this fire sprite should be brighter
+map: maps/E1M1.bsp
+date: 2026-10-16 10:00:21
+camera: 967.78 -1940.03 104.77
+angles: 0.58 -45.40 0.00
+forward: 0.70 -0.71 -0.01
+floor_below: 48.03
+aim_hit: 1129.44 -2103.97 102.44
+aim_normal: 0.00 1.00 0.00
+aim_distance: 230.2
+aim_object: world
+aim_texture: textures/blood_oneway/2342
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 967.8 -1940.0 48.0 -45.4 0.6
+screenshot: data/bugs/20261016-100021.png

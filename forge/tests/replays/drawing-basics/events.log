@@ -1,0 +1,293 @@
+0	session	1	2026-11-03 11:40:12	64x64
+2	keys	newmap=Ctrl+N;openmap=Ctrl+O;savemap=Ctrl+S;savemapas=Ctrl+Shift+S;mapoptions=F2;preferences=F5;testmap=F9;showerrors=F11;undo=Ctrl+Z;redo=Ctrl+Y;cutselection=Ctrl+X;copyselection=Ctrl+C;pasteselection=Ctrl+V;selectall=Ctrl+A;clearselection=C;cancelmode=Escape;verticesmode=V;linedefsmode=L;sectorsmode=S;thingsmode=T;drawlinesmode=Ctrl+D;drawrectanglemode=Ctrl+Shift+D;insertitem=Insert;deleteitem=Delete;dissolveitem=Backspace;joinsectors=J;mergesectors=Shift+J;togglegrid=Alt+G;togglesnap=Alt+S;griddec=BracketLeft;gridinc=BracketRight;zoomin=Kp Add;zoomout=Kp Subtract;zoomtofit=Home;centerinscreen=Ctrl+Home;gotocoords=Ctrl+Shift+G;toggleinfopanel=QuoteLeft;cycleoverlap=Tab;copyproperties=Ctrl+Shift+C;pasteproperties=Ctrl+Alt+V;thinglookatcursor=Shift+L;visualmode=Q;viewmodenormal=;viewmodebrightness=;viewmodefloors=;viewmodeceilings=;nextviewmode=;previousviewmode=;spritepictures=;setfirstwall=Shift+F
+42	status	Blood folder: <Blood folder> (5521 tiles)
+55	new
+62	check	89b8a2476cb8d44e	
+70	new
+73	check	89b8a2476cb8d44e	
+97	state	grid=64;snap=1;units=game;hl=10;sprite=416;editnew=1;hidden=
+97	view	0	0	0.033777777
+97	do	drawrectanglemode
+98	status	Draw Rectangle mode
+99	status	Draw Rectangle: click two opposite corners (outside the sectors: a new sector; inside one: a room in it); Esc cancels
+100	move	-2048	-2048	-	0
+111	btn	1	1	-2048	-2048	-	1	0	1
+117	btn	1	0	-2048	-2048	-	0	0	1
+117	move	2048	2048	-	0
+131	btn	1	1	2048	2048	-	1	0	1
+132	status	Vertices mode
+162	check	edb01bf453c434b0	Draw sector
+163	status	Draw sector: done
+172	btn	1	0	2048	2048	-	0	0	1
+201	do	drawrectanglemode
+201	status	Draw Rectangle mode
+201	status	Draw Rectangle: click two opposite corners (outside the sectors: a new sector; inside one: a room in it); Esc cancels
+201	move	2048	-2048	-	0
+202	btn	1	1	2048	-2048	-	1	0	1
+208	btn	1	0	2048	-2048	-	0	0	1
+209	move	3072	-1024	-	0
+222	btn	1	1	3072	-1024	-	1	0	1
+222	status	Vertices mode
+227	check	fb0d5d912dd38f9d	Draw sector
+227	status	Draw sector: done
+229	btn	1	0	3072	-1024	-	0	0	1
+232	do	drawrectanglemode
+232	status	Draw Rectangle mode
+232	status	Draw Rectangle: click two opposite corners (outside the sectors: a new sector; inside one: a room in it); Esc cancels
+232	move	512	-512	-	0
+243	btn	1	1	512	-512	-	1	0	1
+250	btn	1	0	512	-512	-	0	0	1
+250	move	1024	512	-	0
+264	btn	1	1	1024	512	-	1	0	1
+264	status	Vertices mode
+272	check	fae9af14046af4c7	Draw a room in sector 0
+272	status	Draw a room in sector 0: done
+273	btn	1	0	1024	512	-	0	0	1
+279	do	sectorsmode
+279	status	Sectors mode
+283	move	-1024	0	-	0
+287	btn	1	1	-1024	0	-	1	0	1
+294	move	-896	0	-	1
+297	status	moved 8, 0
+301	move	-768	0	-	1
+302	status	moved 16, 0
+308	btn	1	0	-768	0	-	0	0	1
+309	check	72e9c44b58def8d0	Drag sectors
+310	do	undo
+313	status	undone
+313	check	fae9af14046af4c7	Draw a room in sector 0
+325	do	drawlinesmode
+325	status	Draw Lines mode
+325	status	Draw Lines: click to add points, on the first point to close; right-click or Enter finishes a line (across a sector: splits it); Backspace takes a point back; Esc cancels
+325	move	-2048	-1024	-	0
+327	btn	1	1	-2048	-1024	-	1	0	1
+334	btn	1	0	-2048	-1024	-	0	0	1
+334	move	2048	-1024	-	0
+347	btn	1	1	2048	-1024	-	1	0	1
+354	btn	1	0	2048	-1024	-	0	0	1
+354	move	2048	-1024	-	0
+368	btn	2	1	2048	-1024	-	2	0	1
+368	status	Sectors mode
+378	check	e8fa9d09fbba1830	Split sector 0
+379	status	Split sector 0: done
+381	btn	2	0	2048	-1024	-	0	0	1
+388	do	drawrectanglemode
+388	status	Draw Rectangle mode
+388	status	Draw Rectangle: click two opposite corners (outside the sectors: a new sector; inside one: a room in it); Esc cancels
+388	move	1536	1536	-	0
+389	btn	1	1	1536	1536	-	1	0	1
+396	btn	1	0	1536	1536	-	0	0	1
+396	move	2560	2560	-	0
+410	btn	1	1	2560	2560	-	1	0	1
+410	status	Sectors mode
+425	check	f2c84e1073f04412	Draw sector
+425	status	Draw sector: done
+426	btn	1	0	2560	2560	-	0	0	1
+434	do	undo
+435	status	undone
+435	check	e8fa9d09fbba1830	Split sector 0
+449	do	verticesmode
+449	status	Vertices mode
+449	move	3072	0	-	0
+451	btn	2	1	3072	0	-	2	0	1
+451	status	Draw Lines mode
+451	status	Draw Lines: click to add points, on the first point to close; right-click or Enter finishes a line (across a sector: splits it); Backspace takes a point back; Esc cancels
+457	btn	2	0	3072	0	-	0	0	1
+465	move	3584	0	-	0
+471	btn	1	1	3584	0	-	1	0	1
+478	btn	1	0	3584	0	-	0	0	1
+478	move	3584	512	-	0
+492	btn	1	1	3584	512	-	1	0	1
+499	btn	1	0	3584	512	-	0	0	1
+499	move	3072	0	-	0
+513	btn	1	1	3072	0	-	1	0	1
+513	status	Vertices mode
+514	check	672efddb99b87304	Draw sector
+514	status	Draw sector: done
+519	btn	1	0	3072	0	-	0	0	1
+528	view	3712	256	0.5
+528	do	drawlinesmode
+528	status	Draw Lines mode
+528	status	Draw Lines: click to add points, on the first point to close; right-click or Enter finishes a line (across a sector: splits it); Backspace takes a point back; Esc cancels
+528	move	3584	128	-	0
+540	btn	1	1	3584	128	-	1	0	1
+547	btn	1	0	3584	128	-	0	0	1
+547	move	3840	128	-	0
+561	btn	1	1	3840	128	-	1	0	1
+568	btn	1	0	3840	128	-	0	0	1
+568	move	3840	384	-	0
+582	btn	1	1	3840	384	-	1	0	1
+588	btn	1	0	3840	384	-	0	0	1
+589	move	3584	384	-	0
+602	btn	1	1	3584	384	-	1	0	1
+609	btn	1	0	3584	384	-	0	0	1
+609	move	3584	384	-	0
+623	btn	2	1	3584	384	-	2	0	1
+623	status	Vertices mode
+626	check	8c4e5d1ffa6e08f1	Extend sector 4
+626	status	Extend sector 4: done
+630	btn	2	0	3584	384	-	0	0	1
+634	do	verticesmode
+634	move	3840	256	-	0
+644	btn	2	1	3840	256	-	2	0	1
+645	check	0581092096dd2010	Insert point
+645	status	Insert point: done
+651	move	3900	256	-	2
+651	status	moved 4, 0
+657	move	3968	256	-	2
+658	status	moved 8, 0
+664	btn	2	0	3968	256	-	0	0	1
+666	check	f4f49d19e38ae390	Insert point
+681	move	3968	256	-	0
+681	btn	1	1	3968	256	-	1	0	1
+688	btn	1	0	3968	256	-	0	0	1
+689	status	1 selected
+689	do	deleteitem
+693	check	79652d7fadc68fa0	Delete point
+693	status	Delete point: done
+696	do	linedefsmode
+696	status	Walls mode
+696	move	3840	300	-	0
+700	do	deleteitem
+704	check	57557c6eae0e5218	Delete wall
+705	status	Delete wall: done
+712	do	viewmodefloors
+712	status	View Floor Textures
+713	do	nextviewmode
+713	status	View Ceiling Textures
+714	do	viewmodenormal
+714	status	View Wireframe
+730	state	grid=64;snap=1;units=game;hl=10;sprite=1;editnew=0;hidden=
+730	view	0	0	0.033777777
+730	do	thingsmode
+730	status	Sprites mode
+730	move	-1024	1024	-	0
+735	btn	2	1	-1024	1024	-	2	0	1
+749	move	-960	1152	-	2
+755	btn	2	0	-960	1152	-	0	0	1
+756	status	1 selected
+756	check	cecafe813bc58195	Insert sprite
+756	status	placed sprite 0
+759	move	-1536	1536	-	0
+762	do	insertitem
+765	status	1 selected
+765	check	dc8705f8d237a8c5	Insert sprite
+765	status	placed sprite 1
+777	doc	doc-01.mapx	undo	floors
+777	check	a76f0832af8ecd97	floors
+790	do	sectorsmode
+791	status	Sectors mode
+793	move	-1536	1800	-	0
+795	btn	2	1	-1536	1800	-	2	0	1
+802	btn	2	0	-1536	1800	-	0	0	1
+837	dlg	Sector 3	1=8
+839	check	cff018ccda5fe2e5	Edit Sector 3
+839	status	Sector 3: 1 change(s)
+852	do	layernew
+853	status	Sectors mode
+855	check	ba2f0ba99d885c22	New layer
+856	status	new layer Layer 1, editing it
+856	do	drawrectanglemode
+856	status	Draw Rectangle mode
+856	status	Draw Rectangle: click two opposite corners (outside the sectors: a new sector; inside one: a room in it); Esc cancels
+856	move	-1536	0	-	0
+857	btn	1	1	-1536	0	-	1	0	1
+864	btn	1	0	-1536	0	-	0	0	1
+864	move	-512	1024	-	0
+878	btn	1	1	-512	1024	-	1	0	1
+878	status	Sectors mode
+879	check	e39167f466c4afa4	Draw sector
+879	status	Draw sector: done
+885	btn	1	0	-512	1024	-	0	0	1
+899	do	layershow 0 0
+899	status	Sectors mode
+900	status	layer Level hidden
+900	do	sectorsmode
+900	move	-1800	1800	-	0
+900	do	layershow 0 1
+900	status	Sectors mode
+901	status	layer Level shown
+901	do	layercurrent 0
+901	status	Sectors mode
+904	status	editing layer Level
+904	move	-1800	1800	-	0
+914	do	thingsmode
+914	status	Sprites mode
+914	move	-1536	1536	-	0
+917	btn	1	1	-1536	1536	-	1	0	1
+924	btn	1	0	-1536	1536	-	0	0	1
+924	status	1 selected
+924	do	layermove 1
+926	status	Sprites mode
+927	check	865b80f17ee41576	Move 1 sprite to a layer
+928	status	1 sprite moved to layer Layer 1
+928	move	-1536	1536	-	0
+930	do	sectorsmode
+930	status	Sectors mode
+933	move	0	512.5	-	0
+944	btn	1	1	0	512.5	-	1	0	1
+951	btn	1	0	0	512.5	-	0	0	1
+951	status	1 selected
+951	do	layermove 1
+952	status	Sectors mode
+953	check	ce82ee6b3f83c1d0	Move 1 sector to a layer
+954	status	1 sector moved to layer Layer 1
+954	do	undo
+957	status	undone
+957	check	865b80f17ee41576	Move 1 sprite to a layer
+957	do	undo
+959	check	862b1bf17eba4615	Draw sector
+959	move	-1024	1024	-	0
+965	key	v	81	81	1	0	-	0
+978	status	3D preview: mouse looks, W A S D move, Space up, C down, Shift faster; Q or Esc: back to 2D
+981	do	visualmode
+981	status	Sectors mode
+982	view	-1024	1024	0.033777777
+982	key	v	81	81	0	0	-	0
+982	key	u	81	81	0	0	-	0
+990	status	Sprites mode
+991	move	-960	1152	-	0
+1009	status	Sectors mode
+1011	move	0	1536	-	0
+1029	status	Walls mode
+1029	move	-2048	1536	-	0
+1050	status	Vertices mode
+1071	move	6000	6000	-	0
+1091	status	Sprites mode
+1114	move	0	0	-	0
+1126	key	v	32	32	1	0	-	0
+1126	move	3552.631	0	-	0
+1140	view	-4576.631	1024	0.033777777
+1140	key	v	32	32	0	0	-	0
+1161	do	undo
+1162	status	undone
+1162	check	2192ec2828cc9eab	New layer
+1162	do	undo
+1163	check	cff018ccda5fe2e5	Edit Sector 3
+1163	do	undo
+1164	check	a76f0832af8ecd97	floors
+1164	do	undo
+1165	check	dc8705f8d237a8c5	Insert sprite
+1165	do	undo
+1165	check	cecafe813bc58195	Insert sprite
+1165	do	undo
+1166	check	57557c6eae0e5218	Delete wall
+1166	do	undo
+1167	check	79652d7fadc68fa0	Delete point
+1167	do	undo
+1167	check	f4f49d19e38ae390	Insert point
+1167	do	undo
+1168	check	8c4e5d1ffa6e08f1	Extend sector 4
+1168	do	undo
+1168	check	672efddb99b87304	Draw sector
+1168	do	undo
+1169	check	e8fa9d09fbba1830	Split sector 0
+1169	do	undo
+1170	check	fae9af14046af4c7	Draw a room in sector 0
+1170	do	undo
+1170	check	fb0d5d912dd38f9d	Draw sector
+1170	do	undo
+1171	check	edb01bf453c434b0	Draw sector
+1171	do	undo
+1171	check	89b8a2476cb8d44e	
+1177	end

@@ -1,0 +1,21 @@
+id: 20261026-120645
+description: platform should be rotating and moving at the same time
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 12:06:45
+frame: 196
+camera: 1380.88 -840.56 90.09
+angles: 19.40 162.42 0.00
+forward: -0.90 0.28 -0.33
+floor_below: 32.03
+aim_hit: 1223.73 -790.77 32.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 174.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 1380.88 -840.56 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1380.9 -840.6 32.0 162.4 19.4
+screenshot: data/bugs/20261026-120645.png
+recording: data/bugs/20261026-120645.rec (play 20261026-120645)

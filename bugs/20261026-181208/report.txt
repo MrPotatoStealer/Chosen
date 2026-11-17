@@ -1,0 +1,21 @@
+id: 20261026-181208
+description: floating geo
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-26 18:12:08
+frame: 8416
+camera: 3570.30 2562.47 -38.44
+angles: 12.14 68.67 0.00
+forward: 0.36 0.91 -0.21
+floor_below: -95.97
+aim_hit: 3582.80 2594.46 -45.83
+aim_normal: -0.89 -0.45 0.00
+aim_distance: 35.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 3570.30 2562.47 -61.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 3570.3 2562.5 -96.0 68.7 12.1
+screenshot: data/bugs/20261026-181208.png
+recording: data/bugs/20261026-181208.rec (play 20261026-181208)

@@ -1,0 +1,21 @@
+id: 20261115-161600
+description: check if we can increase performance here
+map: maps/sstation.map
+engine: godot
+date: 2026-11-15 16:16:00
+frame: 2400
+camera: 85.18 -530.08 -235.05
+angles: 5.06 301.47 0.00
+forward: 0.52 -0.85 -0.09
+floor_below: -257.31
+aim_hit: 350.29 -963.17 -279.97
+aim_normal: 0.00 1.00 0.00
+aim_distance: 509.8
+aim_object: dude_zombie_axe#1930 type 203 pic 1229 stat 6
+aim_texture: 
+player_origin: 85.13 -530.21 -257.31
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 85.1 -530.2 -257.3 301.5 5.1 18
+screenshot: data/bugs/20261115-161600.png
+recording: data/bugs/20261115-161600.rec (play 20261115-161600)

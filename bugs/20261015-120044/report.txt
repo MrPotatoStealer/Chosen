@@ -1,0 +1,17 @@
+id: 20261015-120044
+description: texture is missing, I can see through the wall
+map: maps/e1m1.bsp
+date: 2026-10-15 12:00:44
+camera: -393.44 -1999.62 30.55
+angles: 13.72 -334.26 0.00
+forward: 0.88 0.42 -0.24
+floor_below: 8.03
+aim_hit: -294.72 -1952.03 3.79
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 112.8
+aim_object: world
+aim_texture: textures/blood/0270
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -393.4 -1999.6 8.0 -334.3 13.7
+screenshot: data/bugs/20261015-120044.png

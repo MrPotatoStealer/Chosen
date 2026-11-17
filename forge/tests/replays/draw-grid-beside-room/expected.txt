@@ -1,0 +1,354 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+21948a39553f52e9	
+b1660b781dc12c70	Add floor below
+21948a39553f52e9	
+6e6421c7650140b3	Split sector 11
+458bfbd705f1f8c0	Delete sector 19
+2901fe14f9c7e5ae	Delete layer
+b0416c5e19cc368e	Paste texture
+239029c4ce7d1060	Paste texture
+1328ec3e7840421c	Change floor height
+b8514cd3efc06b48	Change floor height
+fbddfbbc98545044	Change floor height
+59baa24be15c3150	Change floor height
+e8abf1811ce75436	First wall of sector 11
+7473133d501c8c63	Slope floor of sector 11
+347c4d1a977be2ea	Slope floor of sector 11
+be907c2039e233d4	Slope floor of sector 11
+c3cb7b0e0369f025	Slope floor of sector 11
+a9bdb4c60ac868f1	Slope floor of sector 11
+c3cb7b0e0369f025	Slope floor of sector 11
+906010c4bff445cb	First wall of sector 11
+9a2effcb83af41e9	First wall of sector 11
+93871c69dee545ea	Slope floor of sector 11
+e89a8027f495e90f	Slope floor of sector 11
+6f4c4d17b0bcc8eb	Slope floor of sector 11
+bc01fb0eaf74256c	Slope floor of sector 11
+f604ceb1375b6f88	Slope floor of sector 11
+bc01fb0eaf74256c	Slope floor of sector 11
+5d86bf375856a7a7	Add floor below
+c205552e063cee48	Texture settings
+5571943dd80755cb	Auto-align textures
+3ca0d63101ef8d4c	Change floor height
+020dda025cc5c4b0	Change floor height
+3ca0d63101ef8d4c	Change floor height
+60c2928792e3a393	Slope floor of sector 11
+038510ffd6760317	Slope floor of sector 11
+60c2928792e3a393	Slope floor of sector 11
+5dd58b56221c7f68	Slope floor of sector 11
+668ff15e7fbdecf4	Slope floor of sector 11
+1fecf6fb829bab9d	Slope floor of sector 11
+668ff15e7fbdecf4	Slope floor of sector 11
+5dd58b56221c7f68	Slope floor of sector 11
+349e257c63a1bc05	First wall of sector 11
+3e7019007be3d289	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+c654b6653af8197c	Slope floor of sector 11
+b0ceb4bc4b3f6e9b	Slope floor of sector 11
+6b24e2b57af59247	Slope floor of sector 11
+017d19bd3a9804e0	Slope floor of sector 11
+9864cd794aeac36e	Slope floor of sector 11
+21c543d6013447f5	Slope floor of sector 11
+0568517c86d0cb20	Slope floor of sector 11
+61e57df10bcc69e6	Slope floor of sector 11
+345e11eaf6bf098b	Slope floor of sector 11
+8c58e5d606eef0f7	Slope floor of sector 11
+345e11eaf6bf098b	Slope floor of sector 11
+61e57df10bcc69e6	Slope floor of sector 11
+0568517c86d0cb20	Slope floor of sector 11
+21c543d6013447f5	Slope floor of sector 11
+9864cd794aeac36e	Slope floor of sector 11
+017d19bd3a9804e0	Slope floor of sector 11
+6b24e2b57af59247	Slope floor of sector 11
+b0ceb4bc4b3f6e9b	Slope floor of sector 11
+c654b6653af8197c	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+6ceaf98e3a567564	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+3e7019007be3d289	First wall of sector 11
+1cc702fe2dc53959	Slope floor of sector 11
+3e7019007be3d289	First wall of sector 11
+24a32fd5ebc0a1bb	Separate sector 10
+15438936190e7765	Drag sectors
+24a32fd5ebc0a1bb	Separate sector 10
+349e257c63a1bc05	First wall of sector 11
+77d3e896f9e1a5d9	Auto-align textures
+47a7af79a6e71c8c	Slope floor of sector 11
+77d3e896f9e1a5d9	Slope floor of sector 11
+c24bcd7b52031ea5	Change floor height
+77d3e896f9e1a5d9	Change floor height
+407aa4514f8c6d89	Change floor height
+77d3e896f9e1a5d9	Slope floor of sector 11
+224ff46dfe0e2d48	Change floor height
+77d3e896f9e1a5d9	Change floor height
+224ff46dfe0e2d48	Change floor height
+77d3e896f9e1a5d9	Change floor height
+18881988e6c6b276	Slope ceiling of sector 19
+158db239d227b507	Slope ceiling of sector 19
+fe3e065d629cf8f8	Slope ceiling of sector 19
+43ad36f838d81821	Slope ceiling of sector 19
+302318f00977be12	Slope ceiling of sector 19
+1ec8c0420de31a80	Change floor height
+bb7d5cc40d311422	First wall of sector 11
+eeefdb53f65d5985	Slope ceiling of sector 11
+d989b36dd9a2e079	Slope ceiling of sector 11
+8f43862399f95c4d	Slope ceiling of sector 11
+844818e049010a41	Slope ceiling of sector 11
+01a11ea4204845d5	Slope ceiling of sector 11
+5eea63d0c1d054fa	Slope ceiling of sector 11
+01a11ea4204845d5	Slope ceiling of sector 11
+844818e049010a41	Slope ceiling of sector 11
+8f43862399f95c4d	Slope ceiling of sector 11
+d989b36dd9a2e079	Slope ceiling of sector 11
+8f43862399f95c4d	Slope ceiling of sector 11
+844818e049010a41	Slope ceiling of sector 11
+01a11ea4204845d5	Slope ceiling of sector 11
+5eea63d0c1d054fa	Slope ceiling of sector 11
+714c737ba4959f1e	Slope ceiling of sector 11
+d232d45c82ad7dc2	Slope ceiling of sector 11
+b98b256045fbd0c6	Slope ceiling of sector 11
+0a0a036b1897cdca	Slope ceiling of sector 11
+8556d4896b2e5a2e	Slope ceiling of sector 11
+8c75f60dac78a7a3	Slope ceiling of sector 11
+f2fda7675e8cce07	Slope ceiling of sector 11
+38c56487537a96cb	Slope ceiling of sector 11
+6c4818d92d57f1af	Slope ceiling of sector 11
+82a5ca96c975c733	Slope ceiling of sector 11
+8c341a88d923e697	Slope ceiling of sector 11
+bb7d5cc40d311422	First wall of sector 11
+80d350bcf68800a2	First wall of sector 19
+f7e07f3f26762bad	Slope ceiling of sector 19
+341ec3073d879b01	Slope ceiling of sector 19
+9a4bdf80bdf884c5	Slope ceiling of sector 19
+e076091ea00746b9	Slope ceiling of sector 19
+a513426d36df99dd	Slope ceiling of sector 19
+3b739ef72f6abcb1	Slope ceiling of sector 19
+4bdb5d5ff6ae3335	Slope ceiling of sector 19
+20a550559874172e	Slope ceiling of sector 19
+89035ae1ad3f70f2	Slope ceiling of sector 19
+35c745150fb908a6	Slope ceiling of sector 19
+3146eaee29de596a	Slope ceiling of sector 19
+1dfe52312a42889e	Slope ceiling of sector 19
+871ffef82fe6e222	Slope ceiling of sector 19
+d4af3d4eff259696	Slope ceiling of sector 19
+d1854f1b538b17cb	Slope ceiling of sector 19
+8c8359fe36dfe41f	Slope ceiling of sector 19
+27a7d91eafe81e63	Slope ceiling of sector 19
+4b403eb3874a1657	Slope ceiling of sector 19
+ba021f1a06d74e3b	Slope ceiling of sector 19
+aa95acf8df4e298f	Slope ceiling of sector 19
+445e4898b4d0e1d3	Slope ceiling of sector 19
+6ea3c171cc425dcc	Slope ceiling of sector 19
+d8d5d831747dd6b0	Slope ceiling of sector 19
+460061cfe09727e4	Slope ceiling of sector 19
+0e084ccd00a02c28	Slope ceiling of sector 19
+88e90d11e900003c	Slope ceiling of sector 19
+903bc65c8465f5e0	Slope ceiling of sector 19
+72b5f750f491bd54	Slope ceiling of sector 19
+ee228c04ef1e6fd9	Slope ceiling of sector 19
+f121820227584a55	Slope ceiling of sector 19
+1a8f6abe5e710cd1	Slope ceiling of sector 19
+74a7ce94ad155ded	Slope ceiling of sector 19
+2136f87ce82d7b89	Slope ceiling of sector 19
+687d638498f67c45	Slope ceiling of sector 19
+4a6141c6a0263881	Slope ceiling of sector 19
+56bc2be74d7a0642	Slope ceiling of sector 19
+7ba050348b2e69be	Slope ceiling of sector 19
+a61a818f8385a83a	Slope ceiling of sector 19
+7650ea3336cb43b6	Slope ceiling of sector 19
+49d6bac73eee9532	Slope ceiling of sector 19
+fc70c85c768584ee	Slope ceiling of sector 19
+b67e7c8249a82f6a	Slope ceiling of sector 19
+5dcc3c921ad76577	Slope ceiling of sector 19
+bb0329d7155c1d73	Slope ceiling of sector 19
+fa183c09b804a9af	Slope ceiling of sector 19
+56bce0af7354edcb	Slope ceiling of sector 19
+c274f115464303e7	Slope ceiling of sector 19
+b9f70199ed0c50a3	Slope ceiling of sector 19
+c65fdab04f8e8adf	Slope ceiling of sector 19
+1db32390c126a800	Slope ceiling of sector 19
+d9ae2230fa72b65c	Slope ceiling of sector 19
+84e35ba2de112938	Slope ceiling of sector 19
+d9ae2230fa72b65c	Slope ceiling of sector 19
+1db32390c126a800	Slope ceiling of sector 19
+1db32390c126a800	First wall of sector 10
+1bf3f4fd21ed41c7	First wall of sector 19
+1db32390c126a800	First wall of sector 10
+1db32390c126a800	Slope ceiling of sector 19
+80d350bcf68800a2	First wall of sector 19
+be20275d141b3849	Slope ceiling of sector 11
+ed4bf39b414f6189	Slope ceiling of sector 11
+ee15a331775bdd79	Slope ceiling of sector 11
+d0a6e240a57a72b9	Slope ceiling of sector 11
+59088b16d12c6f69	Slope ceiling of sector 11
+7d04944b5c1b4ac2	Slope ceiling of sector 11
+f84ab1d3d7a0c092	Slope ceiling of sector 11
+fdf03e0861b1a392	Slope ceiling of sector 11
+5fbed89cf1e0dbe2	Slope ceiling of sector 11
+84fc35d623f0c222	Slope ceiling of sector 11
+278bb096bb540592	Slope ceiling of sector 11
+4da1024a3692ed8b	Slope ceiling of sector 11
+1f742ee3887504fb	Slope ceiling of sector 11
+f74e311feadd537b	Slope ceiling of sector 11
+0c41f4d9f459b94b	Slope ceiling of sector 11
+80d350bcf68800a2	First wall of sector 19
+be20275d141b3849	Slope ceiling of sector 11
+ed4bf39b414f6189	Slope ceiling of sector 11
+ee15a331775bdd79	Slope ceiling of sector 11
+d0a6e240a57a72b9	Slope ceiling of sector 11
+59088b16d12c6f69	Slope ceiling of sector 11
+7d04944b5c1b4ac2	Slope ceiling of sector 11
+f84ab1d3d7a0c092	Slope ceiling of sector 11
+fdf03e0861b1a392	Slope ceiling of sector 11
+5fbed89cf1e0dbe2	Slope ceiling of sector 11
+80d350bcf68800a2	First wall of sector 19
+7cad14f7c406f075	First wall of sector 11
+793c75207a5c9c6d	Slope ceiling of sector 11
+13a851b63f461b50	Slope ceiling of sector 11
+8d7cfe791791c963	Slope ceiling of sector 11
+880282077ecdbce1	Slope ceiling of sector 11
+54e414c63d42a9ae	Slope ceiling of sector 11
+20a5dd79a97ab0c7	Slope ceiling of sector 11
+2d7da51e13feec11	Slope ceiling of sector 11
+41ae7ac994b78aa0	Slope ceiling of sector 11
+4218e97aa6c8a133	Slope ceiling of sector 11
+417fc3dbc08d0af5	Slope ceiling of sector 11
+79149b4667dab642	Slope ceiling of sector 11
+6e103b1d2567e2d7	Slope ceiling of sector 11
+516da508c3f5c78d	Slope ceiling of sector 11
+0985fd35e6abc5f0	Slope ceiling of sector 11
+6c185c818f32a503	Slope ceiling of sector 11
+511eb306e3de63d9	Slope ceiling of sector 11
+37225e32fdedd186	Slope ceiling of sector 11
+6943ed61ef6a7d9f	Slope ceiling of sector 11
+e9f4f96cd8db2569	Slope ceiling of sector 11
+7cad14f7c406f075	First wall of sector 11
+e65d3d2f17732b3a	First wall of sector 11
+f71905531d63256a	Slope ceiling of sector 11
+348aef79d7d36a57	Slope ceiling of sector 11
+7692a906305afba7	Slope ceiling of sector 11
+68a9ae3d6fa24fc6	Slope ceiling of sector 11
+dbea5c38951c279c	Slope ceiling of sector 11
+78010771ccbdbc9d	Slope ceiling of sector 11
+c69272d6b221fe5e	Slope ceiling of sector 11
+2fcbbbb2133adb78	Slope ceiling of sector 11
+0d9f4c7ba5c5a527	Slope ceiling of sector 11
+292e6a6ca0733b63	Slope ceiling of sector 11
+b016756531367374	Slope ceiling of sector 11
+5880e309e4cdbc99	Slope ceiling of sector 11
+47a1630141556949	Slope ceiling of sector 11
+e899bc0573635d18	Slope ceiling of sector 11
+de29fe37a90affb2	Slope ceiling of sector 11
+3ff7431e67aa75c3	Slope ceiling of sector 11
+e2d95f06dd284794	Slope ceiling of sector 11
+fabf9915d83823a6	Slope ceiling of sector 11
+9f956f84155f8105	Slope ceiling of sector 11
+60f28443159b277d	Slope ceiling of sector 11
+4738090edb8e733e	Slope ceiling of sector 11
+cb54edfbe010dd0c	Slope ceiling of sector 11
+f461fefdb31d3cbb	Slope ceiling of sector 11
+1fa01d472f56afca	Slope ceiling of sector 11
+557021ac862fbe10	Slope ceiling of sector 11
+b1207917b72c9501	Slope ceiling of sector 11
+f5da5967dcc83bf1	Slope ceiling of sector 11
+66d6ac3735dbd72c	Slope ceiling of sector 11
+a95deeb53c532c3b	Slope ceiling of sector 11
+5d17f5aaafd3699f	Slope ceiling of sector 11
+6b2cf4fa233ef730	Slope ceiling of sector 11
+865b57fedc5fdb56	Slope ceiling of sector 11
+80a5e7eca832ef95	Slope ceiling of sector 11
+0d76abd6c7f40b54	Slope ceiling of sector 11
+6ed03bfc40393b1e	Slope ceiling of sector 11
+6cb4d2add484631f	Slope ceiling of sector 11
+d84716f3fd9e8d6f	Slope ceiling of sector 11
+9302f60a4c4abfc2	Slope ceiling of sector 11
+de4ec548f4a5a871	Slope ceiling of sector 11
+0e4f040ac81ce9f1	Slope ceiling of sector 11
+c459a9806f247f62	Slope ceiling of sector 11
+7811fecbc114f9d0	Slope ceiling of sector 11
+181c1db43c40667f	Slope ceiling of sector 11
+7783d769ae130783	Slope ceiling of sector 11
+c0a8af82fd691fb4	Slope ceiling of sector 11
+3bee6ee775fee3d5	Slope ceiling of sector 11
+49a784ae4a4da6a5	Slope ceiling of sector 11
+d794cb1382119430	Slope ceiling of sector 11
+49a784ae4a4da6a5	Slope ceiling of sector 11
+3bee6ee775fee3d5	Slope ceiling of sector 11
+c0a8af82fd691fb4	Slope ceiling of sector 11
+7783d769ae130783	Slope ceiling of sector 11
+181c1db43c40667f	Slope ceiling of sector 11
+7811fecbc114f9d0	Slope ceiling of sector 11
+c459a9806f247f62	Slope ceiling of sector 11
+0e4f040ac81ce9f1	Slope ceiling of sector 11
+de4ec548f4a5a871	Slope ceiling of sector 11
+9302f60a4c4abfc2	Slope ceiling of sector 11
+d84716f3fd9e8d6f	Slope ceiling of sector 11
+6cb4d2add484631f	Slope ceiling of sector 11
+6ed03bfc40393b1e	Slope ceiling of sector 11
+0d76abd6c7f40b54	Slope ceiling of sector 11
+80a5e7eca832ef95	Slope ceiling of sector 11
+865b57fedc5fdb56	Slope ceiling of sector 11
+6b2cf4fa233ef730	Slope ceiling of sector 11
+5d17f5aaafd3699f	Slope ceiling of sector 11
+a95deeb53c532c3b	Slope ceiling of sector 11
+66d6ac3735dbd72c	Slope ceiling of sector 11
+f5da5967dcc83bf1	Slope ceiling of sector 11
+b1207917b72c9501	Slope ceiling of sector 11
+557021ac862fbe10	Slope ceiling of sector 11
+1fa01d472f56afca	Slope ceiling of sector 11
+f461fefdb31d3cbb	Slope ceiling of sector 11
+cb54edfbe010dd0c	Slope ceiling of sector 11
+4738090edb8e733e	Slope ceiling of sector 11
+60f28443159b277d	Slope ceiling of sector 11
+9f956f84155f8105	Slope ceiling of sector 11
+fabf9915d83823a6	Slope ceiling of sector 11
+e2d95f06dd284794	Slope ceiling of sector 11
+3ff7431e67aa75c3	Slope ceiling of sector 11
+de29fe37a90affb2	Slope ceiling of sector 11
+e899bc0573635d18	Slope ceiling of sector 11
+47a1630141556949	Slope ceiling of sector 11
+5880e309e4cdbc99	Slope ceiling of sector 11
+b016756531367374	Slope ceiling of sector 11
+292e6a6ca0733b63	Slope ceiling of sector 11
+0d9f4c7ba5c5a527	Slope ceiling of sector 11
+2fcbbbb2133adb78	Slope ceiling of sector 11
+c69272d6b221fe5e	Slope ceiling of sector 11
+78010771ccbdbc9d	Slope ceiling of sector 11
+dbea5c38951c279c	Slope ceiling of sector 11
+68a9ae3d6fa24fc6	Slope ceiling of sector 11
+7692a906305afba7	Slope ceiling of sector 11
+348aef79d7d36a57	Slope ceiling of sector 11
+f71905531d63256a	Slope ceiling of sector 11
+e65d3d2f17732b3a	Slope ceiling of sector 11
+5482bfd8c76c1929	Slope ceiling of sector 11
+9ca2853d95891e1a	Slope ceiling of sector 11
+ee33412a8b600628	Slope ceiling of sector 11
+97a1fc6d42dc49d7	Slope ceiling of sector 11
+713dd26ba3588fbb	Slope ceiling of sector 11
+0dee944436798d4c	Slope ceiling of sector 11
+cfb2b207901d36ed	Slope ceiling of sector 11
+601c38f90d79ef9d	Slope ceiling of sector 11
+089622525cfeeba8	Slope ceiling of sector 11
+f5d763ff6c07a8f6	Slope ceiling of sector 11
+386c2b708e41a453	Slope ceiling of sector 11
+0d722d094c916844	Slope ceiling of sector 11
+251747ef5d76028a	Slope ceiling of sector 11
+03d6fd382c88b459	Slope ceiling of sector 11
+bd3b4e3ff3d0ef51	Slope ceiling of sector 11
+591db4ed511b46e2	Slope ceiling of sector 11
+883dcab817ac17f3	Slope ceiling of sector 11
+ee3fc5c3445adb63	Slope ceiling of sector 11
+2dbda9804e91e536	Slope ceiling of sector 11
+3b33781a6aa97180	Slope ceiling of sector 11
+e65d3d2f17732b3a	First wall of sector 11
+bdc65b0cb5fa615c	Draw sector
+e65d3d2f17732b3a	First wall of sector 11
+b1f2b4b77e62333a	First wall of sector 11
+00a57a1930842a8d	First wall of sector 11
+584a2a61fca356aa	First wall of sector 11
+bbf1e4de3ad497bb	
+02ab5c1a919d2f94	

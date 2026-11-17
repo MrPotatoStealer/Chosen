@@ -1,0 +1,21 @@
+id: 20261026-141026
+description: invisible collision after raising floor, can't progress
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 14:10:26
+frame: 4725
+camera: 1766.25 -915.97 213.69
+angles: 13.94 263.27 0.00
+forward: -0.11 -0.96 -0.24
+floor_below: 156.03
+aim_hit: 1764.84 -927.97 210.69
+aim_normal: 0.00 1.00 0.00
+aim_distance: 12.4
+aim_object: world
+aim_texture: blood/0437
+player_origin: 1766.28 -915.97 190.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1766.3 -916.0 156.0 263.3 13.9
+screenshot: data/bugs/20261026-141026.png
+recording: data/bugs/20261026-141026.rec (play 20261026-141026)

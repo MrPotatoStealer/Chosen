@@ -1,0 +1,21 @@
+id: 20261031-143108
+description: make rain be affected by wind strength, increase leafes with wind amount
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 14:31:08
+frame: 987
+camera: 999.73 -2708.67 -55.38
+angles: -1.06 181.01 0.00
+forward: -1.00 -0.02 0.02
+floor_below: -77.31
+aim_hit: -7189.61 -2852.80 95.59
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 999.73 -2708.67 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 999.7 -2708.7 -77.3 181.0 -1.1 65
+screenshot: data/bugs/20261031-143108.png
+recording: data/bugs/20261031-143108.rec (play 20261031-143108)

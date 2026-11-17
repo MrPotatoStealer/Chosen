@@ -1,0 +1,21 @@
+id: 20261023-145852
+description: fell out of bounds
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 14:58:52
+frame: 379
+camera: -1433.92 2014.95 -754.04
+angles: 18.07 2.11 0.00
+forward: 0.95 0.04 -0.31
+floor_below: -764.46
+aim_hit: -1416.45 2015.60 -759.75
+aim_normal: -0.71 0.71 0.00
+aim_distance: 18.4
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -1433.92 2014.95 -797.44
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1433.9 2015.0 -764.5 2.1 18.1
+screenshot: data/bugs/20261023-145852.png
+recording: data/bugs/20261023-145852.rec (play 20261023-145852)

@@ -1,0 +1,21 @@
+id: 20261023-200647
+description: lift platform is not moving just the ceiling?
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 20:06:47
+frame: 2366
+camera: 334.03 -626.34 -20.07
+angles: -50.80 39.84 0.00
+forward: 0.49 0.40 0.77
+floor_below: -71.97
+aim_hit: 417.97 -556.31 113.97
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 173.0
+aim_object: world
+aim_texture: blood/0020
+player_origin: 334.03 -626.34 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 334.0 -626.3 -72.0 39.8 -50.8
+screenshot: data/bugs/20261023-200647.png
+recording: data/bugs/20261023-200647.rec (play 20261023-200647)

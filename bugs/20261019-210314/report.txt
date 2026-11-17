@@ -1,0 +1,21 @@
+id: 20261019-210314
+description: duplication of the lift exist preventing access to top
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 21:03:14
+frame: 7598
+camera: 468.16 -584.66 -17.20
+angles: -26.13 180.58 0.00
+forward: -0.90 -0.01 0.44
+floor_below: -71.97
+aim_hit: 418.03 -585.16 7.39
+aim_normal: 1.00 0.00 0.00
+aim_distance: 55.8
+aim_object: blood_sector#150(sector136)
+aim_texture: tools/caulk
+player_origin: 468.16 -584.66 -37.28
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 468.2 -584.7 -72.0 180.6 -26.1
+screenshot: data/bugs/20261019-210314.png
+recording: data/bugs/20261019-210314.rec (play 20261019-210314)

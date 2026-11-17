@@ -1,0 +1,21 @@
+id: 20261023-171702
+description: gates open but collision is still there
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 17:17:02
+frame: 5612
+camera: -2347.72 -2380.03 444.84
+angles: 1.85 216.95 0.00
+forward: -0.80 -0.60 -0.03
+floor_below: 388.03
+aim_hit: -2511.97 -2503.57 438.21
+aim_normal: 1.00 0.00 0.00
+aim_distance: 205.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -2347.72 -2380.03 422.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2347.7 -2380.0 388.0 216.9 1.8
+screenshot: data/bugs/20261023-171702.png
+recording: data/bugs/20261023-171702.rec (play 20261023-171702)

@@ -1,0 +1,21 @@
+id: 20261023-095131
+description: bobbing of this part seems to be clamped and does not follow the rest of the sec down, but works fine on the way up
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:51:31
+frame: 922
+camera: -1570.59 2105.24 139.94
+angles: 39.52 299.48 0.00
+forward: 0.38 -0.67 -0.64
+floor_below: 80.03
+aim_hit: -1534.85 2042.02 80.03
+aim_normal: -0.00 0.00 1.00
+aim_distance: 94.1
+aim_object: world
+aim_texture: blood/2448
+player_origin: -1570.59 2105.24 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1570.6 2105.2 80.0 299.5 39.5
+screenshot: data/bugs/20261023-095131.png
+recording: data/bugs/20261023-095131.rec (play 20261023-095131)

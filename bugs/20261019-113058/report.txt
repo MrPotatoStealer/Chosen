@@ -1,0 +1,21 @@
+id: 20261019-113058
+description: curtains are not rendered correctly
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 11:30:58
+frame: 2853
+camera: 832.97 -1386.41 -31.59
+angles: -4.55 44.02 0.00
+forward: 0.72 0.69 0.08
+floor_below: -87.97
+aim_hit: 931.97 -1290.73 -20.63
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 138.1
+aim_object: blood_sector#14
+aim_texture: tools/caulk
+player_origin: 832.97 -1386.41 -53.28
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp 833.0 -1386.4 -88.0 44.0 -4.6
+screenshot: data/bugs/20261019-113058.png
+recording: data/bugs/20261019-113058.rec (play 20261019-113058)

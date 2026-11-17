@@ -1,0 +1,21 @@
+id: 20261117-113226
+description: another spot with performance
+map: maps/sevict.map
+engine: godot
+date: 2026-11-17 11:32:26
+frame: 1902
+camera: 2327.05 -4304.31 116.67
+angles: -0.33 116.69 0.00
+forward: -0.45 0.89 0.01
+floor_below: 94.69
+aim_hit: 1949.08 -3552.41 121.51
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 841.6
+aim_object: thing_object_gib#279 type 416 pic 1167 stat 4
+aim_texture: 
+player_origin: 2327.05 -4304.31 94.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 2327.0 -4304.3 94.7 116.7 -0.3 970
+screenshot: data/bugs/20261117-113226.png
+recording: data/bugs/20261117-113226.rec (play 20261117-113226)

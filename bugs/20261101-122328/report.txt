@@ -1,0 +1,21 @@
+id: 20261101-122328
+description: make mist on ground more consistent, vieweing from here it's all gone until I jump down on the ground
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 12:23:28
+frame: 4725
+camera: 635.19 -2305.56 106.60
+angles: 26.07 288.98 0.00
+forward: 0.29 -0.85 -0.44
+floor_below: 82.69
+aim_hit: 3028.89 -9263.88 -3493.53
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 635.19 -2305.56 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 635.2 -2305.6 82.7 289.0 26.1 59
+screenshot: data/bugs/20261101-122328.png
+recording: data/bugs/20261101-122328.rec (play 20261101-122328)

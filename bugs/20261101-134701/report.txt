@@ -1,0 +1,21 @@
+id: 20261101-134701
+description: this level is totally broken now for some reason
+map: maps/dwe1m1.map
+engine: godot
+date: 2026-11-01 13:47:01
+frame: 206
+camera: -593.25 -5775.38 -238.64
+angles: 9.90 14.73 0.00
+forward: 0.95 0.25 -0.17
+floor_below: -261.31
+aim_hit: 7211.39 -3722.89 -1647.08
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -593.25 -5775.38 -261.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -593.3 -5775.4 -261.3 14.7 9.9 15
+screenshot: data/bugs/20261101-134701.png
+recording: data/bugs/20261101-134701.rec (play 20261101-134701)

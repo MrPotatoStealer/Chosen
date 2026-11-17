@@ -1,0 +1,17 @@
+id: 20261015-232421
+description: curtains should be closed at start and open when interacting
+map: maps/e1m1.bsp
+date: 2026-10-15 23:24:21
+camera: 850.34 -1345.16 -31.18
+angles: 1.13 -42.90 0.00
+forward: 0.73 -0.68 -0.02
+floor_below: -87.97
+aim_hit: 931.47 -1420.54 -33.38
+aim_normal: -1.00 0.00 0.00
+aim_distance: 110.8
+aim_object: world
+aim_texture: textures/blood/0146
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 850.3 -1345.2 -88.0 -42.9 1.1
+screenshot: data/bugs/20261015-232421.png

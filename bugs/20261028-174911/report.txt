@@ -1,0 +1,21 @@
+id: 20261028-174911
+description: trees are cutoff, think we need to change how rendering of sky is done. Render Sky first and just don't render anythign at all when a brush has a sky texture on them
+map: maps/cp09.map
+engine: godot
+date: 2026-10-28 17:49:11
+frame: 849
+camera: 2265.75 -1753.94 18.71
+angles: -26.79 281.02 0.00
+forward: 0.17 -0.88 0.45
+floor_below: -35.97
+aim_hit: 2319.23 -2028.51 159.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 313.4
+aim_object: world
+aim_texture: sky/4037
+player_origin: 2265.75 -1753.94 -1.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2265.8 -1753.9 -36.0 281.0 -26.8 968
+screenshot: data/bugs/20261028-174911.png
+recording: data/bugs/20261028-174911.rec (play 20261028-174911)

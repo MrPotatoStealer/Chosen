@@ -1,0 +1,21 @@
+id: 20261101-133626
+description: more sprites disappearing at edge of screen
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 13:36:26
+frame: 4985
+camera: 1369.23 -1835.36 104.79
+angles: 1.52 271.00 0.00
+forward: 0.02 -1.00 -0.03
+floor_below: 82.69
+aim_hit: 1511.67 -10023.25 -112.22
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 1369.23 -1835.36 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1369.2 -1835.4 82.7 271.0 1.5 66
+screenshot: data/bugs/20261101-133626.png
+recording: data/bugs/20261101-133626.rec (play 20261101-133626)

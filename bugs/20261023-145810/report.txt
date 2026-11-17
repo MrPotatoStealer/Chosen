@@ -1,0 +1,21 @@
+id: 20261023-145810
+description: still invisible collision here after iceblock
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 14:58:10
+frame: 593
+camera: -1018.94 1907.97 137.79
+angles: 15.89 99.26 0.00
+forward: -0.15 0.95 -0.27
+floor_below: 80.03
+aim_hit: -1020.90 1919.97 134.32
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 12.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -1019.12 1907.97 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1019.1 1908.0 80.0 99.3 15.9
+screenshot: data/bugs/20261023-145810.png
+recording: data/bugs/20261023-145810.rec (play 20261023-145810)

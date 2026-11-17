@@ -1,0 +1,21 @@
+id: 20261030-134448
+description: make it so when flying using command be able to go through portals
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-30 13:44:48
+frame: 985
+camera: 4882.03 2888.00 -211.88
+angles: 1.86 200.21 0.00
+forward: -0.94 -0.35 -0.03
+floor_below: -239.97
+aim_hit: 4686.58 2816.03 -218.65
+aim_normal: 0.00 1.00 0.00
+aim_distance: 208.4
+aim_object: world
+aim_texture: blood/0492
+player_origin: 5600.21 2788.02 -173.31
+player_health: 79
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 5600.2 2788.0 -240.0 200.2 1.9 43
+screenshot: data/bugs/20261030-134448.png
+recording: data/bugs/20261030-134448.rec (play 20261030-134448)

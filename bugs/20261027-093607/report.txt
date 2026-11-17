@@ -1,0 +1,21 @@
+id: 20261027-093607
+description: can we make pickups always use the sectors current lightning now?
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-27 09:36:07
+frame: 4048
+camera: -715.15 -2185.22 -166.98
+angles: 3.30 276.87 0.00
+forward: 0.12 -0.99 -0.06
+floor_below: -212.51
+aim_hit: -702.48 -2290.36 -173.08
+aim_normal: 0.00 0.35 0.94
+aim_distance: 106.1
+aim_object: world
+aim_texture: blood/0255
+player_origin: -714.49 -2187.92 -177.42
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -714.5 -2187.9 -212.5 276.9 3.3 363
+screenshot: data/bugs/20261027-093607.png
+recording: data/bugs/20261027-093607.rec (play 20261027-093607)

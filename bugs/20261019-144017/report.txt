@@ -1,0 +1,21 @@
+id: 20261019-144017
+description: this wall should not be flashing
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-19 14:40:17
+frame: 4340
+camera: -1021.72 -3449.72 310.16
+angles: -33.26 142.58 0.00
+forward: -0.66 0.51 0.55
+floor_below: 256.03
+aim_hit: -1151.97 -3350.07 417.74
+aim_normal: 1.00 0.00 0.00
+aim_distance: 196.1
+aim_object: blood_sector#108(sector222)
+aim_texture: blood/0130
+player_origin: -1021.72 -3449.72 290.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1021.7 -3449.7 256.0 142.6 -33.3
+screenshot: data/bugs/20261019-144017.png
+recording: data/bugs/20261019-144017.rec (play 20261019-144017)

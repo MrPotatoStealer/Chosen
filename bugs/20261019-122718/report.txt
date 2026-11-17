@@ -1,0 +1,21 @@
+id: 20261019-122718
+description: sector light don't go out when destroying lights
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:27:18
+frame: 2678
+camera: 1354.28 -1850.41 101.08
+angles: -42.97 278.09 0.00
+forward: 0.10 -0.72 0.68
+floor_below: 48.03
+aim_hit: 1365.53 -1929.47 175.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 109.1
+aim_object: switch_oneway#241 type 21 pic 2290 stat 0
+aim_texture: 
+player_origin: 1354.28 -1850.41 82.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp 1354.3 -1850.4 48.0 278.1 -43.0
+screenshot: data/bugs/20261019-122718.png
+recording: data/bugs/20261019-122718.rec (play 20261019-122718)

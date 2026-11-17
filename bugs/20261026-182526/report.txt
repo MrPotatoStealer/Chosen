@@ -1,0 +1,21 @@
+id: 20261026-182526
+description: falling down when walking here
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 18:25:26
+frame: 10721
+camera: 801.97 -1040.53 119.05
+angles: 58.49 170.25 0.00
+forward: -0.52 0.09 -0.85
+floor_below: 56.03
+aim_hit: 763.89 -1033.99 56.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 73.9
+aim_object: blood_sector#65(sector47)
+aim_texture: blood/0491
+player_origin: 801.97 -1040.53 90.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 802.0 -1040.5 56.0 170.3 58.5
+screenshot: data/bugs/20261026-182526.png
+recording: data/bugs/20261026-182526.rec (play 20261026-182526)

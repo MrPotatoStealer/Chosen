@@ -1,0 +1,17 @@
+id: 20261016-092337
+description: whole in geo, missing texture?
+map: maps/e1m1.bsp
+date: 2026-10-16 09:23:37
+camera: -417.16 -1909.62 63.88
+angles: -9.49 -306.41 0.00
+forward: 0.59 0.79 0.16
+floor_below: 8.03
+aim_hit: -306.83 -1760.03 94.96
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 188.5
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -417.2 -1909.6 8.0 -306.4 -9.5
+screenshot: data/bugs/20261016-092337.png

@@ -1,0 +1,33 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+ec7f9a91075a38d2	Draw sector
+78b9161760881d53	Draw sector
+ec7f9a91075a38d2	Draw sector
+54a1f4860e9a3400	Draw sector
+ec7f9a91075a38d2	Draw sector
+5d51b07a87e09c50	
+00a846a2e1a4ef44	Draw a grid of 4 x 4
+5d51b07a87e09c50	
+2b57237bdcc6db99	Draw a grid of 4 x 4
+5d51b07a87e09c50	
+935e92ee214f0bde	Draw a grid of 4 x 5
+5d51b07a87e09c50	
+ce232c436584d576	
+5bfaceb0cb7f0782	Draw sector
+ce232c436584d576	
+ce232c436584d576	
+d36a9d581b9a0090	Scale sectors
+ce232c436584d576	
+ce232c436584d576	
+ce232c436584d576	
+ca2316a5e1e187a6	Scale sectors
+ce232c436584d576	
+10716c6451095902	Move vertices
+ce232c436584d576	
+3ea9d7e805a31ab7	Paste 1 sector(s), 1 sprite(s)
+ce232c436584d576	
+d78878721f4f45d2	Paste 1 sector(s), 0 sprite(s)
+ce232c436584d576	
+65d6ea163ae8cf3e	Paste 1 sector(s), 1 sprite(s)
+ce232c436584d576	
+f61f791aeda88cb1	Paste 1 sector(s), 1 sprite(s)

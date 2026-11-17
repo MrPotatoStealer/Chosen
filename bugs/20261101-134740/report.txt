@@ -1,0 +1,21 @@
+id: 20261101-134740
+description: restarted level and looks ok now.
+map: maps/dwe1m1.map
+engine: godot
+date: 2026-11-01 13:47:40
+frame: 128
+camera: -634.25 -5747.38 -214.47
+angles: 12.14 33.87 0.00
+forward: 0.81 0.54 -0.21
+floor_below: -237.31
+aim_hit: -501.91 -5658.53 -248.77
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 163.0
+aim_object: decoration#978 type 0 pic 144 stat 0
+aim_texture: 
+player_origin: -634.25 -5747.38 -237.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -634.3 -5747.4 -237.3 33.9 12.1 14
+screenshot: data/bugs/20261101-134740.png
+recording: data/bugs/20261101-134740.rec (play 20261101-134740)

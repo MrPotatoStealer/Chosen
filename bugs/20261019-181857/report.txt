@@ -1,0 +1,21 @@
+id: 20261019-181857
+description: flickering looks strange, i like the idea of clickering but its not correct
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 18:18:57
+frame: 3771
+camera: 1198.22 -1287.72 32.01
+angles: -10.36 16.01 0.00
+forward: 0.95 0.27 0.18
+floor_below: -23.97
+aim_hit: 1319.97 -1252.79 55.17
+aim_normal: -1.00 0.00 0.00
+aim_distance: 128.8
+aim_object: decoration#82 type 0 pic 584 stat 0
+aim_texture: 
+player_origin: 1198.22 -1287.72 10.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1198.2 -1287.7 -24.0 16.0 -10.4
+screenshot: data/bugs/20261019-181857.png
+recording: data/bugs/20261019-181857.rec (play 20261019-181857)

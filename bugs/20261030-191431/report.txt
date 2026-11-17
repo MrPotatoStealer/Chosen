@@ -1,0 +1,21 @@
+id: 20261030-191431
+description: hole in geo
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-30 19:14:31
+frame: 1238
+camera: -566.50 -526.31 -37.25
+angles: 27.79 215.23 0.00
+forward: -0.72 -0.51 -0.47
+floor_below: -95.97
+aim_hit: -693.56 -616.02 -119.21
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 175.8
+aim_object: blood_sector#58(sector56)
+aim_texture: blood_fxhide/2448_p10
+player_origin: -566.50 -526.31 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -566.5 -526.3 -96.0 215.2 27.8 244
+screenshot: data/bugs/20261030-191431.png
+recording: data/bugs/20261030-191431.rec (play 20261030-191431)

@@ -1,0 +1,21 @@
+id: 20261104-140040
+description: floor texture moving around (jitter) when sector is moving
+map: maps/test.map
+engine: godot
+date: 2026-11-04 14:00:40
+frame: 221
+camera: 159.54 -204.96 217.17
+angles: 13.13 0.53 0.00
+forward: 0.97 0.01 -0.23
+floor_below: 34.69
+aim_hit: 8136.91 -131.35 -1644.29
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 68.19 -70.13 34.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 68.2 -70.1 34.7 0.5 13.1 0
+screenshot: data/bugs/20261104-140040.png
+recording: data/bugs/20261104-140040.rec (play 20261104-140040)

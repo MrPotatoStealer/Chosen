@@ -1,0 +1,18 @@
+id: 20261018-162612
+description: sprite looks to dark
+map: maps/E1M2.bsp
+date: 2026-10-18 16:26:12
+camera: -1070.55 -2672.63 168.50
+angles: -2.58 -235.15 0.00
+forward: -0.57 0.82 0.05
+floor_below: 112.03
+aim_hit: -1193.54 -2496.03 178.20
+aim_normal: -0.00 -1.00 -0.00
+aim_distance: 215.4
+aim_object: world
+aim_texture: textures/blood/0130
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -1070.6 -2672.6 112.0 -235.1 -2.6
+screenshot: data/bugs/20261018-162612.png
+recording: data/bugs/20261018-162612.rec (replaybug 20261018-162612)

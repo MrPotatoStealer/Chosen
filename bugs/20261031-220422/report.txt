@@ -1,0 +1,21 @@
+id: 20261031-220422
+description: can we fix so lights behind wallks are not shining through. Double sided geo on shadows maybe?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 22:04:22
+frame: 858
+camera: -102.58 -2039.82 65.30
+angles: 8.91 333.40 0.00
+forward: 0.88 -0.44 -0.15
+floor_below: 42.69
+aim_hit: 895.47 -2539.55 -109.69
+aim_normal: -1.00 0.00 0.00
+aim_distance: 1129.8
+aim_object: decoration#75 type 0 pic 1044 stat 0
+aim_texture: 
+player_origin: -102.58 -2039.82 42.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -102.6 -2039.8 42.7 333.4 8.9 149
+screenshot: data/bugs/20261031-220422.png
+recording: data/bugs/20261031-220422.rec (play 20261031-220422)

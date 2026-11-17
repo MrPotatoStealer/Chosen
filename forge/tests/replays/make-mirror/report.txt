@@ -1,0 +1,12 @@
+id: 20261105-214020
+description: Make mirror is not working
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-05 21:41:51
+view: 2D Walls
+shown: Edit
+camera: 0.00 -0.00 0.00
+angles: -0.00 90.00 0.00
+build_camera: 0 0 -0 angle 1536 sector -1
+view2d: 2369.44 7246.98 zoom 0.1320
+screenshot: screenshot.png

@@ -1,0 +1,1 @@
+Draw Grid inside a sector: each cell after the first lay along the room the cell before made (sharing its side) and was taken for a room in the sector, which then failed (a room needs 3 points inside the sector); now cut out beside it, the 4 x 3 grid made whole

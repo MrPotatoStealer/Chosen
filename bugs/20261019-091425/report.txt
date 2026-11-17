@@ -1,0 +1,21 @@
+id: 20261019-091425
+description: another portal bug where it does not align correctly
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:14:25
+frame: 5940
+camera: 525.24 -2454.21 -57.51
+angles: -29.70 36.33 0.00
+forward: 0.70 0.51 0.50
+floor_below: -111.97
+aim_hit: 651.62 -2361.28 31.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 180.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 525.24 -2454.21 -77.28
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp 525.2 -2454.2 -112.0 36.3 -29.7
+screenshot: data/bugs/20261019-091425.png
+recording: data/bugs/20261019-091425.rec (play 20261019-091425)

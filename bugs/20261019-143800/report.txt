@@ -1,0 +1,21 @@
+id: 20261019-143800
+description: ground to bright?
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-19 14:38:00
+frame: 547
+camera: 196.72 -779.28 358.32
+angles: 22.37 270.55 0.00
+forward: 0.01 -0.92 -0.38
+floor_below: 300.03
+aim_hit: 198.08 -920.88 300.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 153.1
+aim_object: world
+aim_texture: blood/0067
+player_origin: 196.72 -779.28 334.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 196.7 -779.3 300.0 270.6 22.4
+screenshot: data/bugs/20261019-143800.png
+recording: data/bugs/20261019-143800.rec (play 20261019-143800)

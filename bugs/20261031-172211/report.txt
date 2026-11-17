@@ -1,0 +1,21 @@
+id: 20261031-172211
+description: napalm sprite get stuck in portal after firing
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-31 17:22:11
+frame: 741
+camera: -327.37 -479.24 -36.98
+angles: 34.45 284.26 0.00
+forward: 0.20 -0.80 -0.57
+floor_below: -61.31
+aim_hit: 1336.91 -7026.14 -4671.32
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -327.40 -479.29 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -327.4 -479.3 -61.3 284.3 34.5 244
+screenshot: data/bugs/20261031-172211.png
+recording: data/bugs/20261031-172211.rec (play 20261031-172211)

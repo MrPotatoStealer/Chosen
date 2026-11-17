@@ -1,0 +1,18 @@
+id: 20261018-152413
+description: switch pressed but train is not moving, supposed to rotate
+map: maps/E1M2.bsp
+date: 2026-10-18 15:24:13
+camera: 412.53 -2045.34 297.44
+angles: 8.18 -148.62 0.00
+forward: -0.85 -0.52 -0.14
+floor_below: 240.03
+aim_hit: 373.31 -2069.27 290.83
+aim_normal: 0.71 0.71 0.00
+aim_distance: 46.4
+aim_object: world
+aim_texture: textures/blood/0200
+player_health: 46
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 412.5 -2045.3 240.0 -148.6 8.2
+screenshot: data/bugs/20261018-152413.png
+recording: data/bugs/20261018-152413.rec (replaybug 20261018-152413)

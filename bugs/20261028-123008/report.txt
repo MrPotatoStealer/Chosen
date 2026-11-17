@@ -1,0 +1,21 @@
+id: 20261028-123008
+description: minor missing hole in geo herwe
+map: maps/dwe1m1.map
+engine: godot
+date: 2026-10-28 12:30:08
+frame: 6991
+camera: -5187.70 -461.72 -503.23
+angles: 46.26 339.72 0.00
+forward: 0.65 -0.24 -0.72
+floor_below: -563.97
+aim_hit: -5133.17 -481.87 -563.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 84.1
+aim_object: world
+aim_texture: blood/0512
+player_origin: -5187.70 -461.72 -529.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -5187.7 -461.7 -564.0 339.7 46.3 239
+screenshot: data/bugs/20261028-123008.png
+recording: data/bugs/20261028-123008.rec (play 20261028-123008)

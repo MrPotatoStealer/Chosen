@@ -1,0 +1,21 @@
+id: 20261101-211612
+description: the dynamic light coming from candles looks a bit off
+map: maps/mrw2m1.map
+engine: godot
+date: 2026-11-01 21:16:12
+frame: 1105
+camera: -339.73 -8235.99 6.00
+angles: 31.02 25.84 0.00
+forward: 0.77 0.37 -0.52
+floor_below: -4.56
+aim_hit: 5978.67 -5175.85 -4215.64
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -339.73 -8235.99 -4.56
+player_health: 76
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -339.7 -8236.0 -4.6 25.8 31.0 116
+screenshot: data/bugs/20261101-211612.png
+recording: data/bugs/20261101-211612.rec (play 20261101-211612)

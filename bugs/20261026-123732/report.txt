@@ -1,0 +1,21 @@
+id: 20261026-123732
+description: sound when standing in lava is repeated to fast, sound wrong
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 12:37:32
+frame: 1743
+camera: 1040.78 -1766.87 2.31
+angles: 26.86 28.69 0.00
+forward: 0.78 0.43 -0.45
+floor_below: -56.35
+aim_hit: 1211.03 -1673.70 -95.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 217.5
+aim_object: world
+aim_texture: blood/0530_g0
+player_origin: 1040.78 -1766.87 -21.67
+player_health: 87
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1040.8 -1766.9 -56.4 28.7 26.9
+screenshot: data/bugs/20261026-123732.png
+recording: data/bugs/20261026-123732.rec (play 20261026-123732)

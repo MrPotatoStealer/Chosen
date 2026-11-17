@@ -1,0 +1,21 @@
+id: 20261027-103612
+description: using noclip and flying to the chest location and it looks all messed up
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-27 10:36:12
+frame: 1270
+camera: 540.07 -938.96 130.32
+angles: 0.00 90.00 0.00
+forward: -0.00 1.00 -0.00
+floor_below: 96.03
+aim_hit: 540.07 -832.03 130.32
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 106.9
+aim_object: world
+aim_texture: blood/2453
+player_origin: 384.00 3120.00 2.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 384.0 3120.0 96.0 90.0 0.0 81
+screenshot: data/bugs/20261027-103612.png
+recording: data/bugs/20261027-103612.rec (play 20261027-103612)

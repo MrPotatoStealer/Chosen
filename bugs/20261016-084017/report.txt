@@ -1,0 +1,17 @@
+id: 20261016-084017
+description: jumping next to the gate (sprite) here and you are teleported to other side of the sprite in the air for a few frames
+map: maps/e1m1.bsp
+date: 2026-10-16 08:40:17
+camera: 908.53 -2490.84 -48.48
+angles: 54.64 -124.97 0.00
+forward: -0.33 -0.47 -0.82
+floor_below: -111.97
+aim_hit: 882.71 -2527.76 -111.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 77.9
+aim_object: world
+aim_texture: textures/blood/0361_p6
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 908.5 -2490.8 -112.0 -125.0 54.6
+screenshot: data/bugs/20261016-084017.png

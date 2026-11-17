@@ -1,0 +1,7 @@
+# Godot's import cache and everything copied from Blood or generated (prepare_map.py)
+.godot/
+textures/
+mods/
+maps/
+*.import
+!addons/**/*.import

@@ -1,0 +1,21 @@
+id: 20261101-122121
+description: moving sky looks mostly buggy
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 12:21:21
+frame: 1902
+camera: -19.64 -2610.06 102.90
+angles: -24.62 181.73 0.00
+forward: -0.91 -0.03 0.42
+floor_below: 82.69
+aim_hit: -7463.62 -2835.50 3515.41
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -19.64 -2610.06 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -19.6 -2610.1 82.7 181.7 -24.6 18
+screenshot: data/bugs/20261101-122121.png
+recording: data/bugs/20261101-122121.rec (play 20261101-122121)

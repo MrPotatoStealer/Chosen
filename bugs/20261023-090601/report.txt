@@ -1,0 +1,21 @@
+id: 20261023-090601
+description: in NBlood the textures strech to keep the textures in sync and no visible seams when it moves out of the way
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:06:01
+frame: 827
+camera: -1433.31 2114.11 138.87
+angles: 28.83 291.56 0.00
+forward: 0.32 -0.81 -0.48
+floor_below: 80.03
+aim_hit: -1389.59 2003.43 73.37
+aim_normal: 0.00 0.00 1.00
+aim_distance: 135.8
+aim_object: blood_sector#19(sector1)
+aim_texture: blood/2915
+player_origin: -1433.31 2114.11 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1433.3 2114.1 80.0 291.6 28.8
+screenshot: data/bugs/20261023-090601.png
+recording: data/bugs/20261023-090601.rec (play 20261023-090601)

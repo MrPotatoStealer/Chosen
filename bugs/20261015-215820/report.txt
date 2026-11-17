@@ -1,0 +1,17 @@
+id: 20261015-215820
+description: Duplicate door bug is back
+map: maps/e1m1.bsp
+date: 2026-10-15 21:58:20
+camera: 696.59 -2177.34 -47.21
+angles: 0.83 -67.49 0.00
+forward: 0.38 -0.92 -0.01
+floor_below: -103.97
+aim_hit: 728.00 -2253.12 -48.39
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 82.0
+aim_object: world
+aim_texture: textures/blood/0006
+player_health: 18
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 696.6 -2177.3 -104.0 -67.5 0.8
+screenshot: data/bugs/20261015-215820.png

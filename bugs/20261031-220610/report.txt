@@ -1,0 +1,21 @@
+id: 20261031-220610
+description: fix leafes in wind so they don't spin like crazy, increase the amount.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 22:06:10
+frame: 1688
+camera: 674.15 -2789.45 -15.65
+angles: 0.86 355.31 0.00
+forward: 1.00 -0.08 -0.01
+floor_below: -77.31
+aim_hit: 8837.85 -3458.65 -138.32
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 542.55 -2737.45 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 542.5 -2737.4 -77.3 355.3 0.9 65
+screenshot: data/bugs/20261031-220610.png
+recording: data/bugs/20261031-220610.rec (play 20261031-220610)

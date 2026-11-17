@@ -1,0 +1,18 @@
+id: 20261018-221903
+description: dynamite is not rotating with sector, also one dynamite fell thru the ground
+map: maps/E1M2.bsp
+date: 2026-10-18 22:19:03
+camera: 417.68 -2070.65 297.73
+angles: 11.39 -215.28 0.00
+forward: -0.80 0.57 -0.20
+floor_below: 240.03
+aim_hit: 232.44 -1939.60 252.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 231.5
+aim_object: world
+aim_texture: textures/blood/0276
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 417.7 -2070.6 240.0 -215.3 11.4
+screenshot: data/bugs/20261018-221903.png
+recording: data/bugs/20261018-221903.rec (replaybug 20261018-221903)

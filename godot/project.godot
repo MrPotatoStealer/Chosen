@@ -1,0 +1,325 @@
+; Engine configuration file.
+; Chosen (Blood in Godot): Blood's levels from their .MAP files (Build data), gameplay in C#.
+
+config_version=5
+
+[application]
+
+config/name="Chosen"
+config/version="0.1.0"
+run/main_scene="res://main.tscn"
+config/project_settings_override="user://driver.cfg"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+
+[debug]
+
+file_logging/max_log_files=60
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/no_focus=true
+
+[dotnet]
+
+project/assembly_name="Chosen"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+rendering_device/d3d12/max_resource_descriptors=262144
+limits/global_shader_variables/buffer_size=524288
+textures/canvas_textures/default_texture_filter=0
+occlusion_culling/use_occlusion_culling=true
+
+[shader_globals]
+
+hdr_linear_screen={
+"type": "float",
+"value": 0.0
+}
+hdr_highlight={
+"type": "float",
+"value": 1.0
+}
+tick_lerp={
+"type": "float",
+"value": 1.0
+}
+build_visibility={
+"type": "float",
+"value": 0.0
+}
+water_alpha={
+"type": "float",
+"value": 1.0
+}
+ao_texture={
+"type": "sampler2D",
+"value": ""
+}
+ao_enabled={
+"type": "float",
+"value": 0.0
+}
+ao_debug={
+"type": "float",
+"value": 0.0
+}
+weather_wind={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+camera_world={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+b3d_eye={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+shade_contrast={
+"type": "float",
+"value": 1.0
+}
+sky_depth={
+"type": "float",
+"value": 8.0
+}
+sky_shade={
+"type": "float",
+"value": 0.0
+}
+sky_fog={
+"type": "float",
+"value": 0.0
+}
+portal_slot_0={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_box_0={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_slot_1={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_box_1={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_slot_2={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_box_2={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_slot_3={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_box_3={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_frame_0={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_frame_1={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_frame_2={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_frame_3={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+portal_data={
+"type": "sampler2D",
+"value": ""
+}
+portal_mask={
+"type": "sampler2D",
+"value": ""
+}
+stack_walls={
+"type": "sampler2D",
+"value": ""
+}
+palette_classic={
+"type": "float",
+"value": 0.0
+}
+palette_lut={
+"type": "sampler3D",
+"value": ""
+}
+palette_shade={
+"type": "sampler2D",
+"value": ""
+}
+palette_plu={
+"type": "sampler2D",
+"value": ""
+}
+b3d_planes={
+"type": "sampler2D",
+"value": ""
+}
+b3d_planes_prev={
+"type": "sampler2D",
+"value": ""
+}
+b3d_sector={
+"type": "sampler2D",
+"value": ""
+}
+b3d_wallpan={
+"type": "sampler2D",
+"value": ""
+}
+b3d_seen={
+"type": "sampler2D",
+"value": ""
+}
+glow_amount={
+"type": "float",
+"value": 0.0
+}
+palette_bright={
+"type": "sampler2D",
+"value": ""
+}
+soft_sprites={
+"type": "float",
+"value": 0.0
+}
+water_fog={
+"type": "float",
+"value": 0.0
+}
+water_fog_color={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+water_caustics={
+"type": "float",
+"value": 0.0
+}
+camera_under_water={
+"type": "float",
+"value": 0.0
+}
+water_ripple={
+"type": "float",
+"value": 0.0
+}
+water_shine={
+"type": "float",
+"value": 0.0
+}
+water_time={
+"type": "float",
+"value": 0.0
+}
+sky_pano={
+"type": "sampler2D",
+"value": ""
+}
+sky_horizon={
+"type": "float",
+"value": 0.0
+}
+sky_pano_size={
+"type": "vec2",
+"value": Vector2(1, 1)
+}
+sky_top_colour={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+sky_bottom_colour={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+sky_flash={
+"type": "float",
+"value": 0.0
+}
+sky_haze={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+b3d_window={
+"type": "sampler2D",
+"value": ""
+}
+b3d_view_yaw={
+"type": "float",
+"value": 0.0
+}
+sky_faces={
+"type": "float",
+"value": 0.0
+}
+stack_camera={
+"type": "float",
+"value": -1.0
+}
+stack_groups={
+"type": "float",
+"value": -1.0
+}
+stack_dist={
+"type": "sampler2D",
+"value": ""
+}
+light_region_0={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_1={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_2={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_3={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_4={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_5={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_6={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_7={
+"type": "vec4",
+"value": Vector4(1, 1, -1, -1)
+}
+light_region_planes_0={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+light_region_planes_1={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}

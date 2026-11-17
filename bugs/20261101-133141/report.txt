@@ -1,0 +1,21 @@
+id: 20261101-133141
+description: sprite getting cut off near edge of screen
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 13:31:41
+frame: 595
+camera: -226.88 -1895.38 64.56
+angles: -1.85 157.21 0.00
+forward: -0.92 0.39 0.03
+floor_below: 42.69
+aim_hit: -7775.50 1275.95 328.74
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -226.88 -1895.38 42.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -226.9 -1895.4 42.7 157.2 -1.8 149
+screenshot: data/bugs/20261101-133141.png
+recording: data/bugs/20261101-133141.rec (play 20261101-133141)

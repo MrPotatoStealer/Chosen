@@ -1,0 +1,21 @@
+id: 20261020-231956
+description: flashing wall
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 23:19:56
+frame: 2265
+camera: 88.42 -2766.53 -104.98
+angles: -23.56 194.32 0.00
+forward: -0.89 -0.23 0.40
+floor_below: -159.97
+aim_hit: -399.97 -2891.22 114.83
+aim_normal: 1.00 0.00 0.00
+aim_distance: 549.9
+aim_object: world
+aim_texture: blood_fxhide/0042
+player_origin: 88.42 -2766.53 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 88.4 -2766.5 -160.0 194.3 -23.6
+screenshot: data/bugs/20261020-231956.png
+recording: data/bugs/20261020-231956.rec (play 20261020-231956)

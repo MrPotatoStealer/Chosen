@@ -1,0 +1,21 @@
+id: 20261027-203545
+description: small section here where it should be water
+map: maps/e4m4.map
+engine: godot
+date: 2026-10-27 20:35:45
+frame: 5203
+camera: 4676.02 -3676.62 -65.81
+angles: 39.28 30.22 0.00
+forward: 0.67 0.39 -0.63
+floor_below: -73.97
+aim_hit: 4684.64 -3671.59 -73.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 12.9
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 4836.02 -3684.62 42.84
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4836.0 -3684.6 -74.0 30.2 39.3 117
+screenshot: data/bugs/20261027-203545.png
+recording: data/bugs/20261027-203545.rec (play 20261027-203545)

@@ -1,0 +1,21 @@
+id: 20261023-200544
+description: whole in geo
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 20:05:44
+frame: 820
+camera: 603.82 -12.18 -18.26
+angles: -37.36 190.69 0.00
+forward: -0.78 -0.15 0.61
+floor_below: -71.97
+aim_hit: 539.80 -24.26 31.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 82.0
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 603.82 -12.18 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 603.8 -12.2 -72.0 190.7 -37.4
+screenshot: data/bugs/20261023-200544.png
+recording: data/bugs/20261023-200544.rec (play 20261023-200544)

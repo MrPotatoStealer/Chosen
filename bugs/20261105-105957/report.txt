@@ -1,0 +1,21 @@
+id: 20261105-105957
+description: fell into other sector again
+map: maps/test.map
+engine: godot
+date: 2026-11-05 10:59:57
+frame: 333
+camera: 239.35 -102.54 58.52
+angles: 26.60 48.18 0.00
+forward: 0.60 0.67 -0.45
+floor_below: 34.69
+aim_hit: 307.80 -26.03 7.12
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 114.8
+aim_object: dude_zombie_axe_laying#4 type 203 pic 1195 stat 6
+aim_texture: 
+player_origin: 239.44 -102.35 34.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 239.4 -102.3 34.7 48.2 26.6 16
+screenshot: data/bugs/20261105-105957.png
+recording: data/bugs/20261105-105957.rec (play 20261105-105957)

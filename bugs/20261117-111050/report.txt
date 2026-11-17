@@ -1,0 +1,21 @@
+id: 20261117-111050
+description: performance issues standing here
+map: maps/sevict.map
+engine: godot
+date: 2026-11-17 11:10:50
+frame: 659
+camera: 3370.90 -3500.27 329.57
+angles: 12.67 116.16 0.00
+forward: -0.43 0.88 -0.22
+floor_below: 272.53
+aim_hit: 3008.53 -2762.56 144.76
+aim_normal: 1.00 0.00 0.00
+aim_distance: 842.4
+aim_object: decoration#213 type 0 pic 465 stat 0
+aim_texture: 
+player_origin: 3370.90 -3500.27 306.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 3370.9 -3500.3 272.5 116.2 12.7 203
+screenshot: data/bugs/20261117-111050.png
+recording: data/bugs/20261117-111050.rec (play 20261117-111050)

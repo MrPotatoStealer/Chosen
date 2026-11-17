@@ -1,0 +1,21 @@
+id: 20261020-105949
+description: how do I swim up and down?
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 10:59:49
+frame: 1894
+camera: -3563.61 -1329.88 -106.40
+angles: 11.95 280.49 0.00
+forward: 0.18 -0.96 -0.21
+floor_below: -185.97
+aim_hit: -3495.14 -1699.69 -185.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 384.4
+aim_object: world
+aim_texture: blood/0270
+player_origin: -3563.97 -1329.26 -127.67
+player_health: 179
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -3564.0 -1329.3 -186.0 280.5 11.9
+screenshot: data/bugs/20261020-105949.png
+recording: data/bugs/20261020-105949.rec (play 20261020-105949)

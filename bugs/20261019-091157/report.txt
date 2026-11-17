@@ -1,0 +1,21 @@
+id: 20261019-091157
+description: no keys to change hud size
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:11:57
+frame: 1497
+camera: -924.88 -2080.00 160.74
+angles: 0.26 359.21 0.00
+forward: 1.00 -0.01 -0.00
+floor_below: 104.03
+aim_hit: -832.03 -2081.28 160.31
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 92.9
+aim_object: world
+aim_texture: blood/0421
+player_origin: -924.88 -2080.00 138.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp -924.9 -2080.0 104.0 359.2 0.3
+screenshot: data/bugs/20261019-091157.png
+recording: data/bugs/20261019-091157.rec (play 20261019-091157)

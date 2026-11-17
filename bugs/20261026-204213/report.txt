@@ -1,0 +1,21 @@
+id: 20261026-204213
+description: still a push at the start of bridge but not on bridge check recording for exact position
+map: maps/e3m6.map
+engine: godot
+date: 2026-10-26 20:42:13
+frame: 621
+camera: -1850.11 -226.82 -401.12
+angles: 27.10 0.13 0.00
+forward: 0.89 0.00 -0.46
+floor_below: -423.97
+aim_hit: -1805.45 -226.72 -423.97
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 50.2
+aim_object: world
+aim_texture: blood/1005
+player_origin: -1850.12 -225.88 -417.64
+player_health: 0
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1850.1 -225.9 -424.0 0.1 27.1 191
+screenshot: data/bugs/20261026-204213.png
+recording: data/bugs/20261026-204213.rec (play 20261026-204213)

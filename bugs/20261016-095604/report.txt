@@ -1,0 +1,17 @@
+id: 20261016-095604
+description: player pushing against the rotatign door collider prevents it from moving
+map: maps/E1M1.bsp
+date: 2026-10-16 09:56:04
+camera: -86.74 -1773.28 62.59
+angles: 9.82 -6.17 0.00
+forward: 0.98 -0.11 -0.17
+floor_below: 8.03
+aim_hit: -72.82 -1774.79 60.16
+aim_normal: -0.99 -0.16 0.00
+aim_distance: 14.2
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -86.7 -1773.3 8.0 -6.2 9.8
+screenshot: data/bugs/20261016-095604.png

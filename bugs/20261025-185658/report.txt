@@ -1,0 +1,21 @@
+id: 20261025-185658
+description: wall with no collision, lift? compare to NBlood
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-25 18:56:58
+frame: 346
+camera: 1347.59 -1042.90 89.29
+angles: 8.35 267.07 0.00
+forward: -0.05 -0.99 -0.15
+floor_below: 32.03
+aim_hit: 1335.74 -1274.59 55.24
+aim_normal: 0.16 0.99 0.00
+aim_distance: 234.5
+aim_object: blood_sector#5
+aim_texture: blood/0489
+player_origin: 1347.59 -1042.78 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1347.6 -1042.8 32.0 267.1 8.4
+screenshot: data/bugs/20261025-185658.png
+recording: data/bugs/20261025-185658.rec (play 20261025-185658)

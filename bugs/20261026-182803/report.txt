@@ -1,0 +1,21 @@
+id: 20261026-182803
+description: missing lift?
+map: maps/e3m6.map
+engine: godot
+date: 2026-10-26 18:28:03
+frame: 1985
+camera: -1115.71 -657.22 332.32
+angles: 42.78 10.34 0.00
+forward: 0.72 0.13 -0.68
+floor_below: 272.03
+aim_hit: -1043.11 -643.98 264.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 100.5
+aim_object: world
+aim_texture: blood/0491
+player_origin: -1115.72 -657.22 306.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1115.7 -657.2 272.0 10.3 42.8
+screenshot: data/bugs/20261026-182803.png
+recording: data/bugs/20261026-182803.rec (play 20261026-182803)

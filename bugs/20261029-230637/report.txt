@@ -1,0 +1,21 @@
+id: 20261029-230637
+description: look at performance here
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 23:06:37
+frame: 259
+camera: -62.06 -2933.56 -415.21
+angles: 1.52 75.02 0.00
+forward: 0.26 0.97 -0.03
+floor_below: -471.97
+aim_hit: 451.08 -1016.07 -467.81
+aim_normal: -1.00 -0.06 -0.00
+aim_distance: 1985.7
+aim_object: world
+aim_texture: blood/0459_p1
+player_origin: -62.06 -2933.56 -437.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -62.1 -2933.6 -472.0 75.0 1.5 106
+screenshot: data/bugs/20261029-230637.png
+recording: data/bugs/20261029-230637.rec (play 20261029-230637)

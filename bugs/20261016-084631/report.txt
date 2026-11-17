@@ -1,0 +1,17 @@
+id: 20261016-084631
+description: can't shoot thru the window?
+map: maps/e1m1.bsp
+date: 2026-10-16 08:46:31
+camera: 733.78 -1690.22 7.21
+angles: -16.78 -5.56 0.00
+forward: 0.95 -0.09 0.29
+floor_below: -71.97
+aim_hit: 1199.97 -1735.56 148.45
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 489.2
+aim_object: world
+aim_texture: textures/blood/0255
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 733.8 -1690.2 -72.0 -5.6 -16.8
+screenshot: data/bugs/20261016-084631.png

@@ -1,0 +1,17 @@
+id: 20261015-155131
+description: this area is all skewed for some reason, it should be straight.
+map: maps/e1m1.bsp
+date: 2026-10-15 15:51:31
+camera: 1010.11 -3084.47 -55.26
+angles: 0.22 -207.47 0.00
+forward: -0.89 0.46 -0.00
+floor_below: -111.97
+aim_hit: 872.53 -3012.93 -55.86
+aim_normal: 1.00 0.00 0.00
+aim_distance: 155.1
+aim_object: world
+aim_texture: textures/blood/0346
+player_health: 68
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp 1010.1 -3084.5 -112.0 -207.5 0.2
+screenshot: data/bugs/20261015-155131.png

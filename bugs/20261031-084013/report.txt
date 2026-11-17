@@ -1,0 +1,21 @@
+id: 20261031-084013
+description: transparent water bug, missing the portal renderer for the other side
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-31 08:40:13
+frame: 460
+camera: -1519.40 2055.71 140.34
+angles: 43.03 293.39 0.00
+forward: 0.29 -0.67 -0.68
+floor_below: 114.69
+aim_hit: 857.66 -3440.40 -5449.94
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1519.51 2055.71 114.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1519.5 2055.7 114.7 293.4 43.0 209
+screenshot: data/bugs/20261031-084013.png
+recording: data/bugs/20261031-084013.rec (play 20261031-084013)

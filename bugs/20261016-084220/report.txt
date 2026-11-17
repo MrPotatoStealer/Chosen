@@ -1,0 +1,17 @@
+id: 20261016-084220
+description: small gap in geo
+map: maps/e1m1.bsp
+date: 2026-10-16 08:42:20
+camera: 1269.47 -1651.84 47.94
+angles: -8.80 -109.10 0.00
+forward: -0.32 -0.93 0.15
+floor_below: -15.97
+aim_hit: 1238.63 -1740.90 62.53
+aim_normal: 0.86 0.50 0.00
+aim_distance: 95.4
+aim_object: world
+aim_texture: textures/blood/0290
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1269.5 -1651.8 -16.0 -109.1 -8.8
+screenshot: data/bugs/20261016-084220.png

@@ -1,0 +1,21 @@
+id: 20261023-171814
+description: looks like there is a ceiling following along with the train causing a strange issue
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 17:18:14
+frame: 6194
+camera: -2440.97 -2619.62 440.75
+angles: -45.45 170.68 0.00
+forward: -0.69 0.11 0.71
+floor_below: 388.03
+aim_hit: -2539.42 -2603.46 542.11
+aim_normal: 0.71 -0.71 0.00
+aim_distance: 142.2
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -2440.97 -2619.62 422.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2441.0 -2619.6 388.0 170.7 -45.5
+screenshot: data/bugs/20261023-171814.png
+recording: data/bugs/20261023-171814.rec (play 20261023-171814)

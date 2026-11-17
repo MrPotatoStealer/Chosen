@@ -1,0 +1,21 @@
+id: 20261024-182730
+description: slight gap
+map: maps/e2m3.map
+engine: godot
+date: 2026-10-24 18:27:30
+frame: 168
+camera: 2237.15 -2271.45 22.69
+angles: -27.46 87.73 0.00
+forward: 0.04 0.89 0.46
+floor_below: -31.97
+aim_hit: 2242.20 -2144.03 88.95
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 143.7
+aim_object: world
+aim_texture: blood/0091
+player_origin: 2237.15 -2271.45 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2237.1 -2271.5 -32.0 87.7 -27.5
+screenshot: data/bugs/20261024-182730.png
+recording: data/bugs/20261024-182730.rec (play 20261024-182730)

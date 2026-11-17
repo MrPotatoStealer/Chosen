@@ -1,0 +1,21 @@
+id: 20261027-202333
+description: door missing collision
+map: maps/e4m2.map
+engine: godot
+date: 2026-10-27 20:23:33
+frame: 1000
+camera: 189.82 739.31 -39.26
+angles: 0.81 287.26 0.00
+forward: 0.30 -0.95 -0.01
+floor_below: -95.97
+aim_hit: 200.79 704.03 -39.78
+aim_normal: 0.00 1.00 0.00
+aim_distance: 36.9
+aim_object: blood_sector#9(sector152)
+aim_texture: blood/0199_g0
+player_origin: 189.78 739.32 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 189.8 739.3 -96.0 287.3 0.8 42
+screenshot: data/bugs/20261027-202333.png
+recording: data/bugs/20261027-202333.rec (play 20261027-202333)

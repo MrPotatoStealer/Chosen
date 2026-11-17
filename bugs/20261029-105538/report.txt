@@ -1,0 +1,21 @@
+id: 20261029-105538
+description: when looking this way the trees cut off, but not if I look directly at them
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:55:38
+frame: 1319
+camera: -234.80 -651.08 -396.00
+angles: -9.99 235.80 0.00
+forward: -0.55 -0.81 0.17
+floor_below: -451.97
+aim_hit: -841.59 -1543.93 -205.92
+aim_normal: 0.93 0.37 0.00
+aim_distance: 1096.1
+aim_object: world
+aim_texture: blood/0459_p1
+player_origin: -234.80 -651.08 -417.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -234.8 -651.1 -452.0 235.8 -10.0 561
+screenshot: data/bugs/20261029-105538.png
+recording: data/bugs/20261029-105538.rec (play 20261029-105538)

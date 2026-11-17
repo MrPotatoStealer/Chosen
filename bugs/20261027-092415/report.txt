@@ -1,0 +1,21 @@
+id: 20261027-092415
+description: collision on moving platform here stopped working
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-27 09:24:15
+frame: 4736
+camera: 1118.64 -859.46 -64.33
+angles: 35.63 -0.00 0.00
+forward: 0.81 -0.00 -0.58
+floor_below: -231.97
+aim_hit: 1279.97 -859.46 -179.94
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 198.5
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 1118.64 -859.46 -81.64
+player_health: 0
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1118.6 -859.5 -232.0 -0.0 35.6 211
+screenshot: data/bugs/20261027-092415.png
+recording: data/bugs/20261027-092415.rec (play 20261027-092415)

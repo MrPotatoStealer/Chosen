@@ -1,0 +1,21 @@
+id: 20261019-190046
+description: duplicate doors and missing?
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:00:46
+frame: 867
+camera: 445.28 2033.72 24.71
+angles: -0.20 116.14 0.00
+forward: -0.44 0.90 0.00
+floor_below: -31.97
+aim_hit: 386.90 2152.69 25.16
+aim_normal: 0.24 -0.97 0.00
+aim_distance: 132.5
+aim_object: blood_sector#6(sector71)
+aim_texture: tools/caulk
+player_origin: 445.28 2033.72 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 445.3 2033.7 -32.0 116.1 -0.2
+screenshot: data/bugs/20261019-190046.png
+recording: data/bugs/20261019-190046.rec (play 20261019-190046)

@@ -1,0 +1,21 @@
+id: 20261023-114451
+description: door won't open
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 11:44:51
+frame: 1093
+camera: -80.21 -2406.56 88.49
+angles: 4.78 267.04 0.00
+forward: -0.05 -1.00 -0.08
+floor_below: 32.03
+aim_hit: -83.59 -2471.97 83.01
+aim_normal: 0.00 1.00 -0.00
+aim_distance: 65.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -80.28 -2406.66 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -80.3 -2406.7 32.0 267.0 4.8
+screenshot: data/bugs/20261023-114451.png
+recording: data/bugs/20261023-114451.rec (play 20261023-114451)

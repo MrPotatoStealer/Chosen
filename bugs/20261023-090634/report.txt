@@ -1,0 +1,21 @@
+id: 20261023-090634
+description: whole in geo after iceblock move?
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:06:34
+frame: 1020
+camera: -3019.70 1998.06 37.99
+angles: 5.93 60.98 0.00
+forward: 0.48 0.87 -0.10
+floor_below: -55.97
+aim_hit: -2974.90 2078.83 28.40
+aim_normal: -0.12 -0.99 -0.00
+aim_distance: 92.9
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -3019.69 1998.04 16.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -3019.7 1998.0 -56.0 61.0 5.9
+screenshot: data/bugs/20261023-090634.png
+recording: data/bugs/20261023-090634.rec (play 20261023-090634)

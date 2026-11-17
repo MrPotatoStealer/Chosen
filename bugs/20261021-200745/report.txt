@@ -1,0 +1,21 @@
+id: 20261021-200745
+description: differen swimming speeds here and next to it, I make anothe report
+map: maps/e2m2.map
+engine: godot
+date: 2026-10-21 20:07:45
+frame: 456
+camera: 649.94 358.47 -2.83
+angles: 11.75 91.80 0.00
+forward: -0.03 0.98 -0.20
+floor_below: -71.97
+aim_hit: 646.13 479.97 -28.11
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 124.2
+aim_object: world
+aim_texture: blood/0281_p9
+player_origin: 649.91 358.96 -24.52
+player_health: 193
+video: 3440x1440 fullscreen 1 hudsize 3
+goto: warp 649.9 359.0 -72.0 91.8 11.7
+screenshot: data/bugs/20261021-200745.png
+recording: data/bugs/20261021-200745.rec (play 20261021-200745)

@@ -1,0 +1,21 @@
+id: 20261023-224613
+description: why is there two keys here?
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-23 22:46:13
+frame: 3167
+camera: 711.03 -885.97 -77.61
+angles: 23.15 173.26 0.00
+forward: -0.91 0.11 -0.39
+floor_below: -135.97
+aim_hit: 575.49 -869.94 -135.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 148.4
+aim_object: world
+aim_texture: blood_fxhide/0230
+player_origin: 711.03 -885.97 -101.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 711.0 -886.0 -136.0 173.3 23.1
+screenshot: data/bugs/20261023-224613.png
+recording: data/bugs/20261023-224613.rec (play 20261023-224613)

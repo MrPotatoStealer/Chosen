@@ -1,0 +1,17 @@
+id: 20261016-084649
+description: also can't jump thru the window
+map: maps/e1m1.bsp
+date: 2026-10-16 08:46:49
+camera: 969.41 -1729.41 62.07
+angles: -27.71 -358.03 0.00
+forward: 0.88 0.03 0.46
+floor_below: 8.03
+aim_hit: 1186.16 -1721.96 175.97
+aim_normal: -0.00 0.00 -1.00
+aim_distance: 245.0
+aim_object: world
+aim_texture: textures/blood/0255
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 969.4 -1729.4 8.0 -358.0 -27.7
+screenshot: data/bugs/20261016-084649.png

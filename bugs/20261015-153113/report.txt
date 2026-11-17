@@ -1,0 +1,17 @@
+id: 20261015-153113
+description: whole in map? misaligned vertices?
+map: maps/e1m1.bsp
+date: 2026-10-15 15:31:13
+camera: 151.31 -3058.53 -18.59
+angles: 24.53 -264.64 0.00
+forward: -0.09 0.91 -0.42
+floor_below: -87.97
+aim_hit: 137.53 -2911.79 -85.86
+aim_normal: -0.63 -0.78 -0.00
+aim_distance: 162.0
+aim_object: world
+aim_texture: textures/blood/0361
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 151.3 -3058.5 -88.0 -264.6 24.5
+screenshot: data/bugs/20261015-153113.png

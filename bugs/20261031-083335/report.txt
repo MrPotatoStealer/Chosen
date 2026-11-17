@@ -1,0 +1,21 @@
+id: 20261031-083335
+description: fame is seen here when building is not destroyed
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 08:33:35
+frame: 1335
+camera: 674.69 -2637.17 -56.10
+angles: -11.42 113.82 0.00
+forward: -0.40 0.90 0.20
+floor_below: -77.31
+aim_hit: -2568.43 4708.65 1565.63
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 674.69 -2637.17 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 674.7 -2637.2 -77.3 113.8 -11.4 65
+screenshot: data/bugs/20261031-083335.png
+recording: data/bugs/20261031-083335.rec (play 20261031-083335)

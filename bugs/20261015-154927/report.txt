@@ -1,0 +1,17 @@
+id: 20261015-154927
+description: this part of the hedge should look a bit different from the rest to hint that its a secret behind
+map: maps/e1m1.bsp
+date: 2026-10-15 15:49:27
+camera: -372.58 -2585.53 104.71
+angles: -0.10 -296.18 0.00
+forward: 0.44 0.90 0.00
+floor_below: 48.03
+aim_hit: -297.12 -2432.03 105.02
+aim_normal: -0.00 -1.00 -0.00
+aim_distance: 171.0
+aim_object: world
+aim_texture: textures/blood/0329
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -372.6 -2585.5 48.0 -296.2 -0.1
+screenshot: data/bugs/20261015-154927.png

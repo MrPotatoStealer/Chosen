@@ -1,0 +1,21 @@
+id: 20261102-083959
+description: lamps are only half lit, half bright and half dull
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-02 08:39:59
+frame: 945
+camera: -455.55 -2372.75 104.21
+angles: -7.00 190.04 0.00
+forward: -0.98 -0.17 0.12
+floor_below: 82.69
+aim_hit: -519.97 -2384.16 112.24
+aim_normal: 1.00 0.00 0.00
+aim_distance: 65.9
+aim_object: decoration#15 type 0 pic 640 stat 0
+aim_texture: 
+player_origin: -455.55 -2372.75 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp -455.5 -2372.8 82.7 190.0 -7.0 12
+screenshot: data/bugs/20261102-083959.png
+recording: data/bugs/20261102-083959.rec (play 20261102-083959)

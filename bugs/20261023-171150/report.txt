@@ -1,0 +1,21 @@
+id: 20261023-171150
+description: collicion is really wonky around the tapering edges when getting out of the water
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 17:11:50
+frame: 868
+camera: -1408.18 1843.79 114.58
+angles: 10.02 356.37 0.00
+forward: 0.98 -0.06 -0.17
+floor_below: 71.34
+aim_hit: -1321.83 1838.31 99.30
+aim_normal: -0.41 0.00 0.91
+aim_distance: 87.9
+aim_object: world
+aim_texture: blood/2448
+player_origin: -1408.02 1843.50 93.41
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1408.0 1843.5 71.3 356.4 10.0
+screenshot: data/bugs/20261023-171150.png
+recording: data/bugs/20261023-171150.rec (play 20261023-171150)

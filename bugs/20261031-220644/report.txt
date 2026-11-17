@@ -1,0 +1,21 @@
+id: 20261031-220644
+description: would be interesting if we could somehow make the fog feel more pixelated to fit better with the style of the game.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 22:06:44
+frame: 1884
+camera: 774.23 -2717.52 -28.71
+angles: 0.86 355.31 0.00
+forward: 1.00 -0.08 -0.01
+floor_below: -77.31
+aim_hit: 8937.93 -3386.72 -151.39
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 542.55 -2737.45 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 542.5 -2737.4 -77.3 355.3 0.9 65
+screenshot: data/bugs/20261031-220644.png
+recording: data/bugs/20261031-220644.rec (play 20261031-220644)

@@ -1,0 +1,18 @@
+id: 20261018-212040
+description: should this hallway be this dark?
+map: maps/E1M2.bsp
+date: 2026-10-18 21:20:40
+camera: -938.91 -2699.47 312.77
+angles: 0.57 -104.93 0.00
+forward: -0.26 -0.97 -0.01
+floor_below: 256.03
+aim_hit: -1007.97 -2958.51 310.11
+aim_normal: 1.00 0.00 0.00
+aim_distance: 268.1
+aim_object: world
+aim_texture: textures/blood/0130
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -938.9 -2699.5 256.0 -104.9 0.6
+screenshot: data/bugs/20261018-212040.png
+recording: data/bugs/20261018-212040.rec (replaybug 20261018-212040)

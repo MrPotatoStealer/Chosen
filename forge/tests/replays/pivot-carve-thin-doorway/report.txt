@@ -1,0 +1,12 @@
+id: 20261107-190252
+description: Pivot door should work here?
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-07 19:11:58
+view: 2D Sectors
+shown: Edit
+camera: 0.00 -0.00 0.00
+angles: -0.00 90.00 0.00
+build_camera: 0 0 -0 angle 1536 sector -1
+view2d: 11428.65 -1309.34 zoom 0.1650
+screenshot: screenshot.png

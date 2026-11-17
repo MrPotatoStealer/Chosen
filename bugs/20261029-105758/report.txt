@@ -1,0 +1,21 @@
+id: 20261029-105758
+description: lots of flickering geo when riding on boat (immortal or it will kill me)
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:57:58
+frame: 1552
+camera: -35.60 -1367.30 -414.33
+angles: 14.14 98.43 0.00
+forward: -0.14 0.96 -0.24
+floor_below: -471.97
+aim_hit: -73.79 -1109.62 -479.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 268.6
+aim_object: world
+aim_texture: blood/2915_p1
+player_origin: -36.04 -1359.66 -437.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -36.0 -1359.7 -472.0 98.4 14.1 148
+screenshot: data/bugs/20261029-105758.png
+recording: data/bugs/20261029-105758.rec (play 20261029-105758)

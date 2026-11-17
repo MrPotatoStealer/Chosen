@@ -1,0 +1,21 @@
+id: 20261101-121434
+description: AO needs to take underwater fog intro consideration just like normal fog
+map: maps/e2m1.map
+engine: godot
+date: 2026-11-01 12:14:34
+frame: 3020
+camera: 4486.03 -534.45 125.26
+angles: 8.84 228.86 0.00
+forward: -0.65 -0.74 -0.15
+floor_below: 104.20
+aim_hit: -839.63 -6630.35 -1134.21
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3902 stat 6
+aim_texture: 
+player_origin: 4486.03 -534.43 104.20
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4486.0 -534.4 104.2 228.9 8.8 134
+screenshot: data/bugs/20261101-121434.png
+recording: data/bugs/20261101-121434.rec (play 20261101-121434)

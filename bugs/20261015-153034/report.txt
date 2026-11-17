@@ -1,0 +1,17 @@
+id: 20261015-153034
+description: Incorrect texture, should be sky, instead its some sort of wood
+map: maps/e1m1.bsp
+date: 2026-10-15 15:30:34
+camera: 296.84 -2850.53 -56.48
+angles: -13.46 -340.24 0.00
+forward: 0.92 0.33 0.23
+floor_below: -111.97
+aim_hit: 644.72 -2725.53 31.97
+aim_normal: -0.00 -0.00 -1.00
+aim_distance: 380.1
+aim_object: world
+aim_texture: textures/blood/0504
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 296.8 -2850.5 -112.0 -340.2 -13.5
+screenshot: data/bugs/20261015-153034.png

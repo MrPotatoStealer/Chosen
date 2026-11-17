@@ -1,0 +1,1 @@
+The 3D preview's slope mode on a floor in another layer than the one edited: refused without a word (the status spoke of moving sectors); the 3D preview edits what it shows, layers or not

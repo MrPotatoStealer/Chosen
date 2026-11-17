@@ -1,0 +1,21 @@
+id: 20261026-154529
+description: still geo here that should not be there
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 15:45:29
+frame: 1271
+camera: 18.68 -2328.85 232.03
+angles: 9.98 278.02 0.00
+forward: 0.14 -0.98 -0.17
+floor_below: 68.03
+aim_hit: 24.19 -2367.97 225.08
+aim_normal: 0.00 1.00 0.00
+aim_distance: 40.1
+aim_object: world
+aim_texture: blood/0130
+player_origin: 1875.10 -927.00 190.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1875.1 -927.0 68.0 278.0 10.0
+screenshot: data/bugs/20261026-154529.png
+recording: data/bugs/20261026-154529.rec (play 20261026-154529)

@@ -1,0 +1,21 @@
+id: 20261031-220911
+description: train sky sector is making a strange cut in wall/ or renderign is strange here
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-31 22:09:11
+frame: 900
+camera: -2623.57 -1507.77 537.69
+angles: 0.00 180.00 0.00
+forward: -1.00 -0.00 -0.00
+floor_below: 282.69
+aim_hit: -10815.57 -1507.77 537.69
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 576.00 -384.00 282.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 576.0 -384.0 282.7 180.0 0.0 242
+screenshot: data/bugs/20261031-220911.png
+recording: data/bugs/20261031-220911.rec (play 20261031-220911)

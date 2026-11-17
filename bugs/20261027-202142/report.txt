@@ -1,0 +1,21 @@
+id: 20261027-202142
+description: thunder bug sound like the sound is crackling
+map: maps/e4m1.map
+engine: godot
+date: 2026-10-27 20:21:42
+frame: 4168
+camera: 605.63 139.27 -135.41
+angles: 6.91 356.32 0.00
+forward: 0.99 -0.06 -0.12
+floor_below: -191.97
+aim_hit: 959.97 116.51 -178.42
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 357.7
+aim_object: world
+aim_texture: blood/0200
+player_origin: 604.50 139.33 -157.89
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 604.5 139.3 -192.0 356.3 6.9 74
+screenshot: data/bugs/20261027-202142.png
+recording: data/bugs/20261027-202142.rec (play 20261027-202142)

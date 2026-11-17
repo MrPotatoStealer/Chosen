@@ -1,0 +1,21 @@
+id: 20261029-105904
+description: AO looks strange on this level, something we can do to take the fog into consideration when applying the AO?
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:59:04
+frame: 2380
+camera: 1188.72 1988.88 -259.74
+angles: -6.25 15.40 0.00
+forward: 0.96 0.26 0.11
+floor_below: -315.97
+aim_hit: 2367.97 2313.75 -125.76
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 1230.5
+aim_object: world
+aim_texture: blood/0055_p1
+player_origin: 1188.72 1988.88 -281.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1188.7 1988.9 -316.0 15.4 -6.3 490
+screenshot: data/bugs/20261029-105904.png
+recording: data/bugs/20261029-105904.rec (play 20261029-105904)

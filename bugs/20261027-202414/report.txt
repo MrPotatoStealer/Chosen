@@ -1,0 +1,21 @@
+id: 20261027-202414
+description: hole in geo
+map: maps/e4m2.map
+engine: godot
+date: 2026-10-27 20:24:14
+frame: 1979
+camera: -43.24 132.34 -95.72
+angles: 42.59 263.24 0.00
+forward: -0.09 -0.73 -0.68
+floor_below: -155.97
+aim_hit: -50.96 67.25 -155.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 89.0
+aim_object: world
+aim_texture: blood/0044
+player_origin: -43.24 132.34 -121.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -43.2 132.3 -156.0 263.2 42.6 18
+screenshot: data/bugs/20261027-202414.png
+recording: data/bugs/20261027-202414.rec (play 20261027-202414)

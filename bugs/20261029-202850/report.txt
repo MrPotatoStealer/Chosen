@@ -1,0 +1,21 @@
+id: 20261029-202850
+description: missing geo when train comes in, only when moving in some areas
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-29 20:28:50
+frame: 1143
+camera: -2265.75 -2217.50 444.66
+angles: -0.45 157.55 0.00
+forward: -0.92 0.38 0.01
+floor_below: 388.03
+aim_hit: -2513.53 -2115.13 446.76
+aim_normal: 0.71 -0.71 0.00
+aim_distance: 268.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -2265.75 -2217.50 422.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2265.8 -2217.5 388.0 157.6 -0.4 269
+screenshot: data/bugs/20261029-202850.png
+recording: data/bugs/20261029-202850.rec (play 20261029-202850)

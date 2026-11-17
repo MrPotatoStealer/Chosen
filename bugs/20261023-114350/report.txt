@@ -1,0 +1,21 @@
+id: 20261023-114350
+description: falling down the grave on start, can't get out
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 11:43:50
+frame: 143
+camera: -936.00 -2080.00 -89.90
+angles: -33.90 359.21 0.00
+forward: 0.83 -0.01 0.56
+floor_below: -143.97
+aim_hit: -892.16 -2080.61 -60.43
+aim_normal: -1.00 0.00 0.00
+aim_distance: 52.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -936.00 -2080.00 -109.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -936.0 -2080.0 -144.0 359.2 -33.9
+screenshot: data/bugs/20261023-114350.png
+recording: data/bugs/20261023-114350.rec (play 20261023-114350)

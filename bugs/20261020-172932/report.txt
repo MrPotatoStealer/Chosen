@@ -1,0 +1,21 @@
+id: 20261020-172932
+description: missing collision
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 17:29:32
+frame: 995
+camera: 1388.03 -949.25 -102.68
+angles: 9.37 296.49 0.00
+forward: 0.44 -0.88 -0.16
+floor_below: -159.97
+aim_hit: 1419.82 -1013.04 -114.45
+aim_normal: -0.95 -0.32 0.00
+aim_distance: 72.2
+aim_object: decoration#147 type 0 pic 332 stat 0
+aim_texture: 
+player_origin: 1388.03 -949.09 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1388.0 -949.1 -160.0 296.5 9.4
+screenshot: data/bugs/20261020-172932.png
+recording: data/bugs/20261020-172932.rec (play 20261020-172932)

@@ -1,0 +1,17 @@
+id: 20261016-154112
+description: you can stand on the small collision here, in NBlood it should not be possible and you fall to ground
+map: maps/E1M1.bsp
+date: 2026-10-16 15:41:12
+camera: 659.72 -849.03 84.16
+angles: 54.64 -311.98 0.00
+forward: 0.39 0.43 -0.82
+floor_below: -19.97
+aim_hit: 671.97 -835.42 58.36
+aim_normal: -1.00 -0.00 -0.00
+aim_distance: 31.6
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 659.7 -849.0 -20.0 -312.0 54.6
+screenshot: data/bugs/20261016-154112.png

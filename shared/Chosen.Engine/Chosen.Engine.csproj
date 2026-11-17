@@ -1,0 +1,10 @@
+<!-- Chosen core: original code. The engine core shared by the game and Chosen Forge: geometry and map data written
+     here, nothing copied or translated from Build, NBlood, xmapedit or UDB (PLAN.md "Clean core"). -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Chosen.Shared.Engine</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+</Project>

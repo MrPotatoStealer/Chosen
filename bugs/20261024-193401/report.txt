@@ -1,0 +1,21 @@
+id: 20261024-193401
+description: this room is not correct, collision in the way so can't even enter
+map: maps/e1m5.map
+engine: godot
+date: 2026-10-24 19:34:01
+frame: 610
+camera: -412.39 -389.09 -101.39
+angles: 25.76 183.56 0.00
+forward: -0.90 -0.06 -0.43
+floor_below: -159.97
+aim_hit: -447.97 -391.31 -118.59
+aim_normal: 1.00 0.00 0.00
+aim_distance: 39.6
+aim_object: world
+aim_texture: blood/0406_p9
+player_origin: -412.47 -389.09 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -412.5 -389.1 -160.0 183.6 25.8
+screenshot: data/bugs/20261024-193401.png
+recording: data/bugs/20261024-193401.rec (play 20261024-193401)

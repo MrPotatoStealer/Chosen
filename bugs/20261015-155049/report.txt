@@ -1,0 +1,17 @@
+id: 20261015-155049
+description: incorrect texture, should be same as the walls next to it
+map: maps/e1m1.bsp
+date: 2026-10-15 15:50:49
+camera: 689.24 -2539.97 -57.42
+angles: -23.21 -292.98 0.00
+forward: 0.36 0.85 0.39
+floor_below: -111.97
+aim_hit: 775.71 -2336.03 37.54
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 241.0
+aim_object: world
+aim_texture: textures/blood/0211
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp 689.2 -2540.0 -112.0 -293.0 -23.2
+screenshot: data/bugs/20261015-155049.png

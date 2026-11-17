@@ -1,0 +1,21 @@
+id: 20261029-105619
+description: got crushed trying to ride the boat
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:56:19
+frame: 2210
+camera: 75.25 -2976.44 -466.94
+angles: 15.42 -0.00 0.00
+forward: 0.96 -0.00 -0.27
+floor_below: -479.97
+aim_hit: 122.47 -2976.44 -479.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 49.0
+aim_object: world
+aim_texture: blood/2915_p1
+player_origin: -2804.75 -3040.44 -130.89
+player_health: 0
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2804.7 -3040.4 -480.0 -0.0 15.4 757
+screenshot: data/bugs/20261029-105619.png
+recording: data/bugs/20261029-105619.rec (play 20261029-105619)

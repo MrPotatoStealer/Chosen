@@ -1,0 +1,21 @@
+id: 20261101-133417
+description: remove moving sky
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 13:34:17
+frame: 2405
+camera: -84.69 -2801.56 104.43
+angles: -3.76 128.63 0.00
+forward: -0.62 0.78 0.07
+floor_below: 82.69
+aim_hit: -5188.25 3583.86 641.93
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -84.69 -2801.56 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -84.7 -2801.6 82.7 128.6 -3.8 100
+screenshot: data/bugs/20261101-133417.png
+recording: data/bugs/20261101-133417.rec (play 20261101-133417)

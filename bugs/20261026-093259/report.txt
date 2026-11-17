@@ -1,0 +1,21 @@
+id: 20261026-093259
+description: carousel is not rotating
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-26 09:32:59
+frame: 70
+camera: 660.94 -2118.07 -103.22
+angles: 0.86 45.46 0.00
+forward: 0.70 0.71 -0.01
+floor_below: -159.97
+aim_hit: 924.87 -1849.90 -108.85
+aim_normal: -0.20 -0.98 -0.00
+aim_distance: 376.3
+aim_object: blood_sector#20(sector321)
+aim_texture: blood/1095
+player_origin: 660.94 -2118.07 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 660.9 -2118.1 -160.0 45.5 0.9
+screenshot: data/bugs/20261026-093259.png
+recording: data/bugs/20261026-093259.rec (play 20261026-093259)

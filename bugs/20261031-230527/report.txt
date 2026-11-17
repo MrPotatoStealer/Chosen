@@ -1,0 +1,21 @@
+id: 20261031-230527
+description: secondary fire on napalm is not correct, should be like a grenade
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-31 23:05:27
+frame: 1352
+camera: -869.93 281.04 24.51
+angles: -3.10 267.80 0.00
+forward: -0.04 -1.00 0.05
+floor_below: 2.69
+aim_hit: -1184.16 -7892.92 467.81
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -869.75 281.11 2.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -869.7 281.1 2.7 267.8 -3.1 234
+screenshot: data/bugs/20261031-230527.png
+recording: data/bugs/20261031-230527.rec (play 20261031-230527)

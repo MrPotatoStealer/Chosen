@@ -1,0 +1,17 @@
+id: 20261015-154734
+description: you can see distance objects in the sky, there needs to be some occlusion of the sky boxes as well to prevent this
+map: maps/e1m1.bsp
+date: 2026-10-15 15:47:34
+camera: -129.03 -2775.66 103.18
+angles: -17.06 -290.24 0.00
+forward: 0.33 0.90 0.29
+floor_below: 48.03
+aim_hit: -47.01 -2553.15 175.97
+aim_normal: -0.00 0.00 -1.00
+aim_distance: 248.1
+aim_object: world
+aim_texture: textures/blood_sky/3678
+player_health: 96
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -129.0 -2775.7 48.0 -290.2 -17.1
+screenshot: data/bugs/20261015-154734.png

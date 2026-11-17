@@ -1,0 +1,21 @@
+id: 20261023-181630
+description: still some strange sky geo following along with the train you can see it on the wall behind changing height, it should look to be all the same height
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 18:16:30
+frame: 350
+camera: -2451.47 -2627.55 442.00
+angles: -34.91 202.51 0.00
+forward: -0.76 -0.31 0.57
+floor_below: 388.03
+aim_hit: -2618.20 -2696.63 567.97
+aim_normal: -0.00 0.00 -1.00
+aim_distance: 220.1
+aim_object: blood_sector#9(sector10)
+aim_texture: sky/3678_y8
+player_origin: -2451.47 -2627.53 422.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2451.5 -2627.5 388.0 202.5 -34.9
+screenshot: data/bugs/20261023-181630.png
+recording: data/bugs/20261023-181630.rec (play 20261023-181630)

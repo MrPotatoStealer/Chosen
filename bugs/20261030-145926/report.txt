@@ -1,0 +1,21 @@
+id: 20261030-145926
+description: sky is affected by fogs light
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-30 14:59:26
+frame: 401
+camera: -392.52 -2553.25 102.83
+angles: -22.70 345.81 0.00
+forward: 0.89 -0.23 0.39
+floor_below: 48.03
+aim_hit: -223.04 -2596.10 175.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 189.5
+aim_object: world
+aim_texture: sky/3678_y8
+player_origin: -392.02 -2553.81 82.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -392.0 -2553.8 48.0 345.8 -22.7 100
+screenshot: data/bugs/20261030-145926.png
+recording: data/bugs/20261030-145926.rec (play 20261030-145926)

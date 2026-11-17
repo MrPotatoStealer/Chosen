@@ -1,0 +1,21 @@
+id: 20261025-160648
+description: teleport not working?
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-25 16:06:48
+frame: 245
+camera: 523.62 18.83 -36.80
+angles: 40.66 8.75 0.00
+forward: 0.75 0.12 -0.65
+floor_below: -95.97
+aim_hit: 591.71 29.32 -95.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 90.8
+aim_object: world
+aim_texture: blood/2039
+player_origin: 523.34 19.00 -61.28
+player_health: 71
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 523.3 19.0 -96.0 8.8 40.7
+screenshot: data/bugs/20261025-160648.png
+recording: data/bugs/20261025-160648.rec (play 20261025-160648)

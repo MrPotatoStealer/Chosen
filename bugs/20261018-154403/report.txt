@@ -1,0 +1,18 @@
+id: 20261018-154403
+description: I opened the secret but the collision is preventing me from getting the healthpack
+map: maps/E1M2.bsp
+date: 2026-10-18 15:44:03
+camera: -2012.41 -1664.53 234.06
+angles: 14.86 -177.13 0.00
+forward: -0.97 -0.05 -0.26
+floor_below: 176.03
+aim_hit: -2095.97 -1668.72 211.86
+aim_normal: 1.00 0.00 0.00
+aim_distance: 86.6
+aim_object: world
+aim_texture: textures/blood/0130
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -2012.4 -1664.5 176.0 -177.1 14.9
+screenshot: data/bugs/20261018-154403.png
+recording: data/bugs/20261018-154403.rec (replaybug 20261018-154403)

@@ -1,0 +1,21 @@
+id: 20261101-151545
+description: still stuttering framerate here, look into it
+map: maps/cp01.map
+engine: godot
+date: 2026-11-01 15:15:45
+frame: 150
+camera: -993.81 -1050.12 44.63
+angles: -0.86 0.24 0.00
+forward: 1.00 0.00 0.01
+floor_below: 22.69
+aim_hit: 7197.20 -1015.82 167.30
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -993.81 -1050.12 22.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -993.8 -1050.1 22.7 0.2 -0.9 629
+screenshot: data/bugs/20261101-151545.png
+recording: data/bugs/20261101-151545.rec (play 20261101-151545)

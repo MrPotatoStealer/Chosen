@@ -1,0 +1,17 @@
+id: 20261015-163841
+description: this whole in the map is still not fixed, I can see the sky between the ground, for easier replication make sky purple or something while testing.
+map: maps/e1m1.bsp
+date: 2026-10-15 16:38:41
+camera: 145.78 -3007.96 -28.41
+angles: 29.87 -262.75 0.00
+forward: -0.11 0.86 -0.50
+floor_below: -87.97
+aim_hit: 133.08 -2908.17 -86.18
+aim_normal: -0.63 -0.78 -0.00
+aim_distance: 116.0
+aim_object: world
+aim_texture: textures/blood/0361_p6
+player_health: 48
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 145.8 -3008.0 -88.0 -262.7 29.9
+screenshot: data/bugs/20261015-163841.png

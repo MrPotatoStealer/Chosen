@@ -1,0 +1,17 @@
+id: 20261015-120249
+description: wall is missing texture, I can see through the wall. Collision seems to be correct
+map: maps/e1m1.bsp
+date: 2026-10-15 12:02:49
+camera: -107.00 -2542.00 104.97
+angles: 2.85 -38.71 0.00
+forward: 0.78 -0.62 -0.05
+floor_below: 48.03
+aim_hit: 47.94 -2666.18 95.08
+aim_normal: -1.00 0.00 0.00
+aim_distance: 198.8
+aim_object: world
+aim_texture: textures/blood/0361
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -107.0 -2542.0 48.0 -38.7 2.8
+screenshot: data/bugs/20261015-120249.png

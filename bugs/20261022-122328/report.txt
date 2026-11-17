@@ -1,0 +1,21 @@
+id: 20261022-122328
+description: here is where I saw the AO in the sky
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-22 12:23:28
+frame: 1203
+camera: 571.98 -2682.60 -58.18
+angles: -36.56 329.97 0.00
+forward: 0.70 -0.40 0.60
+floor_below: -111.97
+aim_hit: 677.21 -2743.42 31.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 151.3
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 571.98 -2682.60 -77.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 572.0 -2682.6 -112.0 330.0 -36.6
+screenshot: data/bugs/20261022-122328.png
+recording: data/bugs/20261022-122328.rec (play 20261022-122328)

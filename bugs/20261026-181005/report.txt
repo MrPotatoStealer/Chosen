@@ -1,0 +1,21 @@
+id: 20261026-181005
+description: does sound travel correctly through portals?
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-26 18:10:05
+frame: 5413
+camera: 5081.22 3859.53 -481.06
+angles: 1.45 285.05 0.00
+forward: 0.26 -0.97 -0.03
+floor_below: -487.97
+aim_hit: 5152.02 3596.17 -487.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 272.8
+aim_object: world
+aim_texture: blood/1120
+player_origin: 4505.16 4915.72 -342.60
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4505.2 4915.7 -488.0 285.0 1.5
+screenshot: data/bugs/20261026-181005.png
+recording: data/bugs/20261026-181005.rec (play 20261026-181005)

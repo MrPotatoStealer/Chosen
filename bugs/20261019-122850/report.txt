@@ -1,0 +1,21 @@
+id: 20261019-122850
+description: fire is not animating, prerender textures like in darkplaces or convert it to an actual shader. Check NBlood how it's originally done
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:28:50
+frame: 3202
+camera: 949.72 -1935.72 104.70
+angles: -0.33 319.51 0.00
+forward: 0.76 -0.65 0.01
+floor_below: 48.03
+aim_hit: 1146.80 -2103.97 106.19
+aim_normal: 0.00 1.00 0.00
+aim_distance: 259.1
+aim_object: world
+aim_texture: blood_fxhide/0200_p8
+player_origin: 949.72 -1935.72 82.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 949.7 -1935.7 48.0 319.5 -0.3
+screenshot: data/bugs/20261019-122850.png
+recording: data/bugs/20261019-122850.rec (play 20261019-122850)

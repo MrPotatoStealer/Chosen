@@ -1,0 +1,13 @@
+# The rendering steps between game frames (bugs.py motion): each case is held at several blends between two game frames.
+# <bug id> | <when> | <what moves there>
+# when: a game frame of the report's recording (0: its end), or console commands at the report's spot @ the seconds after them
+20261031-113433 | 0 | DWE3M1 the boat on the river: the water round it is a floor with a moving hole
+20261031-113518 | 0 | DWE3M1 the yard door: a floor beside a sliding door moves only some of its corners
+20261031-083424 | 0 | E2M1 the boat and the lake's floes, turning and bobbing
+20261031-092746 | 100 | E1M3 a prop riding the sliding track to the train
+20261023-171745 | send 111 @ 8 | E1M2 the train coming in
+20261026-093911 | send 103 on @ 1 | E3M5 a turning door
+20261026-120645 | send 7 on @ 0.75 | E3M5 a platform turning and moving at once
+20261025-185658 | send s8 on @ 0.75 | E3M5 a lift
+20261019-091142 | send s30 on @ 2 | E1M1 the coffin lid sliding open
+20261101-191449 | 0 | E3M5 a turning door dragging the corners of the sector round it: nothing behind it cut away

@@ -1,0 +1,21 @@
+id: 20261030-134538
+description: small edge in water
+map: mods/dw/maps/dwe3m1.map
+engine: godot
+date: 2026-10-30 13:45:38
+frame: 164
+camera: 210.41 -2886.71 -471.09
+angles: 25.00 270.00 0.00
+forward: 0.00 -0.91 -0.42
+floor_below: -479.97
+aim_hit: 210.41 -2905.74 -479.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 21.0
+aim_object: world
+aim_texture: blood/2915_p1
+player_origin: -92.80 -486.10 -429.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -92.8 -486.1 -480.0 270.0 25.0 575
+screenshot: data/bugs/20261030-134538.png
+recording: data/bugs/20261030-134538.rec (play 20261030-134538)

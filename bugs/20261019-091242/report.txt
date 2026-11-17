@@ -1,0 +1,21 @@
+id: 20261019-091242
+description: voxel/sprites are not being rendered
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:12:42
+frame: 2861
+camera: 0.34 -1913.12 66.81
+angles: 28.18 82.43 0.00
+forward: 0.12 0.87 -0.47
+floor_below: 8.03
+aim_hit: 14.79 -1804.36 8.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 124.5
+aim_object: world
+aim_texture: blood/0270
+player_origin: 0.34 -1913.12 42.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp 0.3 -1913.1 8.0 82.4 28.2
+screenshot: data/bugs/20261019-091242.png
+recording: data/bugs/20261019-091242.rec (play 20261019-091242)

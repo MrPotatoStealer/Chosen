@@ -1,0 +1,18 @@
+id: 20261018-213410
+description: voxel version of the fence/gate is upside down
+map: maps/E1M1.bsp
+date: 2026-10-18 21:34:10
+camera: 793.91 -2452.34 -55.30
+angles: -0.26 -51.68 0.00
+forward: 0.62 -0.78 0.00
+floor_below: -111.97
+aim_hit: 1202.99 -2969.96 -52.33
+aim_normal: -0.89 0.45 -0.00
+aim_distance: 659.8
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 793.9 -2452.3 -112.0 -51.7 -0.3
+screenshot: data/bugs/20261018-213410.png
+recording: data/bugs/20261018-213410.rec (replaybug 20261018-213410)

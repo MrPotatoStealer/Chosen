@@ -1,0 +1,21 @@
+id: 20261019-190353
+description: missing floor, same as missing ceiling below?
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:03:53
+frame: 4599
+camera: 317.22 211.97 115.49
+angles: 35.44 319.39 0.00
+forward: 0.62 -0.53 -0.58
+floor_below: 32.03
+aim_hit: 406.23 135.64 32.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 143.9
+aim_object: world
+aim_texture: blood/0301
+player_origin: 317.22 211.97 90.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 317.2 212.0 32.0 319.4 35.4
+screenshot: data/bugs/20261019-190353.png
+recording: data/bugs/20261019-190353.rec (play 20261019-190353)

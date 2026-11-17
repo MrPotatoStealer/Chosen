@@ -1,0 +1,18 @@
+id: 20261018-154642
+description: collision still exist after blowing up the ground here
+map: maps/E1M2.bsp
+date: 2026-10-18 15:46:42
+camera: -2000.77 -1583.49 459.72
+angles: 54.64 -249.40 0.00
+forward: -0.20 0.54 -0.82
+floor_below: 396.03
+aim_hit: -2016.67 -1541.19 396.03
+aim_normal: -0.00 -0.00 1.00
+aim_distance: 78.1
+aim_object: world
+aim_texture: textures/blood/0140
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -2000.8 -1583.5 396.0 -249.4 54.6
+screenshot: data/bugs/20261018-154642.png
+recording: data/bugs/20261018-154642.rec (replaybug 20261018-154642)

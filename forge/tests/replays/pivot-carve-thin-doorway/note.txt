@@ -1,0 +1,1 @@
+Make Door's pivot on a doorway 2560 wide and 256 deep, as long as the rooms either side are tall (Forge report 20261107-190252, a makedoor pivot carve=1 appended after its mark): refused without Carve; with it the room it turns in is cut 1145 into both rooms, the cut straight across where the strip runs along the rooms' own walls (it crossed wall 42)

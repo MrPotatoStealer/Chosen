@@ -1,0 +1,21 @@
+id: 20261031-230623
+description: make snow particles slightly pixelated
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-31 23:06:23
+frame: 2425
+camera: -570.62 -365.52 72.91
+angles: 3.23 85.57 0.00
+forward: 0.08 1.00 -0.06
+floor_below: 50.69
+aim_hit: 60.71 7789.03 -389.24
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -570.62 -365.52 50.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -570.6 -365.5 50.7 85.6 3.2 116
+screenshot: data/bugs/20261031-230623.png
+recording: data/bugs/20261031-230623.rec (play 20261031-230623)

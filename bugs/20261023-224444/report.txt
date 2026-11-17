@@ -1,0 +1,21 @@
+id: 20261023-224444
+description: flowing water ground here seems to push the player the wrong way
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-23 22:44:44
+frame: 1210
+camera: 1763.84 820.92 -51.32
+angles: 48.16 149.77 0.00
+forward: -0.58 0.34 -0.75
+floor_below: -111.97
+aim_hit: 1716.94 848.26 -111.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 81.4
+aim_object: world
+aim_texture: blood_fxhide/1120
+player_origin: 1764.03 820.59 -77.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1764.0 820.6 -112.0 149.8 48.2
+screenshot: data/bugs/20261023-224444.png
+recording: data/bugs/20261023-224444.rec (play 20261023-224444)

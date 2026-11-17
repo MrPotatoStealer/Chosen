@@ -1,0 +1,21 @@
+id: 20261026-093820
+description: some z-figting on top of the platform, moving the textures don't follow (global mode)
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 09:38:20
+frame: 280
+camera: 1326.32 -842.99 90.52
+angles: 24.68 183.34 0.00
+forward: -0.91 -0.05 -0.42
+floor_below: 32.03
+aim_hit: 1199.28 -850.41 32.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 140.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 1326.31 -843.00 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1326.3 -843.0 32.0 183.3 24.7
+screenshot: data/bugs/20261026-093820.png
+recording: data/bugs/20261026-093820.rec (play 20261026-093820)

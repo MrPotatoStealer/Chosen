@@ -1,0 +1,21 @@
+id: 20261115-161749
+description: add a setting to increase dynamic light range
+map: maps/sstation.map
+engine: godot
+date: 2026-11-15 16:17:49
+frame: 4893
+camera: -1581.14 2424.12 -245.34
+angles: -48.56 343.78 0.00
+forward: 0.64 -0.18 0.75
+floor_below: -13.31
+aim_hit: 3625.11 909.45 5895.48
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 1172.00 -2548.00 -13.31
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 1172.0 -2548.0 -13.3 343.8 -48.6 116
+screenshot: data/bugs/20261115-161749.png
+recording: data/bugs/20261115-161749.rec (play 20261115-161749)

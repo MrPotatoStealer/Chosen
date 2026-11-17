@@ -1,0 +1,21 @@
+id: 20261026-143245
+description: fell of of world
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 14:32:45
+frame: 669
+camera: 2357.54 -1105.75 -123.31
+angles: -28.80 202.43 0.00
+forward: -0.81 -0.33 0.48
+floor_below: -175.97
+aim_hit: 1920.03 -1286.38 136.92
+aim_normal: 1.00 0.00 0.00
+aim_distance: 540.2
+aim_object: world
+aim_texture: blood/0497
+player_origin: 2357.29 -1105.91 -141.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2357.3 -1105.9 -176.0 202.4 -28.8
+screenshot: data/bugs/20261026-143245.png
+recording: data/bugs/20261026-143245.rec (play 20261026-143245)

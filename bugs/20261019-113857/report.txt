@@ -1,0 +1,21 @@
+id: 20261019-113857
+description: looks like there is a missing texture here on the side, we are seeing the wall behind it. Difficult to see this since they are using the same texture.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 11:38:57
+frame: 297
+camera: -938.50 -2077.97 122.31
+angles: -37.75 330.04 0.00
+forward: 0.68 -0.39 0.61
+floor_below: 104.03
+aim_hit: -887.41 -2107.42 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 74.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -938.50 -2077.97 117.33
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -938.5 -2078.0 104.0 330.0 -37.8
+screenshot: data/bugs/20261019-113857.png
+recording: data/bugs/20261019-113857.rec (play 20261019-113857)

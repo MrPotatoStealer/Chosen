@@ -1,0 +1,12 @@
+id: 20261105-181409
+description: Slope change in 3D mode does not work unless we are on the correct layer. Seems like anything in 3d mode should not care about layers.
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-05 18:22:22
+view: 2D Sectors
+shown: Edit
+camera: 1353.81 -239.61 73.93
+angles: 29.68 132.88 0.00
+build_camera: 21661 3834 -18925 angle 1292 sector 19
+view2d: 21660.89 3833.80 zoom 0.0753
+screenshot: screenshot.png

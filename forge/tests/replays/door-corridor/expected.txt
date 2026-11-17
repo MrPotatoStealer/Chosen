@@ -1,0 +1,8 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+809b9e4700e0e6b1	
+809b9e4700e0e6b1	
+809b9e4700e0e6b1	
+93fc2d7d32a373f3	Swing 0
+809b9e4700e0e6b1	Swing 1
+1604d917d3604d94	Slide lip 544

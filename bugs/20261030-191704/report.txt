@@ -1,0 +1,21 @@
+id: 20261030-191704
+description: changing rain amount or weather amount does nothing while playing, maybe restart work?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-30 19:17:04
+frame: 522
+camera: 553.00 -2537.68 -55.21
+angles: 1.48 325.33 0.00
+forward: 0.82 -0.57 -0.03
+floor_below: -111.97
+aim_hit: 1196.56 -2982.82 -75.46
+aim_normal: -0.89 0.45 0.00
+aim_distance: 782.8
+aim_object: world
+aim_texture: blood/0421
+player_origin: 553.00 -2537.68 -77.31
+player_health: 76
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 553.0 -2537.7 -112.0 325.3 1.5 65
+screenshot: data/bugs/20261030-191704.png
+recording: data/bugs/20261030-191704.rec (play 20261030-191704)

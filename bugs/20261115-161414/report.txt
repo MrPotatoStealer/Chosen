@@ -1,0 +1,21 @@
+id: 20261115-161414
+description: black room over room. Rendering not working correctly here
+map: maps/sevict.map
+engine: godot
+date: 2026-11-15 16:14:14
+frame: 7028
+camera: 1569.45 -1943.50 261.94
+angles: 17.79 328.89 0.00
+forward: 0.82 -0.49 -0.31
+floor_below: 238.69
+aim_hit: 8247.79 -5974.24 -2240.41
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 1569.45 -1943.50 238.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 1569.5 -1943.5 238.7 328.9 17.8 989
+screenshot: data/bugs/20261115-161414.png
+recording: data/bugs/20261115-161414.rec (play 20261115-161414)

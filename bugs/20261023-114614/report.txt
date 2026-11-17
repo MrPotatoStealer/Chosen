@@ -1,0 +1,21 @@
+id: 20261023-114614
+description: curtains wont open
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 11:46:14
+frame: 3173
+camera: 876.32 -1301.75 -31.11
+angles: 6.69 20.22 0.00
+forward: 0.93 0.34 -0.12
+floor_below: -87.97
+aim_hit: 931.97 -1281.25 -38.06
+aim_normal: -1.00 0.00 0.00
+aim_distance: 59.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 876.22 -1301.78 -53.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 876.2 -1301.8 -88.0 20.2 6.7
+screenshot: data/bugs/20261023-114614.png
+recording: data/bugs/20261023-114614.rec (play 20261023-114614)

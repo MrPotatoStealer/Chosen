@@ -1,0 +1,17 @@
+id: 20261015-153138
+description: whole in map, missing texture
+map: maps/e1m1.bsp
+date: 2026-10-15 15:31:38
+camera: 829.81 -2490.97 -56.02
+angles: -8.39 -247.45 0.00
+forward: -0.38 0.91 0.15
+floor_below: -111.97
+aim_hit: 752.16 -2304.03 -26.16
+aim_normal: -0.00 -1.00 -0.00
+aim_distance: 204.6
+aim_object: world
+aim_texture: textures/blood/1718
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 829.8 -2491.0 -112.0 -247.4 -8.4
+screenshot: data/bugs/20261015-153138.png

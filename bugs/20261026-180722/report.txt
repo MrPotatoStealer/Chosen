@@ -1,0 +1,21 @@
+id: 20261026-180722
+description: some glitches here going down into the water sometimes, like 1 frame the wrong stuff is rendered
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-26 18:07:22
+frame: 1380
+camera: 5240.43 2133.91 -341.88
+angles: 6.14 180.54 0.00
+forward: -0.99 -0.01 -0.11
+floor_below: -351.97
+aim_hit: 5146.63 2133.02 -351.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 94.3
+aim_object: world
+aim_texture: blood/1120
+player_origin: 5272.71 1541.92 -356.63
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 5272.7 1541.9 -352.0 180.5 6.1
+screenshot: data/bugs/20261026-180722.png
+recording: data/bugs/20261026-180722.rec (play 20261026-180722)

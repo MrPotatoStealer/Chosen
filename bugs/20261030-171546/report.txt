@@ -1,0 +1,21 @@
+id: 20261030-171546
+description: fog should be on ground here but its above in the portal if I use fly
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-30 17:15:46
+frame: 516
+camera: 345.41 -2688.29 -55.42
+angles: -0.33 359.21 0.00
+forward: 1.00 -0.01 0.01
+floor_below: -111.97
+aim_hit: 1279.97 -2701.21 -50.03
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 934.7
+aim_object: world
+aim_texture: blood/0421
+player_origin: 345.55 -2688.25 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 345.5 -2688.3 -112.0 359.2 -0.3 65
+screenshot: data/bugs/20261030-171546.png
+recording: data/bugs/20261030-171546.rec (play 20261030-171546)

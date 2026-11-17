@@ -1,0 +1,21 @@
+id: 20261031-090658
+description: incorrect showing of doors
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-31 09:06:58
+frame: 274
+camera: 563.18 222.00 -18.32
+angles: -37.44 198.79 0.00
+forward: -0.75 -0.26 0.61
+floor_below: -37.31
+aim_hit: -5594.69 -1873.16 4961.61
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 563.18 222.01 -37.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 563.2 222.0 -37.3 198.8 -37.4 31
+screenshot: data/bugs/20261031-090658.png
+recording: data/bugs/20261031-090658.rec (play 20261031-090658)

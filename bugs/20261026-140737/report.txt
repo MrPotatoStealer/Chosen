@@ -1,0 +1,21 @@
+id: 20261026-140737
+description: texture is upside down
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 14:07:37
+frame: 248
+camera: -223.28 -619.41 269.23
+angles: 7.46 36.79 0.00
+forward: 0.79 0.59 -0.13
+floor_below: 211.03
+aim_hit: -112.03 -536.20 251.04
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 140.1
+aim_object: blood_sector#84(sector193)
+aim_texture: blood/0720
+player_origin: -223.28 -619.41 246.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -223.3 -619.4 211.0 36.8 7.5
+screenshot: data/bugs/20261026-140737.png
+recording: data/bugs/20261026-140737.rec (play 20261026-140737)

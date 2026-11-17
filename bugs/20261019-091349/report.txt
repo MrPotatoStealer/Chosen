@@ -1,0 +1,21 @@
+id: 20261019-091349
+description: sprites should be double sided, but can only be seen from one side. Or transparent wall that is here?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:13:49
+frame: 4861
+camera: -386.34 -2912.78 61.80
+angles: -14.65 41.94 0.00
+forward: 0.72 0.65 0.25
+floor_below: 3.89
+aim_hit: -291.37 -2827.45 95.18
+aim_normal: -0.83 -0.55 -0.00
+aim_distance: 132.0
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -386.34 -2912.78 40.82
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp -386.3 -2912.8 3.9 41.9 -14.7
+screenshot: data/bugs/20261019-091349.png
+recording: data/bugs/20261019-091349.rec (play 20261019-091349)

@@ -1,0 +1,21 @@
+id: 20261030-145434
+description: difficulty walk out this door, seem to get stuck on the side for a bit
+map: mods/dw/maps/dwe3m1.map
+engine: godot
+date: 2026-10-30 14:54:34
+frame: 1487
+camera: -865.57 -3960.89 -249.58
+angles: 24.24 290.28 0.00
+forward: 0.32 -0.86 -0.41
+floor_below: -307.97
+aim_hit: -820.61 -4082.56 -307.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 142.2
+aim_object: world
+aim_texture: blood/0374_p1
+player_origin: -865.62 -3961.06 -273.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -865.6 -3961.1 -308.0 290.3 24.2 931
+screenshot: data/bugs/20261030-145434.png
+recording: data/bugs/20261030-145434.rec (play 20261030-145434)

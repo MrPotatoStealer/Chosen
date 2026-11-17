@@ -1,0 +1,21 @@
+id: 20261021-083512
+description: voodoo doll secondary fire does nothing?
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-21 08:35:12
+frame: 2781
+camera: 1451.28 -2395.47 -54.69
+angles: 3.43 259.34 0.00
+forward: -0.18 -0.98 -0.06
+floor_below: -111.97
+aim_hit: 1360.07 -2879.97 -84.26
+aim_normal: 0.00 1.00 0.00
+aim_distance: 493.9
+aim_object: world
+aim_texture: blood/1004
+player_origin: 1451.97 -2396.03 -77.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1452.0 -2396.0 -112.0 259.3 3.4
+screenshot: data/bugs/20261021-083512.png
+recording: data/bugs/20261021-083512.rec (play 20261021-083512)

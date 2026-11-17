@@ -1,0 +1,21 @@
+id: 20261031-083617
+description: flying through portals no longer works
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-31 08:36:17
+frame: 1753
+camera: 726.58 -671.49 -81.44
+angles: 8.51 254.47 0.00
+forward: -0.26 -0.95 -0.15
+floor_below: 34.69
+aim_hit: -1443.04 -8477.30 -1294.27
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 1653.26 -1889.50 34.69
+player_health: 92
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1653.3 -1889.5 34.7 254.5 8.5 22
+screenshot: data/bugs/20261031-083617.png
+recording: data/bugs/20261031-083617.rec (play 20261031-083617)

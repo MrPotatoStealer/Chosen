@@ -1,0 +1,21 @@
+id: 20261019-190242
+description: missing ceiling
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:02:42
+frame: 3478
+camera: 627.97 147.63 -18.88
+angles: -42.64 215.04 0.00
+forward: -0.60 -0.42 0.68
+floor_below: -71.97
+aim_hit: 561.41 100.96 55.97
+aim_normal: 0.00 -0.00 -1.00
+aim_distance: 110.5
+aim_object: world
+aim_texture: blood_fxhide/0455
+player_origin: 627.97 147.63 -37.28
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 628.0 147.6 -72.0 215.0 -42.6
+screenshot: data/bugs/20261019-190242.png
+recording: data/bugs/20261019-190242.rec (play 20261019-190242)

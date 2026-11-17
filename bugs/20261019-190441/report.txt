@@ -1,0 +1,21 @@
+id: 20261019-190441
+description: where are all the enemies?
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:04:41
+frame: 5806
+camera: 522.24 -1176.66 25.46
+angles: 11.35 166.83 0.00
+forward: -0.95 0.22 -0.20
+floor_below: -31.97
+aim_hit: 243.73 -1111.47 -31.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 291.8
+aim_object: world
+aim_texture: blood_fxhide/0491
+player_origin: 522.28 -1176.55 2.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 522.3 -1176.5 -32.0 166.8 11.4
+screenshot: data/bugs/20261019-190441.png
+recording: data/bugs/20261019-190441.rec (play 20261019-190441)

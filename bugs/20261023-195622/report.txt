@@ -1,0 +1,21 @@
+id: 20261023-195622
+description: here the coffin texture is not following the lid
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 19:56:22
+frame: 91
+camera: -476.03 -1864.03 82.96
+angles: 32.87 193.02 0.00
+forward: -0.82 -0.19 -0.54
+floor_below: 40.03
+aim_hit: -540.77 -1879.00 40.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 79.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -476.03 -1864.03 55.52
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -476.0 -1864.0 40.0 193.0 32.9
+screenshot: data/bugs/20261023-195622.png
+recording: data/bugs/20261023-195622.rec (play 20261023-195622)

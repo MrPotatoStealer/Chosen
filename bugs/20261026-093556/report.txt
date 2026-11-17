@@ -1,0 +1,21 @@
+id: 20261026-093556
+description: some strangeness here with the railing disapearring/appearing when moving
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-26 09:35:56
+frame: 3155
+camera: 261.16 -2902.91 25.62
+angles: 13.00 337.27 0.00
+forward: 0.90 -0.38 -0.22
+floor_below: -31.97
+aim_hit: 810.76 -3133.12 -111.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 611.5
+aim_object: world
+aim_texture: blood/0362
+player_origin: 261.16 -2902.91 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 261.2 -2902.9 -32.0 337.3 13.0
+screenshot: data/bugs/20261026-093556.png
+recording: data/bugs/20261026-093556.rec (play 20261026-093556)

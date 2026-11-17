@@ -1,0 +1,21 @@
+id: 20261019-091142
+description: portal is not rendering correctly
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:11:42
+frame: 1056
+camera: -936.00 -2080.00 160.06
+angles: -10.43 0.46 0.00
+forward: 0.98 0.01 0.18
+floor_below: 104.03
+aim_hit: -893.05 -2079.65 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 43.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -936.00 -2080.00 138.78
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp -936.0 -2080.0 104.0 0.5 -10.4
+screenshot: data/bugs/20261019-091142.png
+recording: data/bugs/20261019-091142.rec (play 20261019-091142)

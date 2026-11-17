@@ -1,0 +1,17 @@
+id: 20261016-110833
+description: fullbright of the fire is gone again
+map: maps/E1M1.bsp
+date: 2026-10-16 11:08:33
+camera: 951.78 -1910.22 104.91
+angles: 2.13 -45.04 0.00
+forward: 0.71 -0.71 -0.04
+floor_below: 48.03
+aim_hit: 1145.25 -2103.97 94.72
+aim_normal: 0.00 1.00 0.00
+aim_distance: 274.0
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 951.8 -1910.2 48.0 -45.0 2.1
+screenshot: data/bugs/20261016-110833.png

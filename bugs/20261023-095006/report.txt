@@ -1,0 +1,21 @@
+id: 20261023-095006
+description: more strange geo buga when iceblock is on the move
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:50:06
+frame: 305
+camera: -3086.72 2122.68 16.80
+angles: -8.40 328.32 0.00
+forward: 0.84 -0.52 0.15
+floor_below: -39.11
+aim_hit: -2938.24 2031.04 42.56
+aim_normal: -0.91 0.41 0.00
+aim_distance: 176.4
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -3086.72 2122.69 -2.70
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -3086.7 2122.7 -39.1 328.3 -8.4
+screenshot: data/bugs/20261023-095006.png
+recording: data/bugs/20261023-095006.rec (play 20261023-095006)

@@ -1,0 +1,21 @@
+id: 20261026-143500
+description: incorrect geo
+map: maps/e3m2.map
+engine: godot
+date: 2026-10-26 14:35:00
+frame: 54
+camera: 1875.13 -926.97 215.45
+angles: 37.46 246.29 0.00
+forward: -0.32 -0.73 -0.61
+floor_below: 156.03
+aim_hit: 1808.53 -1078.63 88.52
+aim_normal: 1.00 0.00 0.00
+aim_distance: 208.7
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 1875.43 -927.03 190.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1875.4 -927.0 156.0 246.3 37.5
+screenshot: data/bugs/20261026-143500.png
+recording: data/bugs/20261026-143500.rec (play 20261026-143500)

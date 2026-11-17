@@ -1,0 +1,21 @@
+id: 20261025-160556
+description: small hole in geo
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-25 16:05:56
+frame: 1599
+camera: 920.72 -289.91 86.52
+angles: -29.30 108.26 0.00
+forward: -0.27 0.83 0.49
+floor_below: 32.03
+aim_hit: 877.48 -158.87 163.97
+aim_normal: -0.00 -0.00 -1.00
+aim_distance: 158.2
+aim_object: world
+aim_texture: blood/0501
+player_origin: 920.72 -289.91 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 920.7 -289.9 32.0 108.3 -29.3
+screenshot: data/bugs/20261025-160556.png
+recording: data/bugs/20261025-160556.rec (play 20261025-160556)

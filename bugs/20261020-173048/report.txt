@@ -1,0 +1,21 @@
+id: 20261020-173048
+description: massive performance issue here
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 17:30:48
+frame: 2289
+camera: 817.18 -2229.20 -103.31
+angles: -0.46 69.91 0.00
+forward: 0.34 0.94 0.01
+floor_below: -159.97
+aim_hit: 957.84 -1844.56 -100.01
+aim_normal: 0.20 -0.98 0.00
+aim_distance: 409.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 817.18 -2229.20 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 817.2 -2229.2 -160.0 69.9 -0.5
+screenshot: data/bugs/20261020-173048.png
+recording: data/bugs/20261020-173048.rec (play 20261020-173048)

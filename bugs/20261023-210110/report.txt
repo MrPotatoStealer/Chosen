@@ -1,0 +1,21 @@
+id: 20261023-210110
+description: textures on walls here, think they are portals you are supposed to see through
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 21:01:10
+frame: 4386
+camera: 576.21 887.46 62.80
+angles: 28.06 42.81 0.00
+forward: 0.65 0.60 -0.47
+floor_below: 56.03
+aim_hit: 585.53 896.09 56.03
+aim_normal: -0.00 0.00 1.00
+aim_distance: 14.4
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 572.21 887.46 38.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 572.2 887.5 56.0 42.8 28.1
+screenshot: data/bugs/20261023-210110.png
+recording: data/bugs/20261023-210110.rec (play 20261023-210110)

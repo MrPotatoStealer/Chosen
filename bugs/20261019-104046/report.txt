@@ -1,0 +1,21 @@
+id: 20261019-104046
+description: missing sprite when viewed thru portal
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 10:40:46
+frame: 502
+camera: -921.70 -2060.28 159.23
+angles: -20.92 313.93 0.00
+forward: 0.65 -0.67 0.36
+floor_below: 104.03
+aim_hit: -905.84 -2076.75 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 24.5
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -921.70 -2060.28 138.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -921.7 -2060.3 104.0 313.9 -20.9
+screenshot: data/bugs/20261019-104046.png
+recording: data/bugs/20261019-104046.rec (play 20261019-104046)

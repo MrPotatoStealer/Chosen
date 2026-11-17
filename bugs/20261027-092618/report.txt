@@ -1,0 +1,21 @@
+id: 20261027-092618
+description: chest here in the wrong position
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-27 09:26:18
+frame: 2829
+camera: 511.19 -868.81 154.12
+angles: 31.61 207.15 0.00
+forward: -0.76 -0.39 -0.52
+floor_below: 96.03
+aim_hit: 471.15 -889.34 126.43
+aim_normal: 0.00 1.00 -0.00
+aim_distance: 52.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 511.19 -868.81 130.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 511.2 -868.8 96.0 207.1 31.6 183
+screenshot: data/bugs/20261027-092618.png
+recording: data/bugs/20261027-092618.rec (play 20261027-092618)

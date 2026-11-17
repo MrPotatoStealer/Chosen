@@ -1,0 +1,21 @@
+id: 20261029-083114
+description: sky has this dark areas now that is not supposed to be there
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-29 08:31:14
+frame: 2001
+camera: 1152.22 -2510.04 18.04
+angles: 5.54 357.10 0.00
+forward: 0.99 -0.05 -0.10
+floor_below: -111.97
+aim_hit: 1279.97 -2516.52 5.62
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 128.5
+aim_object: world
+aim_texture: blood/0421
+player_origin: -24.83 -2133.56 42.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -24.8 -2133.6 -112.0 357.1 5.5 149
+screenshot: data/bugs/20261029-083114.png
+recording: data/bugs/20261029-083114.rec (play 20261029-083114)

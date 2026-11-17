@@ -1,0 +1,21 @@
+id: 20261020-173031
+description: some massive spikes one just happend before going into this room
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 17:30:31
+frame: 2164
+camera: 832.30 -2328.20 -102.99
+angles: 6.27 95.59 0.00
+forward: -0.10 0.99 -0.11
+floor_below: -159.97
+aim_hit: 798.04 -1977.88 -141.66
+aim_normal: -0.38 -0.92 -0.00
+aim_distance: 354.1
+aim_object: blood_sector#20(sector321)
+aim_texture: blood/1096
+player_origin: 831.87 -2328.13 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 831.9 -2328.1 -160.0 95.6 6.3
+screenshot: data/bugs/20261020-173031.png
+recording: data/bugs/20261020-173031.rec (play 20261020-173031)

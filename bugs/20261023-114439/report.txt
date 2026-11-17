@@ -1,0 +1,21 @@
+id: 20261023-114439
+description: missing geo on door sides
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 11:44:39
+frame: 938
+camera: -83.09 -2370.47 81.36
+angles: 9.33 240.05 0.00
+forward: -0.49 -0.85 -0.16
+floor_below: 24.03
+aim_hit: -143.97 -2476.10 61.33
+aim_normal: 1.00 0.00 0.00
+aim_distance: 123.6
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -83.09 -2370.47 58.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -83.1 -2370.5 24.0 240.0 9.3
+screenshot: data/bugs/20261023-114439.png
+recording: data/bugs/20261023-114439.rec (play 20261023-114439)

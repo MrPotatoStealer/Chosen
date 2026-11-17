@@ -1,0 +1,21 @@
+id: 20261023-200532
+description: door hanging down to lower section of train cart
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 20:05:32
+frame: 635
+camera: 612.57 195.38 -17.15
+angles: -25.61 189.03 0.00
+forward: -0.89 -0.14 0.43
+floor_below: -71.97
+aim_hit: 512.38 179.45 31.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 112.5
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 612.57 195.38 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 612.6 195.4 -72.0 189.0 -25.6
+screenshot: data/bugs/20261023-200532.png
+recording: data/bugs/20261023-200532.rec (play 20261023-200532)

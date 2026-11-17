@@ -1,0 +1,21 @@
+id: 20261031-155624
+description: moving while on the boat sort of bounces you back, check against NBlood
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-31 15:56:24
+frame: 742
+camera: -48.71 -1090.32 -450.07
+angles: 18.68 92.49 0.00
+forward: -0.04 0.95 -0.32
+floor_below: -473.31
+aim_hit: -385.88 6662.90 -3073.55
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -48.75 -1089.69 -473.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -48.8 -1089.7 -473.3 92.5 18.7 148
+screenshot: data/bugs/20261031-155624.png
+recording: data/bugs/20261031-155624.rec (play 20261031-155624)

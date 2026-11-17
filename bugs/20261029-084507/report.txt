@@ -1,0 +1,21 @@
+id: 20261029-084507
+description: missing fog/mist here
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 08:45:07
+frame: 364
+camera: 142.09 -471.73 -407.60
+angles: -0.10 252.72 0.00
+forward: -0.30 -0.95 0.00
+floor_below: -463.97
+aim_hit: -675.33 -3099.48 -402.90
+aim_normal: 0.07 1.00 0.00
+aim_distance: 2752.0
+aim_object: world
+aim_texture: blood_fxhide/1005_p1
+player_origin: 142.15 -471.74 -429.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 142.2 -471.7 -464.0 252.7 -0.1 10
+screenshot: data/bugs/20261029-084507.png
+recording: data/bugs/20261029-084507.rec (play 20261029-084507)

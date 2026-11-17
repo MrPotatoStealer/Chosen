@@ -1,0 +1,21 @@
+id: 20261030-101950
+description: crouching in boat made me push into water
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-30 10:19:50
+frame: 366
+camera: 209.81 -2992.57 -479.19
+angles: -4.61 155.49 0.00
+forward: -0.91 0.41 0.08
+floor_below: -479.97
+aim_hit: -36.97 -2880.03 -457.32
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 272.1
+aim_object: ammo_spraycan#499 type 60 pic 618 stat 3
+aim_texture: 
+player_origin: -2669.64 -3056.18 -145.20
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2669.6 -3056.2 -480.0 155.5 -4.6 756
+screenshot: data/bugs/20261030-101950.png
+recording: data/bugs/20261030-101950.rec (play 20261030-101950)

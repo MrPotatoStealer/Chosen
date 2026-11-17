@@ -1,0 +1,21 @@
+id: 20261025-102657
+description: dynamic lights in room in room?
+map: maps/e2m5.map
+engine: godot
+date: 2026-10-25 10:26:57
+frame: 736
+camera: -279.16 408.97 86.39
+angles: -30.82 357.34 0.00
+forward: 0.86 -0.04 0.51
+floor_below: 32.03
+aim_hit: -164.53 403.65 154.85
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 133.6
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: -279.16 408.97 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -279.2 409.0 32.0 357.3 -30.8
+screenshot: data/bugs/20261025-102657.png
+recording: data/bugs/20261025-102657.rec (play 20261025-102657)

@@ -1,0 +1,21 @@
+id: 20261024-095939
+description: player not being push along the correct flow of the river
+map: maps/e1m8.map
+engine: godot
+date: 2026-10-24 09:59:39
+frame: 211
+camera: 1747.71 845.18 -53.68
+angles: 24.49 153.90 0.00
+forward: -0.82 0.40 -0.41
+floor_below: -111.97
+aim_hit: 1632.78 901.48 -111.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 140.6
+aim_object: world
+aim_texture: blood_fxhide/1120
+player_origin: 1747.20 843.86 -77.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1747.2 843.9 -112.0 153.9 24.5
+screenshot: data/bugs/20261024-095939.png
+recording: data/bugs/20261024-095939.rec (play 20261024-095939)

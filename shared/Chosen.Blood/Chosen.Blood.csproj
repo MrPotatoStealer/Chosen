@@ -1,0 +1,15 @@
+<!-- Chosen Blood module (GPL v2): Blood's map format, x-structures, type tables and file formats, written from NBlood
+     (GPL v2) and xmapedit (GPL). Used by the game, Chosen Forge's Blood folder and ChosenLoader. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Chosen.Shared.Blood</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- xmapedit's type table (NoOne, GPL): tools/mkxmprff/INI/OBJTYPES.INI -->
+    <EmbeddedResource Include="Types\objtypes.ini" LogicalName="objtypes.ini" />
+    <ProjectReference Include="..\Chosen.Engine\Chosen.Engine.csproj" />
+  </ItemGroup>
+</Project>

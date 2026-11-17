@@ -1,0 +1,18 @@
+id: 20261018-154100
+description: got stuck in collision from firing and being pushed into the wall
+map: maps/E1M2.bsp
+date: 2026-10-18 15:41:00
+camera: 298.44 -1795.97 297.83
+angles: 12.60 -188.29 0.00
+forward: -0.97 0.14 -0.22
+floor_below: 240.03
+aim_hit: 288.03 -1794.45 295.48
+aim_normal: 1.00 0.00 0.00
+aim_distance: 10.8
+aim_object: world
+aim_texture: textures/blood/0276
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 298.4 -1796.0 240.0 -188.3 12.6
+screenshot: data/bugs/20261018-154100.png
+recording: data/bugs/20261018-154100.rec (replaybug 20261018-154100)

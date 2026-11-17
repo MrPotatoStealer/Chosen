@@ -1,0 +1,21 @@
+id: 20261019-122928
+description: sprites appearing and disappearing based on distance
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:29:28
+frame: 3739
+camera: 1005.53 -1946.78 103.73
+angles: -14.26 165.43 0.00
+forward: -0.94 0.24 0.25
+floor_below: 48.03
+aim_hit: 768.03 -1885.06 166.07
+aim_normal: 1.00 0.00 0.00
+aim_distance: 253.2
+aim_object: world
+aim_texture: blood_fxhide/0211
+player_origin: 1005.53 -1946.78 82.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1005.5 -1946.8 48.0 165.4 -14.3
+screenshot: data/bugs/20261019-122928.png
+recording: data/bugs/20261019-122928.rec (play 20261019-122928)

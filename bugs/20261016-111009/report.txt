@@ -1,0 +1,17 @@
+id: 20261016-111009
+description: sprite is in wrong location when seen thru a portal, you can see other sprites liek spiderwebs also shifting location
+map: maps/E1M1.bsp
+date: 2026-10-16 11:10:09
+camera: -913.88 -2071.06 158.70
+angles: -21.87 -47.19 0.00
+forward: 0.63 -0.68 0.37
+floor_below: 104.03
+aim_hit: -898.18 -2088.00 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 24.9
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -913.9 -2071.1 104.0 -47.2 -21.9
+screenshot: data/bugs/20261016-111009.png

@@ -1,0 +1,21 @@
+id: 20261019-182027
+description: not sure where this dynamic ligt is coming from
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 18:20:27
+frame: 5614
+camera: 526.92 -1028.22 106.34
+angles: 15.84 277.83 0.00
+forward: 0.13 -0.95 -0.27
+floor_below: 48.03
+aim_hit: 552.20 -1211.97 53.72
+aim_normal: 0.00 1.00 0.00
+aim_distance: 192.8
+aim_object: world
+aim_texture: blood_fxhide/0253
+player_origin: 526.92 -1028.22 83.23
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 526.9 -1028.2 48.0 277.8 15.8
+screenshot: data/bugs/20261019-182027.png
+recording: data/bugs/20261019-182027.rec (play 20261019-182027)

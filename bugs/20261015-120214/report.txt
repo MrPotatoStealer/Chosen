@@ -1,0 +1,17 @@
+id: 20261015-120214
+description: wall have incorrect texture or missing, Its solid but should the the same as the walls next to it.
+map: maps/e1m1.bsp
+date: 2026-10-15 12:02:14
+camera: -89.32 -2342.50 72.68
+angles: -0.40 -157.78 0.00
+forward: -0.93 -0.38 0.01
+floor_below: 16.03
+aim_hit: -207.92 -2390.96 73.58
+aim_normal: 1.00 0.00 0.00
+aim_distance: 128.1
+aim_object: world
+aim_texture: textures/blood/0006
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -89.3 -2342.5 16.0 -157.8 -0.4
+screenshot: data/bugs/20261015-120214.png

@@ -1,0 +1,21 @@
+id: 20261102-090217
+description: lots of geo issues on this level
+map: maps/dwe4m1.map
+engine: godot
+date: 2026-11-02 09:02:17
+frame: 1607
+camera: -1361.28 -5546.76 83.55
+angles: -0.77 202.09 0.00
+forward: -0.93 -0.38 0.01
+floor_below: 66.69
+aim_hit: -8951.16 -8627.39 194.03
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1361.23 -5546.74 66.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp -1361.2 -5546.7 66.7 202.1 -0.8 63
+screenshot: data/bugs/20261102-090217.png
+recording: data/bugs/20261102-090217.rec (play 20261102-090217)

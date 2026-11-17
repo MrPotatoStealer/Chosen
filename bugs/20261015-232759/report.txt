@@ -1,0 +1,17 @@
+id: 20261015-232759
+description: secret is revelead message is triggered before finding the secret (behind this object)
+map: maps/e1m1.bsp
+date: 2026-10-15 23:27:59
+camera: 591.88 -1163.82 105.76
+angles: 6.00 -37.02 0.00
+forward: 0.79 -0.60 -0.10
+floor_below: 48.03
+aim_hit: 605.17 -1173.85 104.01
+aim_normal: -0.92 0.39 -0.00
+aim_distance: 16.7
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 591.9 -1163.8 48.0 -37.0 6.0
+screenshot: data/bugs/20261015-232759.png

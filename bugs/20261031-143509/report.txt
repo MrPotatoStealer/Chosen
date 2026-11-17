@@ -1,0 +1,21 @@
+id: 20261031-143509
+description: standing on edge of boat, player does not move with boat
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-31 14:35:09
+frame: 281
+camera: 206.32 -856.19 -36.96
+angles: 31.61 138.93 0.00
+forward: -0.64 0.56 -0.52
+floor_below: -61.31
+aim_hit: -5053.19 3727.08 -4331.16
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 206.31 -856.19 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 206.3 -856.2 -61.3 138.9 31.6 125
+screenshot: data/bugs/20261031-143509.png
+recording: data/bugs/20261031-143509.rec (play 20261031-143509)

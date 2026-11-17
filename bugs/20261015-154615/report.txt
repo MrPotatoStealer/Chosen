@@ -1,0 +1,17 @@
+id: 20261015-154615
+description: should be darker like the surrounding area in the grave
+map: maps/e1m1.bsp
+date: 2026-10-15 15:46:15
+camera: -579.91 -1878.53 9.00
+angles: 3.20 -359.80 0.00
+forward: 1.00 0.00 -0.06
+floor_below: -47.97
+aim_hit: -464.03 -1878.13 2.52
+aim_normal: -1.00 0.00 0.00
+aim_distance: 116.1
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 96
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -579.9 -1878.5 -48.0 -359.8 3.2
+screenshot: data/bugs/20261015-154615.png

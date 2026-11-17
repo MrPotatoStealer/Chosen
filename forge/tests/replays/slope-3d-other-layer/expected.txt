@@ -1,0 +1,74 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+21948a39553f52e9	
+b1660b781dc12c70	Add floor below
+21948a39553f52e9	
+6e6421c7650140b3	Split sector 11
+458bfbd705f1f8c0	Delete sector 19
+2901fe14f9c7e5ae	Delete layer
+b0416c5e19cc368e	Paste texture
+239029c4ce7d1060	Paste texture
+1328ec3e7840421c	Change floor height
+b8514cd3efc06b48	Change floor height
+fbddfbbc98545044	Change floor height
+59baa24be15c3150	Change floor height
+e8abf1811ce75436	First wall of sector 11
+7473133d501c8c63	Slope floor of sector 11
+347c4d1a977be2ea	Slope floor of sector 11
+be907c2039e233d4	Slope floor of sector 11
+c3cb7b0e0369f025	Slope floor of sector 11
+a9bdb4c60ac868f1	Slope floor of sector 11
+c3cb7b0e0369f025	Slope floor of sector 11
+906010c4bff445cb	First wall of sector 11
+9a2effcb83af41e9	First wall of sector 11
+93871c69dee545ea	Slope floor of sector 11
+e89a8027f495e90f	Slope floor of sector 11
+6f4c4d17b0bcc8eb	Slope floor of sector 11
+bc01fb0eaf74256c	Slope floor of sector 11
+f604ceb1375b6f88	Slope floor of sector 11
+bc01fb0eaf74256c	Slope floor of sector 11
+5d86bf375856a7a7	Add floor below
+c205552e063cee48	Texture settings
+5571943dd80755cb	Auto-align textures
+3ca0d63101ef8d4c	Change floor height
+020dda025cc5c4b0	Change floor height
+3ca0d63101ef8d4c	Change floor height
+60c2928792e3a393	Slope floor of sector 11
+038510ffd6760317	Slope floor of sector 11
+60c2928792e3a393	Slope floor of sector 11
+5dd58b56221c7f68	Slope floor of sector 11
+668ff15e7fbdecf4	Slope floor of sector 11
+1fecf6fb829bab9d	Slope floor of sector 11
+668ff15e7fbdecf4	Slope floor of sector 11
+5dd58b56221c7f68	Slope floor of sector 11
+349e257c63a1bc05	First wall of sector 11
+3e7019007be3d289	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+c654b6653af8197c	Slope floor of sector 11
+b0ceb4bc4b3f6e9b	Slope floor of sector 11
+6b24e2b57af59247	Slope floor of sector 11
+017d19bd3a9804e0	Slope floor of sector 11
+9864cd794aeac36e	Slope floor of sector 11
+21c543d6013447f5	Slope floor of sector 11
+0568517c86d0cb20	Slope floor of sector 11
+61e57df10bcc69e6	Slope floor of sector 11
+345e11eaf6bf098b	Slope floor of sector 11
+8c58e5d606eef0f7	Slope floor of sector 11
+345e11eaf6bf098b	Slope floor of sector 11
+61e57df10bcc69e6	Slope floor of sector 11
+0568517c86d0cb20	Slope floor of sector 11
+21c543d6013447f5	Slope floor of sector 11
+9864cd794aeac36e	Slope floor of sector 11
+017d19bd3a9804e0	Slope floor of sector 11
+6b24e2b57af59247	Slope floor of sector 11
+b0ceb4bc4b3f6e9b	Slope floor of sector 11
+c654b6653af8197c	Slope floor of sector 11
+349e257c63a1bc05	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+6ceaf98e3a567564	Slope floor of sector 11
+3e7019007be3d289	Slope floor of sector 11
+3e7019007be3d289	First wall of sector 11
+1cc702fe2dc53959	Slope floor of sector 11
+3e7019007be3d289	First wall of sector 11

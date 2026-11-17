@@ -1,0 +1,17 @@
+id: 20261016-110712
+description: burning tree animations make it move sideways during some of it frames. Like center is shifted
+map: maps/E1M1.bsp
+date: 2026-10-16 11:07:12
+camera: 523.48 -2666.70 -55.66
+angles: 0.82 -94.25 0.00
+forward: -0.07 -1.00 -0.01
+floor_below: -111.97
+aim_hit: 493.38 -3071.97 -61.51
+aim_normal: 0.00 1.00 0.00
+aim_distance: 406.4
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 523.5 -2666.7 -112.0 -94.2 0.8
+screenshot: data/bugs/20261016-110712.png

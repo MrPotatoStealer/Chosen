@@ -1,0 +1,21 @@
+id: 20261026-180901
+description: floating waterplane
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-26 18:09:01
+frame: 3915
+camera: 5140.09 4130.84 -276.79
+angles: 41.05 108.14 0.00
+forward: -0.23 0.72 -0.66
+floor_below: -333.88
+aim_hit: 5121.80 4186.69 -327.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 77.9
+aim_object: world
+aim_texture: blood/1120
+player_origin: 5140.73 4130.84 -296.53
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 5140.7 4130.8 -333.9 108.1 41.1
+screenshot: data/bugs/20261026-180901.png
+recording: data/bugs/20261026-180901.rec (play 20261026-180901)

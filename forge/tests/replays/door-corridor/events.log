@@ -1,0 +1,183 @@
+0	session	1	2026-11-07 10:56:19	1600x900
+1	keys	newmap=Ctrl+N;openmap=Ctrl+O;savemap=Ctrl+S;savemapas=Ctrl+Shift+S;mapoptions=F2;preferences=F5;testmap=F9;showerrors=F11;reportproblem=F12;soundbrowser=;undo=Ctrl+Z;redo=Ctrl+Y;cutselection=Ctrl+X;copyselection=Ctrl+C;pasteselection=Ctrl+V;selectall=Ctrl+A;clearselection=C;rotateselection=R;moveselection=G;scaleselection=Shift+S;cancelmode=Escape;verticesmode=V;linedefsmode=L;sectorsmode=S;thingsmode=T;drawlinesmode=Ctrl+D;drawrectanglemode=Ctrl+Shift+D;drawcirclemode=;drawgridmode=;aligngridmode=;insertitem=Insert;deleteitem=Delete;dissolveitem=Backspace;joinsectors=J;mergesectors=Shift+J;togglegrid=Alt+G;togglesnap=Alt+S;griddec=BracketLeft;gridinc=BracketRight;zoomin=Kp Add;zoomout=Kp Subtract;zoomtofit=Home;centerinscreen=Ctrl+Home;gotocoords=Ctrl+Shift+G;toggleinfopanel=QuoteLeft;cycleoverlap=Tab;copyproperties=Ctrl+Shift+C;pasteproperties=Ctrl+Alt+V;thinglookatcursor=Shift+L;visualmode=Q;viewmodenormal=;viewmodebrightness=;viewmodefloors=;viewmodeceilings=;nextviewmode=;previousviewmode=;spritepictures=;showalllinks=;syncselection=;showinvisible=;linkchains=;showsectoreffects=;showsectoreffects3d=;contextmenu=;showedit=;showoff=F3;showon=F4;playmovers=P;setfirstwall=Shift+F;snaptogrid=Shift+G;visualautoalign=Ctrl+A;visualautoalignx=Alt+A;visualautoaligny=Alt+Shift+A;visualresettexture=Shift+R;visualcopyoffsets=Shift+C;visualpasteoffsets=Shift+V;visualflip=F;visualalignbottom=O;visualtexturesettings=T;visualinsert=I;visualuse=E;playuse=E;visualdelete=Delete;visualslopeedges=H
+38	status	Blood folder: <Blood folder> (5521 tiles)
+44	new
+51	check	5d51b07a87e09c50	
+18879	state	grid=16;snap=1;units=game;hl=10;sprite=416;spritetile=-1;editnew=1;hidden=;gridframe=0,0,0;circle=16;cells=4,4;falloff=0,1024
+19213	view	0	0	0.12370605
+19205	move	-4526.86	-2546.359	-	0
+19213	leave
+22301	leave
+22700	open	map-01-original.mapx	0	game/blood3d/maps/test.mapx
+22704	check	809b9e4700e0e6b1	
+22707	status	Opened game/blood3d/maps/test.mapx: 21 sectors, 184 walls, 7 sprites
+23215	view	9088	-576	0.027682474
+23210	move	28956.166	-3249.171	-	0
+23215	leave
+24930	move	12917.138	-702.434	-	0
+24937	btn	4	1	12881.014	-702.434	-	8	0	1
+24937	view	9846.603	-601.287	0.034603093
+24937	btn	4	0	12881.014	-702.434	-	0	0	1
+24942	move	12794.316	-702.434	-	0
+24947	btn	4	1	12765.417	-731.333	-	8	0	1
+24947	view	10430.365	-627.296	0.043253865
+24947	btn	4	0	12765.417	-731.333	-	0	0	1
+24953	move	12696.059	-731.333	-	0
+24959	btn	4	1	12649.82	-731.333	-	8	0	1
+24959	view	10874.257	-648.103	0.054067332
+24959	btn	4	0	12649.82	-731.333	-	0	0	1
+24970	move	12557.344	-749.828	-	0
+24976	btn	4	1	12557.344	-749.828	-	8	0	1
+24976	view	11210.874	-668.448	0.067584164
+24976	btn	4	0	12557.344	-749.828	-	0	0	1
+24987	move	12424.176	-779.421	-	0
+24993	btn	4	1	12424.176	-779.421	-	8	0	1
+24993	view	11453.534	-690.643	0.0844802
+24993	btn	4	0	12424.176	-779.421	-	0	0	1
+25010	move	12282.131	-826.769	-	0
+25017	btn	4	1	12270.294	-838.607	-	8	0	1
+25017	view	11616.887	-720.236	0.10560025
+25017	btn	4	0	12270.294	-838.607	-	0	0	1
+25227	move	10849.843	-1198.454	-	0
+25233	btn	4	1	10783.556	-1207.924	-	8	0	1
+25233	view	11450.221	-817.773	0.13200031
+25233	btn	4	0	10783.556	-1207.924	-	0	0	1
+25244	move	10654.768	-1207.924	-	0
+25250	btn	4	1	10647.192	-1207.924	-	8	0	1
+25250	view	11289.615	-895.803	0.1650004
+25250	btn	4	0	10647.192	-1207.924	-	0	0	1
+25256	move	10629.011	-1213.984	-	0
+25279	btn	4	1	10629.011	-1213.984	-	8	0	1
+25279	view	11157.494	-959.44	0.20625049
+25279	btn	4	0	10629.011	-1213.984	-	0	0	1
+25628	move	10255.678	-1267.318	-	0
+25628	key	v	81	81	1	0	-	113
+25633	leave
+25694	status	3D preview: mouse looks, W A S D move (where you look), Shift faster; click selects, wheel raises / lowers, C clears, right click: texture, Ctrl+C / Ctrl+V: copy / paste texture, arrows: move it, keypad: repeats and shade, T: settings, Ctrl+A: align, I: place a sprite, H: slope edges, Delete: delete sprites, Space: menu; Q or Esc: back to 2D
+26474	do	visualmode
+26476	status	Vertices mode
+26554	view	10255.678	-1267.318	0.20625049
+26480	move	10866.585	-954.591	-	0
+26554	key	v	81	81	0	0	-	0
+26554	key	u	81	81	0	0	-	0
+26885	move	9950.224	-1012.773	-	0
+26885	key	v	65	65	1	0	-	97
+26885	key	u	65	65	1	0	-	97
+26965	move	9824.164	-1056.409	-	0
+26965	key	v	65	65	0	0	-	0
+26965	key	u	65	65	0	0	-	0
+27040	move	9775.679	-1153.379	-	0
+27222	key	v	32	32	1	0	-	32
+27234	move	9780.527	-1153.379	-	0
+27245	view	10250.829	-1267.318	0.20625049
+27240	move	9785.376	-1153.379	-	0
+27251	view	10241.132	-1267.318	0.20625049
+27245	move	9790.224	-1153.379	-	0
+27257	view	10226.586	-1267.318	0.20625049
+27251	move	9795.072	-1153.379	-	0
+27263	view	10207.192	-1267.318	0.20625049
+27257	move	9804.77	-1153.379	-	0
+27269	view	10178.102	-1267.318	0.20625049
+27263	move	9809.617	-1153.379	-	0
+27274	view	10144.162	-1267.318	0.20625049
+27269	move	9809.617	-1158.227	-	0
+27280	view	10110.223	-1262.469	0.20625049
+27274	move	9824.163	-1153.378	-	0
+27285	view	10061.738	-1262.469	0.20625049
+27280	move	9824.163	-1153.378	-	0
+27291	view	10013.254	-1262.469	0.20625049
+27285	move	9829.012	-1158.227	-	0
+27297	view	9959.921	-1257.621	0.20625049
+27291	move	9829.012	-1158.227	-	0
+27302	view	9906.588	-1252.772	0.20625049
+27297	move	9843.558	-1153.378	-	0
+27308	view	9838.709	-1252.772	0.20625049
+27302	move	9853.255	-1153.378	-	0
+27314	view	9761.134	-1252.772	0.20625049
+27308	move	9843.558	-1153.378	-	0
+27320	view	9693.255	-1252.772	0.20625049
+27314	move	9853.255	-1153.378	-	0
+27325	view	9615.68	-1252.772	0.20625049
+27320	move	9853.255	-1148.53	-	0
+27331	view	9538.104	-1257.621	0.20625049
+27325	move	9843.559	-1153.378	-	0
+27337	view	9470.226	-1257.621	0.20625049
+27331	move	9833.861	-1148.53	-	0
+27344	view	9412.044	-1262.469	0.20625049
+27337	move	9833.861	-1153.378	-	0
+27349	view	9353.862	-1262.469	0.20625049
+27344	move	9833.861	-1148.53	-	0
+27355	view	9295.681	-1267.318	0.20625049
+27349	move	9814.467	-1153.379	-	0
+27360	view	9256.893	-1267.318	0.20625049
+27355	move	9814.467	-1153.379	-	0
+27365	view	9218.104	-1267.318	0.20625049
+27360	move	9795.073	-1153.379	-	0
+27371	view	9198.711	-1267.318	0.20625049
+27365	move	9799.922	-1153.379	-	0
+27377	view	9174.469	-1267.318	0.20625049
+27371	move	9785.376	-1153.379	-	0
+27474	view	9164.771	-1267.318	0.20625049
+27377	move	9780.527	-1153.379	-	0
+27474	view	9159.923	-1267.318	0.20625049
+27474	key	v	32	32	0	0	-	0
+27983	move	1989.031	-3655.191	-	0
+27988	leave
+28446	do	sectorsmode
+28447	status	Sectors mode
+28972	move	9528.407	-1691.559	-	0
+29058	btn	1	1	9528.407	-1691.559	-	1	0	1
+29092	btn	1	0	9528.407	-1691.559	-	0	0	1
+29093	status	1 selected
+29097	move	9528.407	-1691.559	-	0
+29383	key	v	32	32	1	0	-	32
+29475	key	v	32	32	0	0	-	0
+29556	leave
+31184	leave
+59730	do	makedoor slide 0 0 64 256 -1 10 0 1 20
+59740	status	Make sliding door: no room in the wall beside the doorway for a leaf (1216 deep, 128 thick): sector 0 lies there
+59740	check	809b9e4700e0e6b1	
+60709	move	8035.077	-1434.59	-	0
+60766	btn	1	1	8035.077	-1434.59	-	1	0	1
+60829	btn	1	0	8035.077	-1434.59	-	0	0	1
+60829	status	2 selected
+61179	move	10420.525	-1192.166	-	0
+61254	btn	1	1	10420.525	-1192.166	-	1	0	1
+61322	btn	1	0	10420.525	-1192.166	-	0	0	1
+61322	status	3 selected
+61619	move	8941.741	-1342.469	-	0
+61654	btn	1	1	8941.741	-1342.469	-	1	0	1
+61728	btn	1	0	8941.741	-1342.469	-	0	0	1
+61728	status	2 selected
+62019	move	9615.68	-1279.439	-	0
+62219	btn	1	1	9615.68	-1279.439	-	1	0	1
+62271	btn	1	0	9615.68	-1279.439	-	0	0	1
+62271	status	1 selected
+62488	move	10066.587	-1289.136	-	0
+62557	btn	1	1	10066.587	-1289.136	-	1	0	1
+62607	btn	1	0	10066.587	-1289.136	-	0	0	1
+62607	status	Sectors mode
+62869	move	9576.892	-1308.53	-	0
+63138	btn	1	1	9576.892	-1308.53	-	1	0	1
+63207	btn	1	0	9576.892	-1308.53	-	0	0	1
+63207	status	1 selected
+64338	move	9596.285	-1754.589	-	0
+64510	key	v	32	32	1	0	-	32
+64607	key	v	32	32	0	0	-	0
+64670	leave
+66087	leave
+68184	do	makedoor slide 0 0 64 256 -1 10 0 1 20
+68188	status	Make sliding door: no room in the wall beside the doorway for a leaf (1216 deep, 128 thick): sector 0 lies there
+68188	check	809b9e4700e0e6b1	
+68864	move	2682.362	-4023.675	-	0
+68876	leave
+71921	do	reportproblem
+77582	leave
+78000	do	makedoor swing 0 0 64 256 -1 10 0 1 20
+78000	check	0000000000000000	Swing 0
+78001	do	undo
+78002	do	makedoor swing 1 0 64 256 -1 10 0 1 20
+78002	check	0000000000000000	Swing 1
+78003	do	undo
+78004	do	makedoor slide 0 0 544 256 -1 10 0 1 20
+78004	check	0000000000000000	Slide lip 544

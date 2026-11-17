@@ -1,0 +1,21 @@
+id: 20261105-220910
+description: shows incorrect sprite that is in a room over room. Zombie should not be visible in the mirror.
+map: maps/test.map
+engine: godot
+date: 2026-11-05 22:09:10
+frame: 575
+camera: 154.63 -466.44 56.97
+angles: 4.16 284.50 0.00
+forward: 0.25 -0.97 -0.07
+floor_below: 34.69
+aim_hit: 2199.81 -8376.77 -537.01
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 154.63 -466.44 34.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 154.6 -466.4 34.7 284.5 4.2 18
+screenshot: data/bugs/20261105-220910.png
+recording: data/bugs/20261105-220910.rec (play 20261105-220910)

@@ -1,0 +1,30 @@
+; Engine configuration file.
+; Chosen Forge: the map editor for Blood's .MAP and Chosen's .MAPX (2D, in UltimateDoomBuilder's manner).
+
+config_version=5
+
+[application]
+
+config/name="Chosen Forge"
+config/version="0.1.0"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+run/low_processor_mode=false
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/no_focus=true
+window/size/initial_position_type=2
+window/stretch/mode="disabled"
+window/subwindows/embed_subwindows=false
+
+[dotnet]
+
+project/assembly_name="ChosenForge"
+
+[rendering]
+
+rendering_device/driver.windows="vulkan"
+textures/canvas_textures/default_texture_filter=0

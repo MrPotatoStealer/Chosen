@@ -1,0 +1,21 @@
+id: 20261023-200801
+description: some incorrect geo at top of closet door
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 20:08:01
+frame: 4086
+camera: 410.78 -396.03 -20.07
+angles: -50.80 218.86 0.00
+forward: -0.49 -0.40 0.77
+floor_below: -71.97
+aim_hit: 378.05 -422.41 31.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 66.5
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 410.78 -396.03 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 410.8 -396.0 -72.0 218.9 -50.8
+screenshot: data/bugs/20261023-200801.png
+recording: data/bugs/20261023-200801.rec (play 20261023-200801)

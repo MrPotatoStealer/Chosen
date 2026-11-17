@@ -1,0 +1,12 @@
+id: 20261104-131006
+description: Tried to copy paste this door, results is the door looks to be there but not visible.
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-04 13:18:16
+view: 3D preview
+shown: Edit
+camera: 45.77 111.34 198.73
+angles: 19.85 354.55 0.00
+build_camera: 732 -1781 -50875 angle 31 sector 0
+view2d: 7081.73 2651.38 zoom 0.0769
+screenshot: screenshot.png

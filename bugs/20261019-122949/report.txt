@@ -1,0 +1,21 @@
+id: 20261019-122949
+description: missing transparency on windows
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:29:49
+frame: 4031
+camera: 933.59 -2354.41 105.03
+angles: 4.49 254.33 0.00
+forward: -0.27 -0.96 -0.08
+floor_below: 48.03
+aim_hit: 920.89 -2399.72 101.34
+aim_normal: 0.00 1.00 0.00
+aim_distance: 47.2
+aim_object: blood_wall#25
+aim_texture: tools/caulk
+player_origin: 933.59 -2354.41 82.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 933.6 -2354.4 48.0 254.3 4.5
+screenshot: data/bugs/20261019-122949.png
+recording: data/bugs/20261019-122949.rec (play 20261019-122949)

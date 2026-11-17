@@ -1,0 +1,21 @@
+id: 20261019-104148
+description: z-fighting doors. looks like the the duplicate open doors remain in the map. Same issue we had in darkplaces a while back.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 10:41:48
+frame: 908
+camera: -78.34 -2557.78 105.22
+angles: 7.33 127.58 0.00
+forward: -0.60 0.79 -0.13
+floor_below: 48.03
+aim_hit: -135.97 -2482.90 93.07
+aim_normal: 1.00 0.00 0.00
+aim_distance: 95.3
+aim_object: world
+aim_texture: blood/0090
+player_origin: -78.34 -2557.78 82.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -78.3 -2557.8 48.0 127.6 7.3
+screenshot: data/bugs/20261019-104148.png
+recording: data/bugs/20261019-104148.rec (play 20261019-104148)

@@ -1,0 +1,21 @@
+id: 20261026-204454
+description: some flashing here (changing sector drawing)
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 20:44:54
+frame: 1672
+camera: 928.56 -1818.08 16.67
+angles: 11.95 6.36 0.00
+forward: 0.97 0.11 -0.21
+floor_below: -39.97
+aim_hit: 1194.41 -1788.46 -39.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 273.4
+aim_object: world
+aim_texture: blood/0491_g1
+player_origin: 929.11 -1818.06 -5.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 929.1 -1818.1 -40.0 6.4 12.0 275
+screenshot: data/bugs/20261026-204454.png
+recording: data/bugs/20261026-204454.rec (play 20261026-204454)

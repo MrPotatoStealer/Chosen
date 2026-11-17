@@ -1,0 +1,21 @@
+id: 20261030-191444
+description: invisible collision
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-30 19:14:44
+frame: 1432
+camera: -210.50 -311.85 -38.57
+angles: 20.53 23.92 0.00
+forward: 0.86 0.38 -0.35
+floor_below: -95.97
+aim_hit: -20.04 -227.36 -116.58
+aim_normal: 0.00 0.00 1.00
+aim_distance: 222.5
+aim_object: world
+aim_texture: blood/2448_p10
+player_origin: -210.94 -312.12 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -210.9 -312.1 -96.0 23.9 20.5 244
+screenshot: data/bugs/20261030-191444.png
+recording: data/bugs/20261030-191444.rec (play 20261030-191444)

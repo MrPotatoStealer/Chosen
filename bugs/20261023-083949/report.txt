@@ -1,0 +1,21 @@
+id: 20261023-083949
+description: iceblock should be bobing before stepping on it
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 08:39:49
+frame: 817
+camera: -1592.98 2103.79 139.32
+angles: 33.65 302.84 0.00
+forward: 0.45 -0.70 -0.55
+floor_below: 80.03
+aim_hit: -1544.67 2028.95 80.03
+aim_normal: -0.00 0.00 1.00
+aim_distance: 107.0
+aim_object: world
+aim_texture: blood/2448
+player_origin: -1592.98 2103.79 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1593.0 2103.8 80.0 302.8 33.6
+screenshot: data/bugs/20261023-083949.png
+recording: data/bugs/20261023-083949.rec (play 20261023-083949)

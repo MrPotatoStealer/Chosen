@@ -1,0 +1,21 @@
+id: 20261031-143141
+description: staff dynamic light is green?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-31 14:31:41
+frame: 1578
+camera: 485.61 -2729.30 -55.67
+angles: -0.13 1.42 0.00
+forward: 1.00 0.02 0.00
+floor_below: -77.31
+aim_hit: 1175.97 -2712.16 -54.08
+aim_normal: -1.00 0.00 0.00
+aim_distance: 690.6
+aim_object: decoration#2 type 0 pic 705 stat 0
+aim_texture: 
+player_origin: 485.48 -2729.55 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 485.5 -2729.5 -77.3 1.4 -0.1 65
+screenshot: data/bugs/20261031-143141.png
+recording: data/bugs/20261031-143141.rec (play 20261031-143141)

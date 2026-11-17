@@ -1,0 +1,21 @@
+id: 20261023-114653
+description: missing geo when shelf is open
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 11:46:53
+frame: 4037
+camera: 434.28 -1944.34 110.76
+angles: 57.11 125.79 0.00
+forward: -0.32 0.44 -0.84
+floor_below: 48.03
+aim_hit: 410.56 -1911.44 48.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 74.7
+aim_object: world
+aim_texture: blood/0290
+player_origin: 434.28 -1944.34 82.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 434.3 -1944.3 48.0 125.8 57.1
+screenshot: data/bugs/20261023-114653.png
+recording: data/bugs/20261023-114653.rec (play 20261023-114653)

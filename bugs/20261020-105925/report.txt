@@ -1,0 +1,21 @@
+id: 20261020-105925
+description: missign underwater filter?
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 10:59:25
+frame: 1435
+camera: -3050.09 -1338.60 -121.17
+angles: 8.91 184.19 0.00
+forward: -0.99 -0.07 -0.15
+floor_below: -185.97
+aim_hit: -3462.32 -1368.84 -185.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 418.4
+aim_object: world
+aim_texture: blood/0270
+player_origin: -3050.09 -1338.58 -143.78
+player_health: 179
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -3050.1 -1338.6 -186.0 184.2 8.9
+screenshot: data/bugs/20261020-105925.png
+recording: data/bugs/20261020-105925.rec (play 20261020-105925)

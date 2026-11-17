@@ -1,0 +1,21 @@
+id: 20261019-130147
+description: there should be an increase in brightness on the ground when the lid opens
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 13:01:47
+frame: 89
+camera: -936.00 -2080.00 154.58
+angles: 37.36 360.00 0.00
+forward: 0.79 -0.00 -0.61
+floor_below: 95.05
+aim_hit: -858.02 -2080.00 95.05
+aim_normal: 0.00 0.00 1.00
+aim_distance: 98.1
+aim_object: blood_sector#27(sector30)
+aim_texture: blood/0270
+player_origin: -936.00 -2080.00 129.74
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -936.0 -2080.0 95.1 360.0 37.4
+screenshot: data/bugs/20261019-130147.png
+recording: data/bugs/20261019-130147.rec (play 20261019-130147)

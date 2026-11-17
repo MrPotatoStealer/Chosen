@@ -1,0 +1,21 @@
+id: 20261020-101750
+description: still seeing performance issues this with dynamic lights off
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-20 10:17:50
+frame: 1519
+camera: -1252.08 -3185.44 168.36
+angles: 3.10 113.64 0.00
+forward: -0.40 0.91 -0.05
+floor_below: 112.03
+aim_hit: -1364.65 -2928.28 153.14
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 281.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -1251.59 -3185.45 146.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1251.6 -3185.5 112.0 113.6 3.1
+screenshot: data/bugs/20261020-101750.png
+recording: data/bugs/20261020-101750.rec (play 20261020-101750)

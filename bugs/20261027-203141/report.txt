@@ -1,0 +1,21 @@
+id: 20261027-203141
+description: texture should be scrolling
+map: maps/e4m3.map
+engine: godot
+date: 2026-10-27 20:31:41
+frame: 4894
+camera: -1507.26 -986.41 214.84
+angles: 18.29 50.82 0.00
+forward: 0.60 0.74 -0.31
+floor_below: 148.03
+aim_hit: -1264.03 -688.00 87.56
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 405.5
+aim_object: world
+aim_texture: blood/0421
+player_origin: -1506.57 -985.57 198.11
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1506.6 -985.6 148.0 50.8 18.3 194
+screenshot: data/bugs/20261027-203141.png
+recording: data/bugs/20261027-203141.rec (play 20261027-203141)

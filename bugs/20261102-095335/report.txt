@@ -1,0 +1,21 @@
+id: 20261102-095335
+description: look into performance of this level
+map: maps/dwe2m1.map
+engine: godot
+date: 2026-11-02 09:53:35
+frame: 183
+camera: -1913.67 -4146.99 76.67
+angles: -0.20 56.08 0.00
+forward: 0.56 0.83 0.00
+floor_below: 54.69
+aim_hit: 2658.20 2650.52 104.98
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1912.63 -4145.44 54.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp -1912.6 -4145.4 54.7 56.1 -0.2 706
+screenshot: data/bugs/20261102-095335.png
+recording: data/bugs/20261102-095335.rec (play 20261102-095335)

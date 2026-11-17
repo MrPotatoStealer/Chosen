@@ -1,0 +1,21 @@
+id: 20261020-231711
+description: more performance issues
+map: maps/e1m6.map
+engine: godot
+date: 2026-10-20 23:17:11
+frame: 3276
+camera: -1017.53 1786.47 -529.05
+angles: -3.63 288.80 0.00
+forward: 0.32 -0.94 0.06
+floor_below: -588.30
+aim_hit: -891.43 1416.03 -504.23
+aim_normal: 0.00 1.00 0.00
+aim_distance: 392.1
+aim_object: world
+aim_texture: blood/0556
+player_origin: -1017.53 1786.47 -550.80
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1017.5 1786.5 -588.3 288.8 -3.6
+screenshot: data/bugs/20261020-231711.png
+recording: data/bugs/20261020-231711.rec (play 20261020-231711)

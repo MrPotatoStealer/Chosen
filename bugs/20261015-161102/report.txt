@@ -1,0 +1,17 @@
+id: 20261015-161102
+description: window should be a bit transparent
+map: maps/e1m1.bsp
+date: 2026-10-15 16:11:02
+camera: 437.74 -2762.76 -57.66
+angles: -25.41 -275.69 0.00
+forward: 0.09 0.90 0.43
+floor_below: -111.97
+aim_hit: 498.16 -2156.03 231.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 675.0
+aim_object: world
+aim_texture: textures/blood/0390_p5
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 437.7 -2762.8 -112.0 -275.7 -25.4
+screenshot: data/bugs/20261015-161102.png

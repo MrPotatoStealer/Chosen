@@ -1,0 +1,17 @@
+id: 20261015-230156
+description: piano secret not working,
+map: maps/e1m1.bsp
+date: 2026-10-15 23:01:56
+camera: 1239.65 -1298.20 33.77
+angles: 15.17 -6.80 0.00
+forward: 0.96 -0.11 -0.26
+floor_below: -23.97
+aim_hit: 1295.97 -1304.92 18.39
+aim_normal: -1.00 0.00 0.00
+aim_distance: 58.8
+aim_object: world
+aim_texture: textures/blood/0084
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1239.7 -1298.2 -24.0 -6.8 15.2
+screenshot: data/bugs/20261015-230156.png

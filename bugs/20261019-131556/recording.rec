@@ -1,0 +1,10 @@
+# Blood3D input recording (Godot): play 20261019-131556
+map e1m2
+engine godot
+start map
+seed 14514388
+carried 0
+cvar b3d_skill 3
+cvar b3d_monsters 1
+input movement button0 button2 button3 button4 button5 impulse v_angle
+state origin xvel yvel zvel hitag posture zView zViewVel zWeapon zWeaponVel linkPrevZ linkPrevSet medium xheight cantJump fallScream spin ang look isRunning bubbleTime xhealth

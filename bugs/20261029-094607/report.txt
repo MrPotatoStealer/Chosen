@@ -1,0 +1,21 @@
+id: 20261029-094607
+description: projectiles like napalm crossing portal produces a strange double projectile seen from the side?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-29 09:46:07
+frame: 1230
+camera: 266.64 -2668.36 -56.77
+angles: -20.38 349.14 0.00
+forward: 0.92 -0.18 0.35
+floor_below: -111.97
+aim_hit: 501.19 -2713.35 31.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 254.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 266.64 -2668.36 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 266.6 -2668.4 -112.0 349.1 -20.4 65
+screenshot: data/bugs/20261029-094607.png
+recording: data/bugs/20261029-094607.rec (play 20261029-094607)

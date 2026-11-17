@@ -1,0 +1,21 @@
+id: 20261029-105935
+description: weapon is black, compare to NBlood but looks wrong
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:59:35
+frame: 2579
+camera: 516.04 2099.94 -258.98
+angles: 4.84 353.49 0.00
+forward: 0.99 -0.11 -0.08
+floor_below: -315.97
+aim_hit: 1185.09 2023.60 -315.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 675.8
+aim_object: world
+aim_texture: blood/0255_p1
+player_origin: 516.04 2099.94 -281.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 516.0 2099.9 -316.0 353.5 4.8 490
+screenshot: data/bugs/20261029-105935.png
+recording: data/bugs/20261029-105935.rec (play 20261029-105935)

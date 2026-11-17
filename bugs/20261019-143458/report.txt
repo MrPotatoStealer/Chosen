@@ -1,0 +1,21 @@
+id: 20261019-143458
+description: small strange geo in the sky here
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 14:34:58
+frame: 930
+camera: -58.91 -2573.97 101.65
+angles: -38.21 263.87 0.00
+forward: -0.08 -0.78 0.62
+floor_below: 48.03
+aim_hit: -68.99 -2667.83 175.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 120.1
+aim_object: world
+aim_texture: sky/3678_y8
+player_origin: -58.91 -2573.97 82.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -58.9 -2574.0 48.0 263.9 -38.2
+screenshot: data/bugs/20261019-143458.png
+recording: data/bugs/20261019-143458.rec (play 20261019-143458)

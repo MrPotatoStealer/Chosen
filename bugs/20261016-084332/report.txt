@@ -1,0 +1,17 @@
+id: 20261016-084332
+description: incorrect light on secret that can be blasted open, I guess because of light changes with lightswitch
+map: maps/e1m1.bsp
+date: 2026-10-16 08:43:32
+camera: 1426.84 -1936.65 105.41
+angles: 7.83 -134.90 0.00
+forward: -0.70 -0.70 -0.14
+floor_below: 48.03
+aim_hit: 1291.98 -2071.97 79.14
+aim_normal: 0.00 1.00 0.00
+aim_distance: 192.9
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1426.8 -1936.6 48.0 -134.9 7.8
+screenshot: data/bugs/20261016-084332.png

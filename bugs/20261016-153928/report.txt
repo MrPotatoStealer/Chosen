@@ -1,0 +1,17 @@
+id: 20261016-153928
+description: strange shading on the curtains
+map: maps/E1M1.bsp
+date: 2026-10-16 15:39:28
+camera: 1195.78 -1341.84 33.00
+angles: 3.21 -77.32 0.00
+forward: 0.22 -0.97 -0.06
+floor_below: -23.97
+aim_hit: 1283.18 -1730.17 10.64
+aim_normal: -0.23 0.97 -0.00
+aim_distance: 398.7
+aim_object: world
+aim_texture: textures/blood/0290
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1195.8 -1341.8 -24.0 -77.3 3.2
+screenshot: data/bugs/20261016-153928.png

@@ -1,0 +1,21 @@
+id: 20261020-231602
+description: something is not correct with this geo, room in room issue?
+map: maps/e1m6.map
+engine: godot
+date: 2026-10-20 23:16:02
+frame: 1452
+camera: -613.53 1906.51 -728.07
+angles: -64.68 201.82 0.00
+forward: -0.40 -0.16 0.90
+floor_below: -779.97
+aim_hit: -657.47 1888.92 -628.03
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 110.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -613.53 1906.51 -745.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -613.5 1906.5 -780.0 201.8 -64.7
+screenshot: data/bugs/20261020-231602.png
+recording: data/bugs/20261020-231602.rec (play 20261020-231602)

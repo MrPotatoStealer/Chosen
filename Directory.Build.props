@@ -1,0 +1,27 @@
+<!-- Chosen's version for every project in the repository (the game, Chosen Forge, ChosenLoader, the shared libraries):
+     VERSION holds the number. The assemblies' version is that number; their informational version, what the programs
+     show and their reports carry (Chosen.Shared.Engine.ChosenVersion), is "0.1.0+<commit>" in a release build
+     (build_dist.bat sets CHOSEN_RELEASE=1) and "0.1.0-dev+<commit>" in any other, "-dev" alone without git. -->
+<Project>
+  <PropertyGroup>
+    <ChosenVersion>$([System.IO.File]::ReadAllText('$(MSBuildThisFileDirectory)VERSION').Trim())</ChosenVersion>
+    <Version>$(ChosenVersion)</Version>
+    <Company>Chosen</Company>
+    <Product>Chosen</Product>
+    <!-- the SDK would add the full commit id itself; ChosenInformationalVersion adds the short one -->
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+  <Target Name="ChosenInformationalVersion" BeforeTargets="GetAssemblyAttributes">
+    <Exec Command="git rev-parse --short HEAD" WorkingDirectory="$(MSBuildThisFileDirectory)" ConsoleToMSBuild="true"
+          IgnoreExitCode="true" StandardOutputImportance="low" StandardErrorImportance="low" EchoOff="true">
+      <Output TaskParameter="ConsoleOutput" PropertyName="ChosenCommit" />
+      <Output TaskParameter="ExitCode" PropertyName="ChosenGitExit" />
+    </Exec>
+    <PropertyGroup>
+      <ChosenCommit Condition="'$(ChosenGitExit)' != '0'"></ChosenCommit>
+      <ChosenSuffix Condition="'$(CHOSEN_RELEASE)' != '1'">-dev</ChosenSuffix>
+      <InformationalVersion>$(ChosenVersion)$(ChosenSuffix)</InformationalVersion>
+      <InformationalVersion Condition="'$(ChosenCommit)' != ''">$(InformationalVersion)+$(ChosenCommit)</InformationalVersion>
+    </PropertyGroup>
+  </Target>
+</Project>

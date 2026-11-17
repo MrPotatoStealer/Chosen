@@ -1,0 +1,21 @@
+id: 20261019-210003
+description: strange geo bug
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 21:00:03
+frame: 2844
+camera: 478.47 716.84 -18.08
+angles: -35.64 212.86 0.00
+forward: -0.68 -0.44 0.58
+floor_below: -71.97
+aim_hit: 400.03 666.19 48.87
+aim_normal: 1.00 0.00 0.00
+aim_distance: 114.9
+aim_object: blood_sector#38(sector190)
+aim_texture: blood/0146
+player_origin: 478.47 716.84 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 478.5 716.8 -72.0 212.9 -35.6
+screenshot: data/bugs/20261019-210003.png
+recording: data/bugs/20261019-210003.rec (play 20261019-210003)

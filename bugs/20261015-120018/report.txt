@@ -1,0 +1,17 @@
+id: 20261015-120018
+description: walltexture is darker then the nearby walls.
+map: maps/e1m1.bsp
+date: 2026-10-15 12:00:18
+camera: -390.94 -1919.69 64.51
+angles: -2.37 -47.52 0.00
+forward: 0.67 -0.74 0.04
+floor_below: 8.03
+aim_hit: -302.77 -2015.97 69.92
+aim_normal: 0.00 1.00 0.00
+aim_distance: 130.7
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -390.9 -1919.7 8.0 -47.5 -2.4
+screenshot: data/bugs/20261015-120018.png

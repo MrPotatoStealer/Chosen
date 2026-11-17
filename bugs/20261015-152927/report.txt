@@ -1,0 +1,17 @@
+id: 20261015-152927
+description: Missing texture, can see to the other side, should be the same as the walls next to it.
+map: maps/e1m1.bsp
+date: 2026-10-15 15:29:27
+camera: -60.34 -2388.34 88.72
+angles: 0.05 -195.00 0.00
+forward: -0.97 0.26 -0.00
+floor_below: 24.03
+aim_hit: -207.97 -2348.79 88.59
+aim_normal: 1.00 -0.00 -0.00
+aim_distance: 152.8
+aim_object: world
+aim_texture: textures/blood/0429
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -60.3 -2388.3 24.0 -195.0 0.1
+screenshot: data/bugs/20261015-152927.png

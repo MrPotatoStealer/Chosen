@@ -1,0 +1,21 @@
+id: 20261021-204849
+description: same as bug I reported before about missing sides, it looks like the gate here is missing a small piece of the wall
+map: maps/e2m2.map
+engine: godot
+date: 2026-10-21 20:48:49
+frame: 715
+camera: -259.90 -2549.97 215.30
+angles: -20.06 303.21 0.00
+forward: 0.51 -0.79 0.34
+floor_below: 160.03
+aim_hit: -225.23 -2602.93 238.42
+aim_normal: -0.76 0.00 -0.64
+aim_distance: 67.4
+aim_object: world
+aim_texture: blood/0160
+player_origin: -259.97 -2549.97 194.72
+player_health: 56
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -260.0 -2550.0 160.0 303.2 -20.1
+screenshot: data/bugs/20261021-204849.png
+recording: data/bugs/20261021-204849.rec (play 20261021-204849)

@@ -1,0 +1,21 @@
+id: 20261101-202830
+description: bug happened again, seems to happen when loading a level using command
+map: maps/e1m2.map
+engine: godot
+date: 2026-11-01 20:28:30
+frame: 29
+camera: 576.00 -384.00 304.69
+angles: 0.00 180.00 0.00
+forward: -1.00 -0.00 -0.00
+floor_below: 282.69
+aim_hit: -7616.00 -384.00 304.69
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 576.00 -384.00 282.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 576.0 -384.0 282.7 180.0 0.0 242
+screenshot: data/bugs/20261101-202830.png
+recording: data/bugs/20261101-202830.rec (play 20261101-202830)

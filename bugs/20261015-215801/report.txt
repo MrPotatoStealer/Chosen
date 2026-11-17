@@ -1,0 +1,17 @@
+id: 20261015-215801
+description: Another grap in geo
+map: maps/e1m1.bsp
+date: 2026-10-15 21:58:01
+camera: 252.41 -2914.97 -41.62
+angles: 27.49 -90.65 0.00
+forward: -0.01 -0.89 -0.46
+floor_below: -105.15
+aim_hit: 251.39 -3004.21 -88.05
+aim_normal: 0.63 0.78 0.00
+aim_distance: 100.6
+aim_object: world
+aim_texture: textures/blood/0361_p6
+player_health: 18
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 252.4 -2915.0 -105.2 -90.7 27.5
+screenshot: data/bugs/20261015-215801.png

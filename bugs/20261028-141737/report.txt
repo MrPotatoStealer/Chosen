@@ -1,0 +1,21 @@
+id: 20261028-141737
+description: see if we can fix performance here when the boat is triggered
+map: maps/dwe1m1.map
+engine: godot
+date: 2026-10-28 14:17:37
+frame: 1184
+camera: -284.44 -5137.88 -451.25
+angles: 0.79 130.96 0.00
+forward: -0.66 0.76 -0.01
+floor_below: -507.97
+aim_hit: -675.27 -4687.66 -459.50
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 596.2
+aim_object: dude_cultist_tnt#80 type 248 pic 2855 stat 6
+aim_texture: 
+player_origin: -284.44 -5137.88 -473.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -284.4 -5137.9 -508.0 131.0 0.8 769
+screenshot: data/bugs/20261028-141737.png
+recording: data/bugs/20261028-141737.rec (play 20261028-141737)

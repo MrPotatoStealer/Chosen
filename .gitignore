@@ -1,0 +1,40 @@
+# Downloaded tools and third-party sources (see README for where they come from)
+/tools/*
+!/tools/*.sh
+!/tools/*.py
+/third_party/
+/extracted/
+
+# Everything extracted from Blood (the data folder) or built by the scripts: none of Blood's files are ever committed
+/game/
+
+__pycache__/
+*.pyc
+
+# Local only: Claude Code's settings and your own notes for it (CLAUDE.local.md: paths on this computer)
+/.claude/
+/CLAUDE.local.md
+
+# The retired DarkPlaces version (its QuakeC, engine source, scripts and data) is kept locally where it was, and with it
+# the scripts that made the game's tables from its QuakeC (godot/src/Data/GenTables.cs, GenConst.cs, Sim/Ai/GenAiStates.cs)
+/Deprecated/
+/godot/tools/gen_tables_cs.py
+/godot/tools/gen_aistates_cs.py
+*.lno
+progs.dat
+csprogs.dat
+
+# Bug reports: their text, setup and recordings are committed; every picture (the report's screenshot, NBlood's view,
+# the accepted baseline, the tools' shots) shows Blood's art, so they stay on the computer that made them. A clone
+# without them makes its own baselines at its first regress run (bugs.py regress: no baseline, the shot becomes it).
+/bugs/**/*.jpg
+/bugs/**/*.png
+# Forge's sessions (Help > Report a Problem) until they become regression replays, and the replays' screenshots
+/bugs/forge/
+/forge/tests/replays/*/screenshot.png
+
+# build_release.bat's folders and zips (published as GitHub releases, never committed)
+/release/
+# the shared libraries' build output
+/shared/**/bin/
+/shared/**/obj/

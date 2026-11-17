@@ -1,0 +1,21 @@
+id: 20261020-101619
+description: lets add an option to turn off the auto aim on player weapon,
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-20 10:16:19
+frame: 2423
+camera: 374.08 -2216.82 105.38
+angles: 12.67 167.38 0.00
+forward: -0.95 0.21 -0.22
+floor_below: 48.03
+aim_hit: 82.71 -2151.56 38.25
+aim_normal: 0.13 -0.13 0.98
+aim_distance: 306.0
+aim_object: world
+aim_texture: blood_fxhide/0253
+player_origin: 373.34 -2215.84 82.14
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 373.3 -2215.8 48.0 167.4 12.7
+screenshot: data/bugs/20261020-101619.png
+recording: data/bugs/20261020-101619.rec (play 20261020-101619)

@@ -1,0 +1,21 @@
+id: 20261023-181544
+description: looks like the tracks following with the train should have a scrolling texture to make it be in sync with the ground around it at all times
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 18:15:44
+frame: 270
+camera: -2451.47 -2641.16 447.43
+angles: 34.72 155.65 0.00
+forward: -0.75 0.34 -0.57
+floor_below: 388.03
+aim_hit: -2603.20 -2572.47 332.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 202.6
+aim_object: blood_sector#9(sector10)
+aim_texture: blood/1129
+player_origin: -2451.47 -2641.16 422.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -2451.5 -2641.2 388.0 155.6 34.7
+screenshot: data/bugs/20261023-181544.png
+recording: data/bugs/20261023-181544.rec (play 20261023-181544)

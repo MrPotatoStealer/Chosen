@@ -1,0 +1,21 @@
+id: 20261105-181541
+description: the improved water rendering needs to support water under water links, right now it only shows the water in the sector you currently are
+map: maps/test.map
+engine: godot
+date: 2026-11-05 18:15:41
+frame: 470
+camera: 1415.47 -169.97 -282.47
+angles: -4.03 92.00 0.00
+forward: -0.03 1.00 0.07
+floor_below: -303.04
+aim_hit: 1129.58 7996.81 292.68
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3887 stat 6
+aim_texture: 
+player_origin: 1415.44 -169.94 -303.04
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 1415.4 -169.9 -303.0 92.0 -4.0 20
+screenshot: data/bugs/20261105-181541.png
+recording: data/bugs/20261105-181541.rec (play 20261105-181541)

@@ -1,0 +1,17 @@
+id: 20261016-095818
+description: small tiney gaps all over the level, build might have truncated the vertices to make them align perfectly?
+map: maps/E1M1.bsp
+date: 2026-10-16 09:58:18
+camera: 644.28 -2088.97 -42.71
+angles: 42.47 -226.25 0.00
+forward: -0.51 0.53 -0.68
+floor_below: -103.97
+aim_hit: 610.08 -2053.24 -87.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 67.0
+aim_object: world
+aim_texture: textures/blood/0294
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 644.3 -2089.0 -104.0 -226.2 42.5
+screenshot: data/bugs/20261016-095818.png

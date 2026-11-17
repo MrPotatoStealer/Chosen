@@ -1,0 +1,21 @@
+id: 20261019-190259
+description: looks incorrect
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:02:59
+frame: 3815
+camera: 390.21 -409.96 -14.83
+angles: 7.59 288.89 0.00
+forward: 0.32 -0.94 -0.13
+floor_below: -71.97
+aim_hit: 425.13 -511.97 -29.19
+aim_normal: 0.00 1.00 0.00
+aim_distance: 108.8
+aim_object: world
+aim_texture: blood/0119
+player_origin: 390.21 -409.99 -37.28
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 390.2 -410.0 -72.0 288.9 7.6
+screenshot: data/bugs/20261019-190259.png
+recording: data/bugs/20261019-190259.rec (play 20261019-190259)

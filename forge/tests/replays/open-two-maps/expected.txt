@@ -1,0 +1,4 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+6066be62616b3e8e	
+d18469874d5b8732	

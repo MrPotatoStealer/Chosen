@@ -1,0 +1,21 @@
+id: 20261029-084315
+description: I think I was supposed to start on a boat here?
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 08:43:15
+frame: 1206
+camera: -92.78 -486.14 -405.09
+angles: 29.59 125.39 0.00
+forward: -0.50 0.71 -0.49
+floor_below: -463.97
+aim_hit: -152.82 -401.61 -463.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 119.2
+aim_object: world
+aim_texture: blood/0404_p1
+player_origin: -92.78 -486.14 -429.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -92.8 -486.1 -464.0 125.4 29.6 575
+screenshot: data/bugs/20261029-084315.png
+recording: data/bugs/20261029-084315.rec (play 20261029-084315)

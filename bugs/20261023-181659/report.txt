@@ -1,0 +1,21 @@
+id: 20261023-181659
+description: z-fighting texture
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 18:16:59
+frame: 207
+camera: -466.69 -1962.88 66.04
+angles: 18.61 115.14 0.00
+forward: -0.40 0.86 -0.32
+floor_below: 8.03
+aim_hit: -499.49 -1892.97 40.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 81.5
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -466.69 -1962.88 42.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -466.7 -1962.9 8.0 115.1 18.6
+screenshot: data/bugs/20261023-181659.png
+recording: data/bugs/20261023-181659.rec (play 20261023-181659)

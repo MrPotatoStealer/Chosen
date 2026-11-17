@@ -1,0 +1,21 @@
+id: 20261023-090516
+description: can fall in water before the sector is moved out of the way
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 09:05:16
+frame: 730
+camera: -1511.85 2109.03 138.71
+angles: 26.98 266.74 0.00
+forward: -0.05 -0.89 -0.45
+floor_below: 80.03
+aim_hit: -1518.72 1988.36 77.17
+aim_normal: 0.00 0.00 1.00
+aim_distance: 135.6
+aim_object: blood_sector#19(sector1)
+aim_texture: blood/2915
+player_origin: -1511.85 2109.03 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1511.9 2109.0 80.0 266.7 27.0
+screenshot: data/bugs/20261023-090516.png
+recording: data/bugs/20261023-090516.rec (play 20261023-090516)

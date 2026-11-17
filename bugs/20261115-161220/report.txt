@@ -1,0 +1,21 @@
+id: 20261115-161220
+description: sprite on vent looks to be offset
+map: maps/sevict.map
+engine: godot
+date: 2026-11-15 16:12:20
+frame: 4337
+camera: 2887.82 -2776.23 318.09
+angles: 8.25 4.09 0.00
+forward: 0.99 0.07 -0.14
+floor_below: 275.69
+aim_hit: 10974.38 -2197.71 -857.40
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: world
+aim_texture: 
+player_origin: 2960.00 -3272.00 275.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 2960.0 -3272.0 275.7 4.1 8.3 912
+screenshot: data/bugs/20261115-161220.png
+recording: data/bugs/20261115-161220.rec (play 20261115-161220)

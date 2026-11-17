@@ -1,0 +1,21 @@
+id: 20261026-182348
+description: this looks incorrect
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 18:23:48
+frame: 8100
+camera: 95.24 -891.68 -126.96
+angles: 11.22 266.12 0.00
+forward: -0.07 -0.98 -0.19
+floor_below: -183.97
+aim_hit: 79.08 -1129.97 -174.34
+aim_normal: 0.00 1.00 0.00
+aim_distance: 243.5
+aim_object: world
+aim_texture: blood/0528
+player_origin: 95.16 -891.78 -149.28
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 95.2 -891.8 -184.0 266.1 11.2
+screenshot: data/bugs/20261026-182348.png
+recording: data/bugs/20261026-182348.rec (play 20261026-182348)

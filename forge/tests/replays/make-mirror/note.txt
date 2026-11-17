@@ -1,0 +1,1 @@
+Make Mirror from the context menu on a white wall (line 114): it gives wall 165 picture 504 (it answered "makemirror 114: not there yet": UiDo never routed makemirror/makewallportal to LinkCommand; Forge report 20261105-214020; check lines added after both makemirror commands)

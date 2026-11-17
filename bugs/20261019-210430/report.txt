@@ -1,0 +1,21 @@
+id: 20261019-210430
+description: this room over room is still not fixed,
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 21:04:30
+frame: 9343
+camera: 150.16 101.79 49.16
+angles: 6.21 337.36 0.00
+forward: 0.92 -0.38 -0.11
+floor_below: -14.71
+aim_hit: 239.47 64.53 38.62
+aim_normal: 0.00 1.00 0.00
+aim_distance: 97.3
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 150.16 101.79 26.73
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 150.2 101.8 -14.7 337.4 6.2
+screenshot: data/bugs/20261019-210430.png
+recording: data/bugs/20261019-210430.rec (play 20261019-210430)

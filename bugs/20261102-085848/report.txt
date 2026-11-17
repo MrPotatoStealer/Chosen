@@ -1,0 +1,21 @@
+id: 20261102-085848
+description: look into why this big black thing is in the sky
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-11-02 08:58:48
+frame: 859
+camera: -82.88 -754.25 -452.93
+angles: -22.51 358.77 0.00
+forward: 0.92 -0.02 0.38
+floor_below: -473.31
+aim_hit: 7483.47 -916.72 2682.80
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -82.88 -754.25 -473.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp -82.9 -754.3 -473.3 358.8 -22.5 148
+screenshot: data/bugs/20261102-085848.png
+recording: data/bugs/20261102-085848.rec (play 20261102-085848)

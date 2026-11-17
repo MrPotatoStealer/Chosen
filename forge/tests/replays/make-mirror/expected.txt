@@ -1,0 +1,7 @@
+# map fingerprints after each edit (forge --replay --accept)
+5d51b07a87e09c50	
+bbf1e4de3ad497bb	
+efe40bcfb2791b22	Insert point
+7981820da8b66fe7	Insert point
+6db220e3597cbef6	Make mirror
+6db220e3597cbef6	Make mirror

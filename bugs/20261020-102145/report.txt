@@ -1,0 +1,21 @@
+id: 20261020-102145
+description: portal still messed up here
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-20 10:21:45
+frame: 2673
+camera: 252.25 204.83 66.12
+angles: 19.73 355.45 0.00
+forward: 0.94 -0.07 -0.34
+floor_below: 0.03
+aim_hit: 319.47 199.48 41.93
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 71.6
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 252.25 204.83 42.72
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 252.2 204.8 0.0 355.5 19.7
+screenshot: data/bugs/20261020-102145.png
+recording: data/bugs/20261020-102145.rec (play 20261020-102145)

@@ -1,0 +1,21 @@
+id: 20261026-130935
+description: I can see the wrong room here, not sure if the collision is correct
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-26 13:09:35
+frame: 5752
+camera: -1113.97 1024.29 46.85
+angles: 21.33 310.31 0.00
+forward: 0.60 -0.71 -0.36
+floor_below: 16.03
+aim_hit: -1062.91 964.10 16.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 84.7
+aim_object: world
+aim_texture: blood/0304_g0
+player_origin: -1107.97 1040.29 29.33
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1108.0 1040.3 16.0 310.3 21.3
+screenshot: data/bugs/20261026-130935.png
+recording: data/bugs/20261026-130935.rec (play 20261026-130935)

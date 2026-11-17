@@ -1,0 +1,21 @@
+id: 20261023-224833
+description: geo has holes
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 22:48:33
+frame: 724
+camera: 628.09 -144.35 -17.66
+angles: -30.99 191.96 0.00
+forward: -0.84 -0.18 0.51
+floor_below: -71.97
+aim_hit: 548.07 -161.30 31.47
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 95.4
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 627.97 -144.16 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 628.0 -144.2 -72.0 192.0 -31.0
+screenshot: data/bugs/20261023-224833.png
+recording: data/bugs/20261023-224833.rec (play 20261023-224833)

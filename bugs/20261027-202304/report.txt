@@ -1,0 +1,21 @@
+id: 20261027-202304
+description: tiny strip of geo hanging here right where crosshair is
+map: maps/e4m2.map
+engine: godot
+date: 2026-10-27 20:23:04
+frame: 403
+camera: 30.25 766.62 3.91
+angles: -50.73 174.43 0.00
+forward: -0.63 0.06 0.77
+floor_below: -47.97
+aim_hit: -83.71 777.73 143.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 180.9
+aim_object: world
+aim_texture: blood/0416_g1
+player_origin: 30.25 766.62 -13.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 30.3 766.6 -48.0 174.4 -50.7 170
+screenshot: data/bugs/20261027-202304.png
+recording: data/bugs/20261027-202304.rec (play 20261027-202304)

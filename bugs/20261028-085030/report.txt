@@ -1,0 +1,21 @@
+id: 20261028-085030
+description: sprite on bridge seems to be moving when camera is moving creating a jitter effect
+map: maps/e3m3.map
+engine: godot
+date: 2026-10-28 08:50:30
+frame: 647
+camera: 4790.09 2676.50 -296.52
+angles: -17.20 30.95 0.00
+forward: 0.82 0.49 0.30
+floor_below: -351.97
+aim_hit: 4945.17 2769.51 -240.53
+aim_normal: 0.00 -0.00 -1.00
+aim_distance: 189.3
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 4790.09 2676.50 -317.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4790.1 2676.5 -352.0 31.0 -17.2 16
+screenshot: data/bugs/20261028-085030.png
+recording: data/bugs/20261028-085030.rec (play 20261028-085030)

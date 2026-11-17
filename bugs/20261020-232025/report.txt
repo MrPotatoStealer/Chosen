@@ -1,0 +1,21 @@
+id: 20261020-232025
+description: very bad performance
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-20 23:20:25
+frame: 2967
+camera: 732.03 -2231.72 -103.20
+angles: 1.19 67.24 0.00
+forward: 0.39 0.92 -0.02
+floor_below: -159.97
+aim_hit: 894.78 -1843.88 -111.92
+aim_normal: -0.20 -0.98 -0.00
+aim_distance: 420.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 732.03 -2231.72 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 732.0 -2231.7 -160.0 67.2 1.2
+screenshot: data/bugs/20261020-232025.png
+recording: data/bugs/20261020-232025.rec (play 20261020-232025)

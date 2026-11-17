@@ -1,0 +1,12 @@
+id: 20261107-105619
+description: Make door seem to fail
+map: game/blood3d/maps/test.mapx
+engine: forge
+date: 2026-11-07 10:57:31
+view: 2D Sectors
+shown: Edit
+camera: 640.98 79.21 46.00
+angles: 3.01 20.01 0.00
+build_camera: 10256 -1267 -11776 angle 1934 sector 1
+view2d: 9159.92 -1267.32 zoom 0.2063
+screenshot: screenshot.png

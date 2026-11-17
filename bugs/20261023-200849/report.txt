@@ -1,0 +1,21 @@
+id: 20261023-200849
+description: missing part when opening door
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 20:08:49
+frame: 5243
+camera: 384.34 2119.53 30.57
+angles: 56.25 99.31 0.00
+forward: -0.09 0.55 -0.83
+floor_below: -31.97
+aim_hit: 376.41 2167.97 -42.90
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 88.4
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 384.34 2119.53 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp 384.3 2119.5 -32.0 99.3 56.3
+screenshot: data/bugs/20261023-200849.png
+recording: data/bugs/20261023-200849.rec (play 20261023-200849)

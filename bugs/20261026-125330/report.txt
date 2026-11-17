@@ -1,0 +1,21 @@
+id: 20261026-125330
+description: add missing halo to plasma gun projectiles
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-26 12:53:30
+frame: 532
+camera: 258.22 -1732.78 368.79
+angles: 8.84 167.13 0.00
+forward: -0.96 0.22 -0.15
+floor_below: 312.03
+aim_hit: -55.97 -1661.00 318.64
+aim_normal: 1.00 0.00 0.00
+aim_distance: 326.2
+aim_object: blood_sector#4(sector3)
+aim_texture: blood/0709
+player_origin: 258.28 -1732.88 346.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 258.3 -1732.9 312.0 167.1 8.8
+screenshot: data/bugs/20261026-125330.png
+recording: data/bugs/20261026-125330.rec (play 20261026-125330)

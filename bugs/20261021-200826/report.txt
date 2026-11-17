@@ -1,0 +1,21 @@
+id: 20261021-200826
+description: looks strange between the areas and also having issues jumping out of the water
+map: maps/e2m2.map
+engine: godot
+date: 2026-10-21 20:08:26
+frame: 1031
+camera: -741.66 -524.03 114.34
+angles: 1.85 288.88 0.00
+forward: 0.32 -0.95 -0.03
+floor_below: -367.97
+aim_hit: -734.84 -543.97 113.66
+aim_normal: 0.00 1.00 0.00
+aim_distance: 21.1
+aim_object: blood_sector#52(sector151)
+aim_texture: tools/caulk_g1
+player_origin: 378.34 467.97 178.90
+player_health: 193
+video: 3440x1440 fullscreen 1 hudsize 3
+goto: warp 378.3 468.0 -368.0 288.9 1.8
+screenshot: data/bugs/20261021-200826.png
+recording: data/bugs/20261021-200826.rec (play 20261021-200826)

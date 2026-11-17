@@ -1,0 +1,21 @@
+id: 20261019-162448
+description: light is not replicated through portal
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 16:24:48
+frame: 1836
+camera: 690.14 -2860.88 -56.62
+angles: -18.94 130.15 0.00
+forward: -0.61 0.72 0.32
+floor_below: -111.97
+aim_hit: 523.70 -2663.60 31.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 272.9
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 690.09 -2860.91 -77.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 690.1 -2860.9 -112.0 130.2 -18.9
+screenshot: data/bugs/20261019-162448.png
+recording: data/bugs/20261019-162448.rec (play 20261019-162448)

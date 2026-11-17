@@ -1,0 +1,21 @@
+id: 20261025-185719
+description: very messed up rendering from inside the lift
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-25 18:57:19
+frame: 507
+camera: 1342.84 -1200.84 89.17
+angles: 6.57 88.97 0.00
+forward: 0.02 0.99 -0.11
+floor_below: 32.03
+aim_hit: 1351.78 -704.66 32.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 499.5
+aim_object: world
+aim_texture: blood/0491
+player_origin: 1342.84 -1200.84 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1342.8 -1200.8 32.0 89.0 6.6
+screenshot: data/bugs/20261025-185719.png
+recording: data/bugs/20261025-185719.rec (play 20261025-185719)

@@ -1,0 +1,21 @@
+id: 20261019-190113
+description: opening this vent caude massive stutter
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:01:13
+frame: 1153
+camera: 358.70 2212.11 25.58
+angles: 12.47 73.57 0.00
+forward: 0.28 0.94 -0.22
+floor_below: -31.97
+aim_hit: 391.38 2322.90 0.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 118.3
+aim_object: world
+aim_texture: blood/0530_p7
+player_origin: 358.70 2212.11 2.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 358.7 2212.1 -32.0 73.6 12.5
+screenshot: data/bugs/20261019-190113.png
+recording: data/bugs/20261019-190113.rec (play 20261019-190113)

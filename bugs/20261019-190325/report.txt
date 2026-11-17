@@ -1,0 +1,21 @@
+id: 20261019-190325
+description: fog has collision
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 19:03:25
+frame: 4258
+camera: 205.52 -402.76 -14.04
+angles: 22.44 271.87 0.00
+forward: 0.03 -0.92 -0.38
+floor_below: -71.97
+aim_hit: 207.01 -448.41 -32.90
+aim_normal: 0.00 1.00 0.00
+aim_distance: 49.4
+aim_object: world
+aim_texture: blood_masked/2342_p5_t1
+player_origin: 205.52 -402.72 -37.28
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 205.5 -402.7 -72.0 271.9 22.4
+screenshot: data/bugs/20261019-190325.png
+recording: data/bugs/20261019-190325.rec (play 20261019-190325)

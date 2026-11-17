@@ -1,0 +1,21 @@
+id: 20261031-083424
+description: moving boat is very jittery
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-31 08:34:24
+frame: 245
+camera: 287.21 -974.70 -73.53
+angles: 55.98 135.70 0.00
+forward: -0.40 0.39 -0.83
+floor_below: -101.31
+aim_hit: -2992.80 2226.53 -6863.41
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 285.81 -973.50 -101.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 285.8 -973.5 -101.3 135.7 56.0 91
+screenshot: data/bugs/20261031-083424.png
+recording: data/bugs/20261031-083424.rec (play 20261031-083424)

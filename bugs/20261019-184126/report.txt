@@ -1,0 +1,21 @@
+id: 20261019-184126
+description: performance issues due to dynamic lights even when I cant see any?
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-19 18:41:26
+frame: 1183
+camera: 429.56 -2055.03 297.65
+angles: 13.46 190.76 0.00
+forward: -0.96 -0.18 -0.23
+floor_below: 240.03
+aim_hit: 371.24 -2066.11 283.44
+aim_normal: 0.71 0.71 0.00
+aim_distance: 61.0
+aim_object: switch_oneway#322 type 21 pic 1046 stat 0
+aim_texture: 
+player_origin: 429.56 -2055.03 274.72
+player_health: 83
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 429.6 -2055.0 240.0 190.8 13.5
+screenshot: data/bugs/20261019-184126.png
+recording: data/bugs/20261019-184126.rec (play 20261019-184126)

@@ -1,0 +1,21 @@
+id: 20261027-202741
+description: should have collision?
+map: maps/e4m2.map
+engine: godot
+date: 2026-10-27 20:27:41
+frame: 7355
+camera: 1080.21 1106.87 14.54
+angles: 6.22 245.37 0.00
+forward: -0.41 -0.90 -0.11
+floor_below: -63.97
+aim_hit: 1042.69 1025.03 4.72
+aim_normal: 0.00 1.00 0.00
+aim_distance: 90.6
+aim_object: switch_oneway#230 type 21 pic 483 stat 0
+aim_texture: 
+player_origin: 1080.20 1106.89 -6.80
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1080.2 1106.9 -64.0 245.4 6.2 147
+screenshot: data/bugs/20261027-202741.png
+recording: data/bugs/20261027-202741.rec (play 20261027-202741)

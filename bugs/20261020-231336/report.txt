@@ -1,0 +1,21 @@
+id: 20261020-231336
+description: looks like irst projectile from the tesla gun is incorrectly sideways
+map: maps/e1m7.map
+engine: godot
+date: 2026-10-20 23:13:36
+frame: 2030
+camera: 497.26 -1635.22 280.92
+angles: 2.90 158.73 0.00
+forward: -0.93 0.36 -0.05
+floor_below: 224.03
+aim_hit: -351.97 -1304.63 234.69
+aim_normal: 1.00 0.00 0.00
+aim_distance: 912.5
+aim_object: world
+aim_texture: blood_fxhide/0091
+player_origin: 497.26 -1635.22 258.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 497.3 -1635.2 224.0 158.7 2.9
+screenshot: data/bugs/20261020-231336.png
+recording: data/bugs/20261020-231336.rec (play 20261020-231336)

@@ -1,0 +1,17 @@
+id: 20261015-230345
+description: blowing a whole in the wall here makes the floor go up?
+map: maps/e1m1.bsp
+date: 2026-10-15 23:03:45
+camera: 960.97 -2160.41 194.44
+angles: 18.92 -147.94 0.00
+forward: -0.80 -0.50 -0.32
+floor_below: 136.03
+aim_hit: 816.59 -2250.82 136.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 180.1
+aim_object: world
+aim_texture: textures/blood/1718
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 961.0 -2160.4 136.0 -147.9 18.9
+screenshot: data/bugs/20261015-230345.png

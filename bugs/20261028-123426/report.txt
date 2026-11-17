@@ -1,0 +1,21 @@
+id: 20261028-123426
+description: should the car coming at you kill you? check with NBlood
+map: maps/dwe1m2.map
+engine: godot
+date: 2026-10-28 12:34:26
+frame: 2109
+camera: 2930.83 -4315.31 -434.96
+angles: 5.16 358.63 0.00
+forward: 1.00 -0.02 -0.09
+floor_below: -491.97
+aim_hit: 3199.97 -4321.76 -459.27
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 270.3
+aim_object: blood_sector#50(sector793)
+aim_texture: blood/1665
+player_origin: 2930.83 -4315.31 -457.31
+player_health: 104
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2930.8 -4315.3 -492.0 358.6 5.2 822
+screenshot: data/bugs/20261028-123426.png
+recording: data/bugs/20261028-123426.rec (play 20261028-123426)

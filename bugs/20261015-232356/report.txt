@@ -1,0 +1,17 @@
+id: 20261015-232356
+description: Not sure what this gray thing is but it should not be here
+map: maps/e1m1.bsp
+date: 2026-10-15 23:23:56
+camera: 597.41 -1836.03 -47.11
+angles: 1.91 -148.87 0.00
+forward: -0.86 -0.52 -0.03
+floor_below: -103.97
+aim_hit: 491.55 -1899.97 -51.23
+aim_normal: 0.00 1.00 0.00
+aim_distance: 123.7
+aim_object: world
+aim_texture: textures/blood/0153
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 597.4 -1836.0 -104.0 -148.9 1.9
+screenshot: data/bugs/20261015-232356.png

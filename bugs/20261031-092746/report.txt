@@ -1,0 +1,21 @@
+id: 20261031-092746
+description: human at start got stuck, it should collide with the train
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-31 09:27:46
+frame: 185
+camera: 394.84 3117.13 25.80
+angles: 15.97 91.19 0.00
+forward: -0.02 0.96 -0.28
+floor_below: 2.69
+aim_hit: 231.58 10991.19 -2228.37
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 394.69 3117.13 2.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 394.7 3117.1 2.7 91.2 16.0 81
+screenshot: data/bugs/20261031-092746.png
+recording: data/bugs/20261031-092746.rec (play 20261031-092746)

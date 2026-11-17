@@ -1,0 +1,21 @@
+id: 20261023-135942
+description: difficult going into the water
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 13:59:42
+frame: 2702
+camera: -1514.01 1961.87 134.44
+angles: 44.89 262.55 0.00
+forward: -0.09 -0.70 -0.71
+floor_below: 73.42
+aim_hit: -1521.95 1901.14 73.42
+aim_normal: 0.00 0.00 1.00
+aim_distance: 86.5
+aim_object: world
+aim_texture: blood/2915
+player_origin: -1514.01 1961.87 108.48
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp -1514.0 1961.9 73.4 262.5 44.9
+screenshot: data/bugs/20261023-135942.png
+recording: data/bugs/20261023-135942.rec (play 20261023-135942)

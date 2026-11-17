@@ -1,0 +1,21 @@
+id: 20261021-194744
+description: missing sides?
+map: maps/e2m2.map
+engine: godot
+date: 2026-10-21 19:47:44
+frame: 2234
+camera: -307.37 -2526.47 216.13
+angles: -8.58 241.59 0.00
+forward: -0.47 -0.87 0.15
+floor_below: 160.03
+aim_hit: -356.43 -2617.18 231.69
+aim_normal: 0.76 0.00 -0.64
+aim_distance: 104.3
+aim_object: world
+aim_texture: blood/0160
+player_origin: -307.37 -2526.47 194.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -307.4 -2526.5 160.0 241.6 -8.6
+screenshot: data/bugs/20261021-194744.png
+recording: data/bugs/20261021-194744.rec (play 20261021-194744)

@@ -1,0 +1,21 @@
+id: 20261024-223856
+description: strange sprite, might be a room in room problem here?
+map: maps/e1m5.map
+engine: godot
+date: 2026-10-24 22:38:56
+frame: 900
+camera: -839.69 -1330.74 -254.24
+angles: 14.98 310.04 0.00
+forward: 0.62 -0.74 -0.26
+floor_below: -311.97
+aim_hit: -776.03 -1406.50 -280.72
+aim_normal: -1.00 0.00 0.00
+aim_distance: 102.4
+aim_object: decoration#70 type 0 pic 1701 stat 0
+aim_texture: 
+player_origin: -839.69 -1330.74 -277.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -839.7 -1330.7 -312.0 310.0 15.0
+screenshot: data/bugs/20261024-223856.png
+recording: data/bugs/20261024-223856.rec (play 20261024-223856)

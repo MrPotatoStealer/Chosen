@@ -1,0 +1,21 @@
+id: 20261019-181932
+description: dynamic lights is on even when the light switch is off
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 18:19:32
+frame: 4386
+camera: 1310.45 -1664.30 53.38
+angles: -27.79 282.62 0.00
+forward: 0.19 -0.86 0.47
+floor_below: -7.97
+aim_hit: 1361.26 -1891.32 175.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 263.0
+aim_object: world
+aim_texture: blood_fxhide/0390_p5
+player_origin: 1310.51 -1664.36 34.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1310.5 -1664.4 -8.0 282.6 -27.8
+screenshot: data/bugs/20261019-181932.png
+recording: data/bugs/20261019-181932.rec (play 20261019-181932)

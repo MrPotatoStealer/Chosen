@@ -1,0 +1,21 @@
+id: 20261019-091501
+description: sector is all dark
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 09:15:01
+frame: 7017
+camera: 699.38 -2234.53 -46.59
+angles: 9.97 131.90 0.00
+forward: -0.66 0.73 -0.17
+floor_below: -103.97
+aim_hit: 576.03 -2097.05 -79.05
+aim_normal: 1.00 0.00 0.00
+aim_distance: 187.5
+aim_object: world
+aim_texture: blood_fxhide/1011
+player_origin: 699.38 -2234.53 -69.28
+player_health: 70
+video: 1280x720 fullscreen 0 hudsize 3
+goto: warp 699.4 -2234.5 -104.0 131.9 10.0
+screenshot: data/bugs/20261019-091501.png
+recording: data/bugs/20261019-091501.rec (play 20261019-091501)

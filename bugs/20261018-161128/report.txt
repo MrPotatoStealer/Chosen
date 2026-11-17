@@ -1,0 +1,18 @@
+id: 20261018-161128
+description: can't blow up this wall
+map: maps/E1M2.bsp
+date: 2026-10-18 16:11:28
+camera: -2272.83 -1474.59 375.45
+angles: 18.61 -336.65 0.00
+forward: 0.87 0.38 -0.32
+floor_below: 300.56
+aim_hit: -2112.03 -1405.15 316.47
+aim_normal: -1.00 -0.00 -0.00
+aim_distance: 184.8
+aim_object: world
+aim_texture: textures/blood/0130
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -2272.8 -1474.6 300.6 -336.6 18.6
+screenshot: data/bugs/20261018-161128.png
+recording: data/bugs/20261018-161128.rec (replaybug 20261018-161128)

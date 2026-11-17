@@ -1,0 +1,21 @@
+id: 20261020-231412
+description: killed the boss but level is not finished
+map: maps/e1m7.map
+engine: godot
+date: 2026-10-20 23:14:12
+frame: 2550
+camera: -61.30 -1964.41 282.18
+angles: 20.59 111.38 0.00
+forward: -0.34 0.87 -0.35
+floor_below: 224.03
+aim_hit: -139.55 -1764.49 201.52
+aim_normal: -0.71 -0.71 -0.00
+aim_distance: 229.3
+aim_object: world
+aim_texture: blood_fxhide/0091
+player_origin: -61.36 -1964.41 258.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -61.4 -1964.4 224.0 111.4 20.6
+screenshot: data/bugs/20261020-231412.png
+recording: data/bugs/20261020-231412.rec (play 20261020-231412)

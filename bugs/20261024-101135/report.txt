@@ -1,0 +1,21 @@
+id: 20261024-101135
+description: crash? level just restarted
+map: maps/e1m5.map
+engine: godot
+date: 2026-10-24 10:11:35
+frame: 114
+camera: -3261.13 242.31 -227.18
+angles: 1.45 0.79 0.00
+forward: 1.00 0.01 -0.03
+floor_below: -283.97
+aim_hit: -2096.03 258.42 -256.72
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 1165.6
+aim_object: world
+aim_texture: blood/0090
+player_origin: -3261.13 242.31 -249.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -3261.1 242.3 -284.0 0.8 1.5
+screenshot: data/bugs/20261024-101135.png
+recording: data/bugs/20261024-101135.rec (play 20261024-101135)

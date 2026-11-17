@@ -1,0 +1,17 @@
+id: 20261016-084440
+description: standing in this area should not be possible, should remain crouched?
+map: maps/e1m1.bsp
+date: 2026-10-16 08:44:40
+camera: 76.03 -1995.97 176.88
+angles: 3.37 -279.81 0.00
+forward: 0.17 0.98 -0.06
+floor_below: 120.03
+aim_hit: 82.25 -1960.03 174.73
+aim_normal: 0.00 0.00 0.00
+aim_distance: 36.5
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 76.0 -1996.0 120.0 -279.8 3.4
+screenshot: data/bugs/20261016-084440.png

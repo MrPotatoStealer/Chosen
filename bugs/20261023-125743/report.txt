@@ -1,0 +1,21 @@
+id: 20261023-125743
+description: side textures here should be stretching with the coffin lid opens.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 12:57:43
+frame: 73
+camera: -936.00 -2080.00 135.22
+angles: -21.05 339.67 0.00
+forward: 0.88 -0.32 0.36
+floor_below: 80.03
+aim_hit: -856.21 -2109.56 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 91.2
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -936.00 -2080.00 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -936.0 -2080.0 80.0 339.7 -21.1
+screenshot: data/bugs/20261023-125743.png
+recording: data/bugs/20261023-125743.rec (play 20261023-125743)

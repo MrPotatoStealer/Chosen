@@ -1,0 +1,21 @@
+id: 20261101-170716
+description: look into if there is a fix for the bleeding of moonlight?
+map: maps/e1m5.map
+engine: godot
+date: 2026-11-01 17:07:16
+frame: 2588
+camera: -1639.31 -113.19 -204.78
+angles: -20.59 256.77 0.00
+forward: -0.21 -0.91 0.35
+floor_below: -225.31
+aim_hit: -3393.78 -7578.39 2676.43
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -1639.31 -113.19 -225.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1639.3 -113.2 -225.3 256.8 -20.6 291
+screenshot: data/bugs/20261101-170716.png
+recording: data/bugs/20261101-170716.rec (play 20261101-170716)

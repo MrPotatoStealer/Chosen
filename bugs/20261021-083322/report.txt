@@ -1,0 +1,21 @@
+id: 20261021-083322
+description: should be able to shoot through this window, but prevent player collision
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-21 08:33:22
+frame: 538
+camera: 1096.86 -823.38 -103.57
+angles: -4.29 281.94 0.00
+forward: 0.21 -0.98 0.07
+floor_below: -159.97
+aim_hit: 1113.80 -903.47 -97.43
+aim_normal: 0.00 1.00 0.00
+aim_distance: 82.1
+aim_object: decoration#91 type 0 pic 502 stat 0
+aim_texture: 
+player_origin: 1096.84 -823.38 -125.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1096.8 -823.4 -160.0 281.9 -4.3
+screenshot: data/bugs/20261021-083322.png
+recording: data/bugs/20261021-083322.rec (play 20261021-083322)

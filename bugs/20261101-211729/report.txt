@@ -1,0 +1,21 @@
+id: 20261101-211729
+description: can we make the dynamic light from fire/torches flicker a bit
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 21:17:29
+frame: 528
+camera: -92.58 -2398.19 87.06
+angles: -22.57 206.22 0.00
+forward: -0.83 -0.41 0.38
+floor_below: 66.69
+aim_hit: -6878.69 -5740.35 3231.51
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -92.58 -2398.19 66.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -92.6 -2398.2 66.7 206.2 -22.6 34
+screenshot: data/bugs/20261101-211729.png
+recording: data/bugs/20261101-211729.rec (play 20261101-211729)

@@ -1,0 +1,6 @@
+* text=auto
+*.bat text eol=crlf
+*.sh text eol=lf
+# recorded Forge sessions (regression replays) and reported ones: kept byte for byte
+forge/tests/replays/** -text
+bugs/forge/** -text

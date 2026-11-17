@@ -1,0 +1,17 @@
+id: 20261015-230458
+description: strange collision here, I can crouch and walk thru the gap
+map: maps/e1m1.bsp
+date: 2026-10-15 23:04:58
+camera: 620.09 -874.39 37.86
+angles: 12.88 -313.90 0.00
+forward: 0.68 0.70 -0.22
+floor_below: -19.97
+aim_hit: 694.97 -796.59 13.17
+aim_normal: -0.03 0.12 0.99
+aim_distance: 110.8
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 620.1 -874.4 -20.0 -313.9 12.9
+screenshot: data/bugs/20261015-230458.png

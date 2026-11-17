@@ -1,0 +1,21 @@
+id: 20261024-100518
+description: I'm pretty sure the zombies here should come alive, lets check with NBlood
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-24 10:05:18
+frame: 2777
+camera: 930.09 -3399.84 -54.70
+angles: 8.51 108.03 0.00
+forward: -0.31 0.94 -0.15
+floor_below: -111.97
+aim_hit: 906.80 -3328.28 -65.96
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 76.1
+aim_object: world
+aim_texture: blood_masked/0466
+player_origin: 930.09 -3399.84 -77.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 930.1 -3399.8 -112.0 108.0 8.5
+screenshot: data/bugs/20261024-100518.png
+recording: data/bugs/20261024-100518.rec (play 20261024-100518)

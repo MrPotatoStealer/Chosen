@@ -1,0 +1,21 @@
+id: 20261101-134617
+description: need a sky fix, parts of houses are not visible
+map: maps/e6m1.map
+engine: godot
+date: 2026-11-01 13:46:17
+frame: 3444
+camera: 2278.22 -2934.97 -41.02
+angles: -23.63 273.59 0.00
+forward: 0.06 -0.91 0.40
+floor_below: -61.31
+aim_hit: 2748.73 -10425.44 3242.32
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 2278.25 -2934.94 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2278.3 -2934.9 -61.3 273.6 -23.6 6
+screenshot: data/bugs/20261101-134617.png
+recording: data/bugs/20261101-134617.rec (play 20261101-134617)

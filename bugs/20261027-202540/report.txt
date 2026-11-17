@@ -1,0 +1,21 @@
+id: 20261027-202540
+description: hole in geo most likley due to the previous report
+map: maps/e4m2.map
+engine: godot
+date: 2026-10-27 20:25:40
+frame: 4026
+camera: -415.14 -238.87 310.34
+angles: 56.12 126.46 0.00
+forward: -0.33 0.45 -0.83
+floor_below: 240.03
+aim_hit: -436.82 -209.55 256.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 65.4
+aim_object: world
+aim_texture: blood/0043
+player_origin: -415.14 -238.87 282.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -415.1 -238.9 240.0 126.5 56.1 205
+screenshot: data/bugs/20261027-202540.png
+recording: data/bugs/20261027-202540.rec (play 20261027-202540)

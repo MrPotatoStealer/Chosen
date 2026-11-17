@@ -1,0 +1,27 @@
+; Engine configuration file.
+; ChosenLoader: sets up Chosen's data folder from a Blood install (shared/Chosen.Blood/Files/Extractor.cs).
+
+config_version=5
+
+[application]
+
+config/name="ChosenLoader"
+config/version="0.1.0"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+run/low_processor_mode=true
+
+[display]
+
+window/size/viewport_width=820
+window/size/viewport_height=600
+window/size/initial_position_type=2
+
+[dotnet]
+
+project/assembly_name="ChosenLoader"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

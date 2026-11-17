@@ -1,0 +1,21 @@
+id: 20261019-113150
+description: unable to destory lights, should make the sector darker
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 11:31:50
+frame: 4016
+camera: 1368.59 -1793.09 102.39
+angles: -30.56 271.86 0.00
+forward: 0.03 -0.86 0.51
+floor_below: 40.03
+aim_hit: 1372.64 -1917.66 175.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 144.7
+aim_object: world
+aim_texture: blood_fxhide/0390_p5
+player_origin: 1368.59 -1793.09 82.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp 1368.6 -1793.1 40.0 271.9 -30.6
+screenshot: data/bugs/20261019-113150.png
+recording: data/bugs/20261019-113150.rec (play 20261019-113150)

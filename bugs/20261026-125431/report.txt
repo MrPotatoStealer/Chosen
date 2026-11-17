@@ -1,0 +1,21 @@
+id: 20261026-125431
+description: sound when firing shotgun is cutoff
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-26 12:54:31
+frame: 2055
+camera: -1082.94 -3309.91 313.04
+angles: 4.69 290.00 0.00
+forward: 0.34 -0.94 -0.08
+floor_below: 256.03
+aim_hit: -1008.03 -3515.67 295.09
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 219.7
+aim_object: world
+aim_texture: blood/0130
+player_origin: -1082.94 -3309.91 290.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1082.9 -3309.9 256.0 290.0 4.7
+screenshot: data/bugs/20261026-125431.png
+recording: data/bugs/20261026-125431.rec (play 20261026-125431)

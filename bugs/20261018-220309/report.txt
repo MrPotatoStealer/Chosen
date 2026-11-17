@@ -1,0 +1,18 @@
+id: 20261018-220309
+description: door on this side should also follow the pulasating light
+map: maps/E1M2.bsp
+date: 2026-10-18 22:03:09
+camera: -955.16 -3131.28 312.75
+angles: 2.63 -98.85 0.00
+forward: -0.15 -0.99 -0.05
+floor_below: 256.03
+aim_hit: -976.44 -3267.97 306.40
+aim_normal: 0.00 1.00 0.00
+aim_distance: 138.5
+aim_object: world
+aim_texture: textures/blood/0130
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: cmd warp -955.2 -3131.3 256.0 -98.9 2.6
+screenshot: data/bugs/20261018-220309.png
+recording: data/bugs/20261018-220309.rec (replaybug 20261018-220309)

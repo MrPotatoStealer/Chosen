@@ -1,0 +1,21 @@
+id: 20261019-104238
+description: framerate issue/stuttering when shooting and looking. Check recording.
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 10:42:38
+frame: 1491
+camera: -531.91 -2258.41 101.71
+angles: 8.18 326.11 0.00
+forward: 0.82 -0.55 -0.14
+floor_below: 48.03
+aim_hit: -321.20 -2399.97 65.21
+aim_normal: 0.00 1.00 0.00
+aim_distance: 256.5
+aim_object: world
+aim_texture: blood/0329
+player_origin: -531.97 -2258.53 82.72
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -532.0 -2258.5 48.0 326.1 8.2
+screenshot: data/bugs/20261019-104238.png
+recording: data/bugs/20261019-104238.rec (play 20261019-104238)

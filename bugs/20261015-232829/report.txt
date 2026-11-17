@@ -1,0 +1,17 @@
+id: 20261015-232829
+description: missing texture hiding the secret (cove) in the wall
+map: maps/e1m1.bsp
+date: 2026-10-15 23:28:29
+camera: 493.78 -832.95 32.99
+angles: -36.74 -271.88 0.00
+forward: 0.03 0.80 0.60
+floor_below: -19.97
+aim_hit: 502.03 -582.02 220.37
+aim_normal: 0.32 -0.95 0.00
+aim_distance: 313.3
+aim_object: world
+aim_texture: textures/blood/0110
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 493.8 -832.9 -20.0 -271.9 -36.7
+screenshot: data/bugs/20261015-232829.png

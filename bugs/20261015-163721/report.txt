@@ -1,0 +1,17 @@
+id: 20261015-163721
+description: skewed geometry, it should be straight
+map: maps/e1m1.bsp
+date: 2026-10-15 16:37:21
+camera: 621.43 -2424.57 -55.24
+angles: 0.41 -319.70 0.00
+forward: 0.76 0.65 -0.01
+floor_below: -111.97
+aim_hit: 752.77 -2313.21 -56.48
+aim_normal: -0.83 -0.55 -0.00
+aim_distance: 172.2
+aim_object: world
+aim_texture: textures/blood/1718
+player_health: 48
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 621.4 -2424.6 -112.0 -319.7 0.4
+screenshot: data/bugs/20261015-163721.png

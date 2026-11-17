@@ -1,0 +1,18 @@
+id: 20261018-154455
+description: part of train sector is not moving
+map: maps/E1M2.bsp
+date: 2026-10-18 15:44:55
+camera: -2269.28 -2425.78 444.55
+angles: -1.95 -214.09 0.00
+forward: -0.83 0.56 0.03
+floor_below: 388.03
+aim_hit: -2719.97 -2120.75 463.06
+aim_normal: 1.00 0.00 0.00
+aim_distance: 544.5
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -2269.3 -2425.8 388.0 -214.1 -1.9
+screenshot: data/bugs/20261018-154455.png
+recording: data/bugs/20261018-154455.rec (replaybug 20261018-154455)

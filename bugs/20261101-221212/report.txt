@@ -1,0 +1,21 @@
+id: 20261101-221212
+description: not following the iceberg, check with NBlood if we should be when standing on it? Also didn't fall down once the iceberg was gone from under me.
+map: maps/e2m1.map
+engine: godot
+date: 2026-11-01 22:12:12
+frame: 460
+camera: 75.06 -659.31 -21.99
+angles: 18.76 4.62 0.00
+forward: 0.94 0.08 -0.32
+floor_below: -45.31
+aim_hit: 7806.82 -34.43 -2656.04
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 75.06 -659.31 -45.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 75.1 -659.3 -45.3 4.6 18.8 114
+screenshot: data/bugs/20261101-221212.png
+recording: data/bugs/20261101-221212.rec (play 20261101-221212)

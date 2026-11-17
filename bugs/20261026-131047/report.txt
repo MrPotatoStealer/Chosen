@@ -1,0 +1,21 @@
+id: 20261026-131047
+description: hands are unable to grab the player?
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-26 13:10:47
+frame: 7193
+camera: -1023.78 1778.66 275.77
+angles: 61.00 4.13 0.00
+forward: 0.48 0.03 -0.87
+floor_below: 212.03
+aim_hit: -988.54 1781.20 212.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 72.9
+aim_object: world
+aim_texture: blood/0292_g1
+player_origin: -1023.78 1778.66 246.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1023.8 1778.7 212.0 4.1 61.0
+screenshot: data/bugs/20261026-131047.png
+recording: data/bugs/20261026-131047.rec (play 20261026-131047)

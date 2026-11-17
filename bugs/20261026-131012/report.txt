@@ -1,0 +1,21 @@
+id: 20261026-131012
+description: geo here looks very wrong
+map: maps/e3m1.map
+engine: godot
+date: 2026-10-26 13:10:12
+frame: 6520
+camera: -1036.66 1032.12 74.31
+angles: 22.19 281.03 0.00
+forward: 0.18 -0.91 -0.38
+floor_below: 16.03
+aim_hit: -1016.82 930.36 32.03
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 112.0
+aim_object: world
+aim_texture: blood/0301
+player_origin: -1036.66 1032.12 50.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1036.7 1032.1 16.0 281.0 22.2
+screenshot: data/bugs/20261026-131012.png
+recording: data/bugs/20261026-131012.rec (play 20261026-131012)

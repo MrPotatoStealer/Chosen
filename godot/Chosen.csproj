@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>Chosen</RootNamespace>
+    <Nullable>disable</Nullable>
+    <!-- JIT optimisations in the Debug build too (the game is run from it): the collision math is several times faster -->
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\shared\Chosen.Engine\Chosen.Engine.csproj" />
+    <ProjectReference Include="..\shared\Chosen.Blood\Chosen.Blood.csproj" />
+  </ItemGroup>
+</Project>

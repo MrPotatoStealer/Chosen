@@ -1,0 +1,21 @@
+id: 20261029-153119
+description: is this correct? jumping down the well
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 15:31:19
+frame: 6310
+camera: 2113.92 -439.05 -127.28
+angles: 20.60 292.04 0.00
+forward: 0.35 -0.87 -0.35
+floor_below: -295.97
+aim_hit: 2222.01 -706.04 -235.57
+aim_normal: -0.99 0.11 0.00
+aim_distance: 307.7
+aim_object: world
+aim_texture: blood/0230
+player_origin: 2113.75 -439.05 -149.26
+player_health: 102
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 2113.7 -439.0 -296.0 292.0 20.6 854
+screenshot: data/bugs/20261029-153119.png
+recording: data/bugs/20261029-153119.rec (play 20261029-153119)

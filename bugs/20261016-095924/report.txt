@@ -1,0 +1,17 @@
+id: 20261016-095924
+description: more ugly tiney gaps
+map: maps/E1M1.bsp
+date: 2026-10-16 09:59:24
+camera: 1309.56 -1755.39 88.53
+angles: -2.21 -323.99 0.00
+forward: 0.81 0.59 0.04
+floor_below: 24.03
+aim_hit: 1373.67 -1708.80 91.58
+aim_normal: -0.84 -0.54 -0.00
+aim_distance: 79.3
+aim_object: world
+aim_texture: textures/blood/0479
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1309.6 -1755.4 24.0 -324.0 -2.2
+screenshot: data/bugs/20261016-095924.png

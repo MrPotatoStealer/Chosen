@@ -1,0 +1,21 @@
+id: 20261031-172051
+description: flame is very dull, why not bright like a napalm explosion?
+map: maps/mrw01.map
+engine: godot
+date: 2026-10-31 17:20:51
+frame: 1147
+camera: 3699.45 -923.23 -249.31
+angles: 2.11 18.31 0.00
+forward: 0.95 0.31 -0.04
+floor_below: -272.89
+aim_hit: 11471.61 1648.02 -551.21
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3845 stat 6
+aim_texture: 
+player_origin: 3699.95 -924.75 -272.89
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 3700.0 -924.7 -272.9 18.3 2.1 550
+screenshot: data/bugs/20261031-172051.png
+recording: data/bugs/20261031-172051.rec (play 20261031-172051)

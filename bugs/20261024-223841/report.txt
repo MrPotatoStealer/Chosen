@@ -1,0 +1,21 @@
+id: 20261024-223841
+description: hole in geo
+map: maps/e1m5.map
+engine: godot
+date: 2026-10-24 22:38:41
+frame: 861
+camera: -838.94 -1330.67 -252.29
+angles: 37.95 30.69 0.00
+forward: 0.68 0.40 -0.61
+floor_below: -311.97
+aim_hit: -778.98 -1295.09 -306.66
+aim_normal: -0.81 -0.58 -0.00
+aim_distance: 88.4
+aim_object: world
+aim_texture: blood/0406_p9
+player_origin: -838.94 -1330.67 -277.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -838.9 -1330.7 -312.0 30.7 38.0
+screenshot: data/bugs/20261024-223841.png
+recording: data/bugs/20261024-223841.rec (play 20261024-223841)

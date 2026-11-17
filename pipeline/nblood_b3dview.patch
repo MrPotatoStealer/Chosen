@@ -1,0 +1,373 @@
+diff --git a/source/blood/src/blood.cpp b/source/blood/src/blood.cpp
+index bba6ae3..b7451b6 100644
+--- a/source/blood/src/blood.cpp
++++ b/source/blood/src/blood.cpp
+@@ -97,6 +97,94 @@ unsigned int nMaxAlloc = 0x4000000;
+ bool bCustomName = false;
+ char bAddUserMap = false;
+ bool bNoDemo = false;
++
++// Blood3D comparison mode (-b3dview x,y,z,yaw,pitch in Quake units, -b3dshot seconds): the view is drawn from that
++// camera (view.cpp) and after that long a screenshot (b3dvNNNN.png) is saved and the game quits. -b3dviews <file>
++// takes a list instead (a line per view: x y z yaw pitch [sector]: the camera's sector, where rooms share space; else
++// the one updatesectorz finds): the first after -b3dshot seconds (default 2), each next
++// one a few frames later, one screenshot each (b3dv0000, b3dv0001, ... in list order), then the game quits. From the
++// first view on the game's logic is held (gB3dHold), so every view shows the same moment (a train, a lift, a door on
++// its timer), as Godot's --views holds its world at the same game time. The
++// weapon, crosshair and status bar are not drawn in this mode.
++bool gB3dView = false;
++double gB3dViewPos[6] = { 0, 0, 0, 0, 0, -1 };
++double gB3dShotSeconds = -1;
++static ClockTicks gB3dStartClock = -1;
++static double gB3dViews[1024][6];
++static int gB3dViewCount = 0, gB3dViewIndex = 0;
++static int gB3dSettle = 0;
++static bool gB3dHold = false;      // a view list from its first view on: ProcessFrame runs no game logic
++bool gB3dFreezeFx = false;      // a view list: sector light effects stay at their base shades (sectorfx.cpp)
++
++// Blood3D test spots (-b3dwarp x,y,z,yaw[,pitch[,sector]] in Quake units, z the feet; godot\playat.bat): an ordinary
++// game, the player put there once the level has started. sector: the Build sector (rooms sharing space); else the one
++// updatesectorz finds.
++static bool gB3dWarp = false;
++static double gB3dWarpPos[6] = { 0, 0, 0, 0, 0, -1 };
++
++// Blood3D: -b3dsend s[,s...] turns those Build sectors on once the level has started (trTriggerSector, as walking
++// in or a switch would), to compare movers mid-motion (with -b3dview and -b3dshot seconds); c<n>: toggles channel n
++// (evSend, as a switch sending it would: E1M2's train); o<n>: turns sector n off (one that starts on)
++static int gB3dSend[16], gB3dSendCount = 0;
++
++static void B3dWarpPlayer(void)
++{
++    spritetype *pSprite = gMe->pSprite;
++    int x = (int)(gB3dWarpPos[0] * 16), y = (int)(-gB3dWarpPos[1] * 16), z = (int)(-gB3dWarpPos[2] * 256);
++    int16_t nSector = pSprite->sectnum;
++    if (gB3dWarpPos[5] >= 0 && gB3dWarpPos[5] < numsectors)
++        nSector = (int)gB3dWarpPos[5];
++    else
++        updatesectorz(x, y, z - 2048, &nSector);
++    if (nSector < 0)
++        return;
++    pSprite->x = x;
++    pSprite->y = y;
++    if (pSprite->sectnum != nSector)
++        ChangeSpriteSect(pSprite->index, nSector);
++    // in an underwater sector: swimming, as crossing its water link would make it (actor.cpp)
++    if (sector[nSector].extra > 0 && xsector[sector[nSector].extra].Underwater)
++    {
++        gMe->pXSprite->medium = kMediumWater;
++        gMe->posture = kPostureSwim;
++    }
++    int top, bottom;
++    GetSpriteExtents(pSprite, &top, &bottom);
++    pSprite->z += z - bottom;
++    int nAng = (int)fmod(-gB3dWarpPos[3] * 2048.0 / 360.0 + 4096.0 * 4, 2048.0);
++    gMe->angold = pSprite->ang = nAng;      // angold too, or playerMove adds the turn again
++    gMe->q16ang = fix16_from_int(nAng);
++    gMe->q16horiz = fix16_from_float((float)(-gB3dWarpPos[4] * 2048.0 / 360.0));
++    xvel[pSprite->index] = yvel[pSprite->index] = zvel[pSprite->index] = 0;
++    POSTURE *pPosture = &gMe->pPosture[gMe->lifeMode][gMe->posture];
++    gMe->zView = pSprite->z - pPosture->eyeAboveZ;
++    gMe->zWeapon = pSprite->z - pPosture->weaponAboveZ;
++    viewBackupView(gMe->nPlayer);
++}
++
++static void B3dLoadViews(const char *path)
++{
++    FILE *f = fopen(path, "r");
++    if (!f)
++        ThrowError("Can't open %s", path);
++    char line[256];
++    while (gB3dViewCount < 1024 && fgets(line, sizeof(line), f))
++    {
++        double *v = gB3dViews[gB3dViewCount];
++        v[4] = 0;
++        v[5] = -1;
++        if (sscanf(line, "%lf %lf %lf %lf %lf %lf", &v[0], &v[1], &v[2], &v[3], &v[4], &v[5]) >= 4)
++            gB3dViewCount++;
++    }
++    fclose(f);
++    if (gB3dViewCount == 0)
++        ThrowError("No views in %s", path);
++    memcpy(gB3dViewPos, gB3dViews[0], sizeof(gB3dViewPos));
++    gB3dView = true;
++    gB3dFreezeFx = true;
++    if (gB3dShotSeconds < 0)
++        gB3dShotSeconds = 2;
++}
+ bool bQuickStart = false;
+ bool bNoAutoLoad = false;
+ 
+@@ -1132,7 +1220,7 @@ void ProcessFrame(void)
+     viewClearInterpolations();
+     if (!gDemo.at1)
+     {
+-        if (gPaused || gEndGameMgr.at0 || (gGameOptions.nGameType == kGameTypeSinglePlayer && gGameMenuMgr.m_bActive))
++        if (gPaused || gB3dHold || gEndGameMgr.at0 || (gGameOptions.nGameType == kGameTypeSinglePlayer && gGameMenuMgr.m_bActive))
+             return;
+         if (gDemo.at0)
+             gDemo.Write(gFifoInput[(gNetFifoTail-1)&255]);
+@@ -1258,6 +1346,11 @@ SWITCH switches[] = {
+     { "conf", 43, 1 },
+     { "noconsole", 43, 0 },
+     { "s", 44, 1 },
++    { "b3dview", 90, 1 },
++    { "b3dshot", 91, 1 },
++    { "b3dviews", 92, 1 },
++    { "b3dwarp", 93, 1 },
++    { "b3dsend", 94, 1 },
+     { NULL, 0, 0 }
+ };
+ 
+@@ -1569,6 +1662,48 @@ void ParseOptions(void)
+             break;
+         case 43: // conf, noconsole
+             break;
++        case 90:
++            if (OptArgc < 1)
++                ThrowError("Missing argument");
++            // "v" first: a negative x would read as the next switch
++            if (sscanf(OptArgv[0] + (OptArgv[0][0] == 'v'), "%lf,%lf,%lf,%lf,%lf", &gB3dViewPos[0], &gB3dViewPos[1], &gB3dViewPos[2], &gB3dViewPos[3], &gB3dViewPos[4]) >= 4)
++                gB3dView = true;
++            bQuickStart = 1;      // comparison runs skip the intro movies
++            break;
++        case 91:
++            if (OptArgc < 1)
++                ThrowError("Missing argument");
++            gB3dShotSeconds = atof(OptArgv[0]);
++            break;
++        case 92:
++            if (OptArgc < 1)
++                ThrowError("Missing argument");
++            B3dLoadViews(OptArgv[0]);
++            bQuickStart = 1;
++            break;
++        case 94:
++        {
++            if (OptArgc < 1)
++                ThrowError("Missing argument");
++            const char *p = OptArgv[0];
++            while (*p && gB3dSendCount < 16)
++            {
++                gB3dSend[gB3dSendCount++] = *p == 'c' ? 0x10000 | atoi(p + 1) : *p == 'o' ? 0x20000 | atoi(p + 1) : atoi(p);
++                while (*p && *p != ',')
++                    p++;
++                if (*p == ',')
++                    p++;
++            }
++            break;
++        }
++        case 93:
++            if (OptArgc < 1)
++                ThrowError("Missing argument");
++            // "v" first, as -b3dview
++            if (sscanf(OptArgv[0] + (OptArgv[0][0] == 'v'), "%lf,%lf,%lf,%lf,%lf,%lf", &gB3dWarpPos[0], &gB3dWarpPos[1], &gB3dWarpPos[2], &gB3dWarpPos[3], &gB3dWarpPos[4], &gB3dWarpPos[5]) >= 4)
++                gB3dWarp = true;
++            bQuickStart = 1;
++            break;
+         case 44:
+             if (OptArgc < 1)
+                 ThrowError("Missing argument");
+@@ -1956,8 +2091,51 @@ RESTART:
+                 netCheckSync();
+                 if (bDraw)
+                 {
++                    if (gB3dSendCount && gGameStarted)
++                    {
++                        for (int i = 0; i < gB3dSendCount; i++)
++                        {
++                            int n = gB3dSend[i];
++                            if (n & 0x10000)
++                                evSend(0, 0, n & 0xffff, kCmdToggle, kCauserGame);
++                            else if ((n & 0x20000) && (n & 0xffff) < numsectors && sector[n & 0xffff].extra > 0)
++                                trTriggerSector(n & 0xffff, &xsector[sector[n & 0xffff].extra], kCmdOff, kCauserGame);
++                            else if (n >= 0 && n < numsectors && sector[n].extra > 0)
++                                trTriggerSector(n, &xsector[sector[n].extra], kCmdOn, kCauserGame);
++                        }
++                        gB3dSendCount = 0;
++                    }
++                    if (gB3dWarp && gGameStarted && gMe && gMe->pSprite)
++                    {
++                        gB3dWarp = false;
++                        B3dWarpPlayer();
++                    }
+                     viewDrawScreen();
+                     g_gameUpdateAndDrawTime = timerGetFractionalTicks() - gameUpdateStartTime;
++                    // Blood3D comparison mode: the screenshot once the level has run long enough, then quit
++                    if (gB3dShotSeconds >= 0 && gGameStarted)
++                    {
++                        if (gB3dStartClock < 0)
++                            gB3dStartClock = totalclock;
++                        if (gB3dSettle > 0)
++                            gB3dSettle--;      // a view list: drawn a few times from the new camera first
++                        else if ((totalclock - gB3dStartClock) >= gB3dShotSeconds * 120)
++                        {
++                            if (gB3dViewCount > 0)
++                                gB3dHold = true;
++                            videoCaptureScreen("b3dv0000.tga", 0);
++                            if (++gB3dViewIndex < gB3dViewCount)
++                            {
++                                memcpy(gB3dViewPos, gB3dViews[gB3dViewIndex], sizeof(gB3dViewPos));
++                                gB3dSettle = 3;
++                            }
++                            else
++                            {
++                                gB3dShotSeconds = -1;
++                                gQuitGame = true;
++                            }
++                        }
++                    }
+                 }
+             }
+         }
+diff --git a/source/blood/src/sectorfx.cpp b/source/blood/src/sectorfx.cpp
+index ac2bcb0..c90de0f 100644
+--- a/source/blood/src/sectorfx.cpp
++++ b/source/blood/src/sectorfx.cpp
+@@ -115,10 +115,15 @@ char gotsectorROR[bitmap_size(kMaxSectors)]; // this is the same as gotsector, e
+ 
+ void DoSectorLighting(void)
+ {
++    extern bool gB3dFreezeFx;
+     for (int i = 0; i < shadeCount; i++)
+     {
+         int nXSector = shadeList[i];
+         XSECTOR *pXSector = &xsector[nXSector];
++        // Blood3D comparison views: flickering and pulsing rooms at their base shades so they compare; a steady
++        // light (wave 0) stays as the game shows it, as in Blood3D (World.FreezeLightFx)
++        if (gB3dFreezeFx && pXSector->wave != 0)
++            continue;
+         int nSector = pXSector->reference;
+         dassert(sector[nSector].extra == nXSector);
+         if (pXSector->shade)
+diff --git a/source/blood/src/view.cpp b/source/blood/src/view.cpp
+index 732ecb6..2c59f65 100644
+--- a/source/blood/src/view.cpp
++++ b/source/blood/src/view.cpp
+@@ -2187,7 +2187,9 @@ void viewDrawInterface(ClockTicks arg)
+         UpdateFrame();
+         pcBackground--;
+     }
+-    UpdateStatusBar(arg);
++    extern bool gB3dView;
++    if (!gB3dView)      // Blood3D comparison mode: no status bar
++        UpdateStatusBar(arg);
+ }
+ 
+ fix16_t gCameraAng = 0;
+@@ -3654,6 +3656,34 @@ void viewDrawScreen(void)
+         {
+             CalcPosition(gView->pSprite, (int*)&cX, (int*)&cY, (int*)&cZ, &nSectnum, fix16_to_int(cA), q16horiz);
+         }
++        extern bool gB3dView;
++        extern double gB3dViewPos[6];
++        if (gB3dView)
++        {
++            // Blood3D comparison mode: the camera of a Blood3D bug report (Quake units, yaw/pitch in degrees, pitch
++            // down positive), converted to Build units; the look is Blood's horiz for that pitch
++            cX = (int)(gB3dViewPos[0] * 16);
++            cY = (int)(-gB3dViewPos[1] * 16);
++            cZ = (int)(-gB3dViewPos[2] * 256);
++            cA = fix16_from_float((float)fmod(-gB3dViewPos[3] * 2048.0 / 360.0 + 4096.0 * 4, 2048.0));
++            double look = -gB3dViewPos[4] * 2048.0 / 360.0;
++            look = look < -347 ? -347 : look > 289 ? 289 : look;
++            q16horiz = fix16_from_float((float)(100.0 * tan(look * fPI / 1024.0)));
++            // the view's own sector where the camera lies in it (rooms sharing space, stacked rooms), else
++            // updatesectorz looks around it (a moving sector over the spot: E1M2's train car over its platform)
++            int16_t nCamSect = (int16_t)nSectnum;
++            bool bHint = gB3dViewPos[5] >= 0 && gB3dViewPos[5] < numsectors;
++            if (bHint)
++                nCamSect = (int16_t)gB3dViewPos[5];
++            int16_t nHint = nCamSect;
++            updatesectorz(cX, cY, cZ, &nCamSect);
++            if (nCamSect < 0 && bHint)
++                nCamSect = nHint;
++            else if (nCamSect < 0)
++                updatesector(cX, cY, &nCamSect);
++            if (nCamSect >= 0)
++                nSectnum = nCamSect;
++        }
+         const char bLink = CheckLink((int*)&cX, (int*)&cY, (int*)&cZ, &nSectnum);
+         int nTilt = gViewInterpolate ? interpolateang(gScreenTiltO, gScreenTilt, gInterpolate) : gScreenTilt;
+         char nPalCrystalBall = 0;
+@@ -3950,7 +3980,8 @@ RORHACK:
+             }
+         }
+ #endif
+-        if (gViewPos == VIEWPOS_0)
++        extern bool gB3dView;
++        if (gViewPos == VIEWPOS_0 && !gB3dView)     // Blood3D comparison mode: no weapon or crosshair
+         {
+             if (gAimReticle)
+             {
+@@ -4030,6 +4061,9 @@ RORHACK:
+                 else nPalette = 2;
+             }
+         }
++        extern bool gB3dView;
++        if (gB3dView)       // Blood3D comparison mode: no screen palette (the player sprite stays at the start, in E6M5's water)
++            nPalette = 0;
+     }
+     if (gViewMode == 4)
+     {
+@@ -4108,7 +4142,9 @@ RORHACK:
+         printext256(fX-strlen(gTempStr)*4, fY, 31, -1, gTempStr, 1);
+     }
+ #endif
+-    viewDrawMapTitle();
++    extern bool gB3dView;
++    if (!gB3dView)      // Blood3D comparison mode: no level title (it fades in real time: a view list's first views had it)
++        viewDrawMapTitle();
+     viewDrawAimedPlayerName();
+     viewPrintFPS();
+     if (gPaused)
+diff --git a/source/build/src/sdlayer.cpp b/source/build/src/sdlayer.cpp
+index d981a30..be535d9 100644
+--- a/source/build/src/sdlayer.cpp
++++ b/source/build/src/sdlayer.cpp
+@@ -554,7 +554,13 @@ int main(int argc, char *argv[])
+ #ifdef EDUKE32_OSX
+     osx_preopen();
+ #endif
+-    startwin_open();
++    // Blood3D: no start window (it took the focus and the cursor as it opened) unless -setup asks for its setup page
++    bool b3dSetup = false;
++    for (int i = 1; i < argc; i++)
++        if (!Bstrcasecmp(argv[i], "-setup"))
++            b3dSetup = true;
++    if (b3dSetup)
++        startwin_open();
+ #ifdef EDUKE32_OSX
+     osx_postopen();
+ #endif
+@@ -1276,6 +1282,9 @@ static void SetWindowGrab(SDL_Window *pWindow, int const clipToWindow)
+ #endif
+ static inline char grabmouse_low(char a)
+ {
++    // Blood3D: a test run (B3D_OFFSCREEN) never takes the mouse
++    if (getenv("B3D_OFFSCREEN"))
++        a = 0;
+ #if !defined EDUKE32_TOUCH_DEVICES
+     /* FIXME: Maybe it's better to make sure that grabmouse_low
+        is called only when a window is ready?                */
+@@ -1640,6 +1649,10 @@ int32_t setvideomode_sdlcommon(int32_t *x, int32_t *y, int32_t c, int32_t fs, in
+     if (videoCheckMode(x, y, c, fs, 0) < 0)
+         return -1;
+ 
++    // Blood3D: a test run (B3D_OFFSCREEN) shows its window without taking the focus
++    if (getenv("B3D_OFFSCREEN"))
++        SDL_SetHint(SDL_HINT_WINDOW_NO_ACTIVATION_WHEN_SHOWN, "1");
++
+ #ifdef GEKKO
+     if (!sdl_surface) // only run this the first time we set a video mode
+         wii_initgamevideo();
+@@ -1732,7 +1745,9 @@ int setvideomode_sdlcommonpost(int32_t x, int32_t y, int32_t c, int32_t fs, int3
+         return -1;
+     }
+ 
+-    if (displayindex != newdisplayindex || g_windowPos.x + x < 0 || g_windowPos.y + y < 0 || g_windowPos.x > desktopmode.w || g_windowPos.y > desktopmode.h)
++    // Blood3D: B3D_OFFSCREEN keeps a position off the desktop (test runs: their window out of the user's way)
++    if ((displayindex != newdisplayindex || g_windowPos.x + x < 0 || g_windowPos.y + y < 0 || g_windowPos.x > desktopmode.w || g_windowPos.y > desktopmode.h)
++        && !getenv("B3D_OFFSCREEN"))
+         g_windowPosValid = false;
+ 
+ #ifdef _WIN32

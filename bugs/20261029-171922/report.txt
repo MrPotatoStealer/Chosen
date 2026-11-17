@@ -1,0 +1,21 @@
+id: 20261029-171922
+description: fog is thicker or falloff is much lowe than Nblood
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 17:19:22
+frame: 2432
+camera: 820.11 1704.17 -250.82
+angles: 7.16 12.31 0.00
+forward: 0.97 0.21 -0.12
+floor_below: -307.97
+aim_hit: 1326.51 1814.64 -315.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 522.4
+aim_object: world
+aim_texture: blood/0255_p1
+player_origin: 820.11 1704.17 -273.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 820.1 1704.2 -308.0 12.3 7.2 480
+screenshot: data/bugs/20261029-171922.png
+recording: data/bugs/20261029-171922.rec (play 20261029-171922)

@@ -1,0 +1,21 @@
+id: 20261029-105717
+description: incorrect brightness on sprites in the ceiling?
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 10:57:17
+frame: 1055
+camera: -833.38 -3834.24 -255.66
+angles: -47.70 270.43 0.00
+forward: 0.01 -0.67 0.74
+floor_below: -307.97
+aim_hit: -832.87 -3903.06 -180.03
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 102.3
+aim_object: world
+aim_texture: blood/0272
+player_origin: -833.39 -3834.19 -273.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -833.4 -3834.2 -308.0 270.4 -47.7 918
+screenshot: data/bugs/20261029-105717.png
+recording: data/bugs/20261029-105717.rec (play 20261029-105717)

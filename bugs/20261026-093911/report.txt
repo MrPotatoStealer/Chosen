@@ -1,0 +1,21 @@
+id: 20261026-093911
+description: missing geo when the turning door is in motion
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-26 09:39:11
+frame: 1283
+camera: 1342.17 -1225.71 93.55
+angles: 51.02 333.33 0.00
+forward: 0.56 -0.28 -0.78
+floor_below: 32.03
+aim_hit: 1386.66 -1248.06 32.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 79.1
+aim_object: world
+aim_texture: blood/0491
+player_origin: 1342.42 -1225.75 66.72
+player_health: 94
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1342.4 -1225.8 32.0 333.3 51.0
+screenshot: data/bugs/20261026-093911.png
+recording: data/bugs/20261026-093911.rec (play 20261026-093911)

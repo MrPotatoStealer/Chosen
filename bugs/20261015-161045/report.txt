@@ -1,0 +1,17 @@
+id: 20261015-161045
+description: gates are closed but has no collision
+map: maps/e1m1.bsp
+date: 2026-10-15 16:10:45
+camera: 80.27 -3051.09 -11.63
+angles: 7.42 -316.81 0.00
+forward: 0.72 0.68 -0.13
+floor_below: -70.85
+aim_hit: 641.75 -2523.93 -111.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 776.7
+aim_object: world
+aim_texture: textures/blood/0361_p6
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 80.3 -3051.1 -70.8 -316.8 7.4
+screenshot: data/bugs/20261015-161045.png

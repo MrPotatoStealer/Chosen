@@ -1,0 +1,17 @@
+id: 20261015-163742
+description: geomoetry is poking out from the wall
+map: maps/e1m1.bsp
+date: 2026-10-15 16:37:42
+camera: 749.34 -2462.91 -58.21
+angles: -30.41 -227.11 0.00
+forward: -0.59 0.63 0.51
+floor_below: -111.97
+aim_hit: 631.47 -2336.03 43.42
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 200.8
+aim_object: world
+aim_texture: textures/blood/0211
+player_health: 48
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 749.3 -2462.9 -112.0 -227.1 -30.4
+screenshot: data/bugs/20261015-163742.png

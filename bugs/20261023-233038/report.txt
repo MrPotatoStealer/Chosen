@@ -1,0 +1,21 @@
+id: 20261023-233038
+description: small hole/ missing geo when door is open
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-23 23:30:38
+frame: 1667
+camera: 546.09 -194.66 95.49
+angles: 60.01 334.87 0.00
+forward: 0.45 -0.21 -0.87
+floor_below: 32.03
+aim_hit: 633.60 -235.71 -71.97
+aim_normal: -0.00 0.00 1.00
+aim_distance: 193.3
+aim_object: world
+aim_texture: blood_fxhide/0301
+player_origin: 546.09 -194.66 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 546.1 -194.7 32.0 334.9 60.0
+screenshot: data/bugs/20261023-233038.png
+recording: data/bugs/20261023-233038.rec (play 20261023-233038)

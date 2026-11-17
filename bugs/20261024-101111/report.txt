@@ -1,0 +1,21 @@
+id: 20261024-101111
+description: this wall looks incorrect
+map: maps/e1m5.map
+engine: godot
+date: 2026-10-24 10:11:11
+frame: 2861
+camera: -1318.00 -417.95 -223.13
+angles: 2.11 88.64 0.00
+forward: 0.02 1.00 -0.04
+floor_below: -279.97
+aim_hit: -1316.27 -345.10 -225.81
+aim_normal: 0.24 -0.97 0.00
+aim_distance: 72.9
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -1318.06 -417.89 -245.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1318.1 -417.9 -280.0 88.6 2.1
+screenshot: data/bugs/20261024-101111.png
+recording: data/bugs/20261024-101111.rec (play 20261024-101111)

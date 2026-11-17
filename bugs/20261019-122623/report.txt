@@ -1,0 +1,21 @@
+id: 20261019-122623
+description: standing and jumping on grave puts camers out of bounds?
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:26:23
+frame: 1433
+camera: -483.28 -2325.45 210.60
+angles: 19.87 324.26 0.00
+forward: 0.76 -0.55 -0.34
+floor_below: 94.28
+aim_hit: -472.03 -2333.54 205.59
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 14.7
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -483.28 -2325.45 182.25
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp -483.3 -2325.4 94.3 324.3 19.9
+screenshot: data/bugs/20261019-122623.png
+recording: data/bugs/20261019-122623.rec (play 20261019-122623)

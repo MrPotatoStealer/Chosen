@@ -1,0 +1,21 @@
+id: 20261026-182743
+description: getting pushed by the water under this bridge when walking on the bridge
+map: maps/e3m6.map
+engine: godot
+date: 2026-10-26 18:27:43
+frame: 1576
+camera: -1671.03 -652.66 330.97
+angles: 29.96 354.56 0.00
+forward: 0.86 -0.08 -0.50
+floor_below: 272.03
+aim_hit: -1549.40 -664.24 260.53
+aim_normal: 0.00 0.00 1.00
+aim_distance: 141.0
+aim_object: decoration#95 type 0 pic 470 stat 0
+aim_texture: 
+player_origin: -1671.03 -652.66 306.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1671.0 -652.7 272.0 354.6 30.0
+screenshot: data/bugs/20261026-182743.png
+recording: data/bugs/20261026-182743.rec (play 20261026-182743)

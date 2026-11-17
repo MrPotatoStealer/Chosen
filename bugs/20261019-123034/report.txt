@@ -1,0 +1,21 @@
+id: 20261019-123034
+description: fullscreen effects when taking damage/ picking up items does not take up the full screen but only part of it
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 12:30:34
+frame: 4501
+camera: 384.36 -2248.82 104.98
+angles: 4.03 172.63 0.00
+forward: -0.99 0.13 -0.07
+floor_below: 48.03
+aim_hit: 353.09 -2244.77 102.76
+aim_normal: 1.00 0.00 0.00
+aim_distance: 31.6
+aim_object: dude_zombie_axe#172 type 203 pic 1244 stat 6
+aim_texture: 
+player_origin: 386.91 -2248.53 82.72
+player_health: 151
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 386.9 -2248.5 48.0 172.6 4.0
+screenshot: data/bugs/20261019-123034.png
+recording: data/bugs/20261019-123034.rec (play 20261019-123034)

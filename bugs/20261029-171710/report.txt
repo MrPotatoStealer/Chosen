@@ -1,0 +1,21 @@
+id: 20261029-171710
+description: moving door has some small white dots like the cutting mesh is not perfectly aligned to angle of door
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 17:17:10
+frame: 2484
+camera: 1177.14 1119.06 -256.36
+angles: 37.06 6.10 0.00
+forward: 0.79 0.08 -0.60
+floor_below: -315.97
+aim_hit: 1225.17 1124.20 -292.84
+aim_normal: -0.77 0.63 0.00
+aim_distance: 60.5
+aim_object: blood_sector#1(sector83)
+aim_texture: blood/0057_p1
+player_origin: 1177.14 1119.06 -281.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1177.1 1119.1 -316.0 6.1 37.1 251
+screenshot: data/bugs/20261029-171710.png
+recording: data/bugs/20261029-171710.rec (play 20261029-171710)

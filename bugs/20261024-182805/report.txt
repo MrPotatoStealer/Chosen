@@ -1,0 +1,21 @@
+id: 20261024-182805
+description: pickup is seen from shared room
+map: maps/e2m2.map
+engine: godot
+date: 2026-10-24 18:28:05
+frame: 77
+camera: -337.19 -629.88 202.66
+angles: 26.40 170.45 0.00
+forward: -0.88 0.15 -0.44
+floor_below: 144.03
+aim_hit: -453.65 -610.29 144.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 131.9
+aim_object: world
+aim_texture: blood/2496_g0
+player_origin: -337.19 -629.88 178.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -337.2 -629.9 144.0 170.5 26.4
+screenshot: data/bugs/20261024-182805.png
+recording: data/bugs/20261024-182805.rec (play 20261024-182805)

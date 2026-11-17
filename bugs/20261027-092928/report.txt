@@ -1,0 +1,21 @@
+id: 20261027-092928
+description: no collision on door
+map: maps/e1m4.map
+engine: godot
+date: 2026-10-27 09:29:28
+frame: 1758
+camera: 1125.69 -1225.46 -102.22
+angles: 15.64 93.96 0.00
+forward: -0.07 0.96 -0.27
+floor_below: -159.97
+aim_hit: 1119.50 -1136.03 -127.32
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 93.1
+aim_object: blood_sector#18(sector233)
+aim_texture: blood/0027
+player_origin: 1125.69 -1225.55 -125.31
+player_health: 200
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1125.7 -1225.5 -160.0 94.0 15.6 381
+screenshot: data/bugs/20261027-092928.png
+recording: data/bugs/20261027-092928.rec (play 20261027-092928)

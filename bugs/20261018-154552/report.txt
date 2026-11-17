@@ -1,0 +1,18 @@
+id: 20261018-154552
+description: train sector is missing, no collision. same as previous report about not all sectors seems to follow
+map: maps/E1M2.bsp
+date: 2026-10-18 15:45:52
+camera: -2448.35 -2502.55 445.74
+angles: 17.68 -207.49 0.00
+forward: -0.85 0.44 -0.30
+floor_below: 388.03
+aim_hit: -2671.97 -2386.19 365.41
+aim_normal: 1.00 0.00 0.00
+aim_distance: 264.6
+aim_object: world
+aim_texture: textures/blood/1129
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -2448.3 -2502.5 388.0 -207.5 17.7
+screenshot: data/bugs/20261018-154552.png
+recording: data/bugs/20261018-154552.rec (replaybug 20261018-154552)

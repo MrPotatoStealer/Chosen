@@ -1,0 +1,18 @@
+id: 20261018-221630
+description: UI is not aligned correctly, red, blue, green bars etc and keys
+map: maps/E1M2.bsp
+date: 2026-10-18 22:16:30
+camera: 576.81 -347.31 305.07
+angles: 3.97 -182.18 0.00
+forward: -1.00 0.04 -0.07
+floor_below: 248.03
+aim_hit: 64.03 -327.81 269.41
+aim_normal: 1.00 0.00 0.00
+aim_distance: 514.4
+aim_object: world
+aim_texture: textures/blood/0414
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: cmd warp 576.8 -347.3 248.0 -182.2 4.0
+screenshot: data/bugs/20261018-221630.png
+recording: data/bugs/20261018-221630.rec (replaybug 20261018-221630)

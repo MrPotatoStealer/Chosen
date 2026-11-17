@@ -1,0 +1,21 @@
+id: 20261023-135919
+description: invisible collision infront of me here
+map: maps/e2m6.map
+engine: godot
+date: 2026-10-23 13:59:19
+frame: 2359
+camera: -1015.93 1908.03 137.60
+angles: 19.02 98.08 0.00
+forward: -0.13 0.94 -0.33
+floor_below: 80.03
+aim_hit: -1017.63 1919.97 133.44
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 12.8
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -1016.11 1907.97 114.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 0
+goto: warp -1016.1 1908.0 80.0 98.1 19.0
+screenshot: data/bugs/20261023-135919.png
+recording: data/bugs/20261023-135919.rec (play 20261023-135919)

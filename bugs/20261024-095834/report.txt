@@ -1,0 +1,21 @@
+id: 20261024-095834
+description: geo sticking up thru the ground, looks like the closet from down below
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-24 09:58:34
+frame: 1648
+camera: 459.47 -453.53 91.23
+angles: 32.77 181.14 0.00
+forward: -0.84 -0.02 -0.54
+floor_below: 32.03
+aim_hit: 367.51 -455.35 32.03
+aim_normal: 0.00 0.00 1.00
+aim_distance: 109.4
+aim_object: world
+aim_texture: blood_above/0301_v140_125
+player_origin: 459.47 -453.53 66.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 459.5 -453.5 32.0 181.1 32.8
+screenshot: data/bugs/20261024-095834.png
+recording: data/bugs/20261024-095834.rec (play 20261024-095834)

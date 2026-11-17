@@ -1,0 +1,21 @@
+id: 20261023-123507
+description: can open but collision is still there
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-23 12:35:07
+frame: 1573
+camera: -68.68 -1714.14 308.57
+angles: 3.23 192.16 0.00
+forward: -0.98 -0.21 -0.06
+floor_below: 252.03
+aim_hit: -95.97 -1720.02 307.00
+aim_normal: 1.00 0.00 0.00
+aim_distance: 28.0
+aim_object: world
+aim_texture: tools/caulk
+player_origin: -69.09 -1714.02 286.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -69.1 -1714.0 252.0 192.2 3.2
+screenshot: data/bugs/20261023-123507.png
+recording: data/bugs/20261023-123507.rec (play 20261023-123507)

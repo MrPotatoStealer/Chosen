@@ -1,0 +1,21 @@
+id: 20261029-083833
+description: tree is still cut off in sky
+map: maps/dwe1m1.map
+engine: godot
+date: 2026-10-29 08:38:33
+frame: 155
+camera: -786.38 -5221.88 -240.01
+angles: 1.85 18.36 0.00
+forward: 0.95 0.31 -0.03
+floor_below: -507.97
+aim_hit: 479.97 -4801.50 -283.06
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 1335.0
+aim_object: world
+aim_texture: blood/0459_p6
+player_origin: -656.00 -5776.00 -241.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -656.0 -5776.0 -508.0 18.4 1.8 1007
+screenshot: data/bugs/20261029-083833.png
+recording: data/bugs/20261029-083833.rec (play 20261029-083833)

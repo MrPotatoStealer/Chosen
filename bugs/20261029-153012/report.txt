@@ -1,0 +1,21 @@
+id: 20261029-153012
+description: missing ground when opening door
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 15:30:12
+frame: 4676
+camera: 1235.97 1167.80 -245.54
+angles: 55.91 241.15 0.00
+forward: -0.27 -0.49 -0.83
+floor_below: -315.97
+aim_hit: 1212.98 1126.05 -315.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 85.0
+aim_object: world
+aim_texture: blood/0404_p1
+player_origin: 1235.97 1167.80 -273.31
+player_health: 102
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 1236.0 1167.8 -316.0 241.2 55.9 82
+screenshot: data/bugs/20261029-153012.png
+recording: data/bugs/20261029-153012.rec (play 20261029-153012)

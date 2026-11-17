@@ -1,0 +1,21 @@
+id: 20261101-082036
+description: make the napalm explosion light up a big area, fast in slow out
+map: maps/e2m1.map
+engine: godot
+date: 2026-11-01 08:20:36
+frame: 1583
+camera: -229.53 24.24 -39.32
+angles: -5.94 357.82 0.00
+forward: 0.99 -0.04 0.10
+floor_below: -61.31
+aim_hit: 7912.61 -285.24 808.43
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: -229.72 23.99 -61.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -229.7 24.0 -61.3 357.8 -5.9 244
+screenshot: data/bugs/20261101-082036.png
+recording: data/bugs/20261101-082036.rec (play 20261101-082036)

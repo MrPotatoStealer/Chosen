@@ -1,0 +1,17 @@
+id: 20261015-232559
+description: lightswitctes are not working, should turn on lights on interaction
+map: maps/e1m1.bsp
+date: 2026-10-15 23:25:59
+camera: 1246.84 -1595.03 33.29
+angles: 6.51 -143.65 0.00
+forward: -0.80 -0.59 -0.11
+floor_below: -23.97
+aim_hit: 1216.03 -1617.71 28.92
+aim_normal: 1.00 -0.00 -0.00
+aim_distance: 38.5
+aim_object: world
+aim_texture: textures/blood/0479
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1246.8 -1595.0 -24.0 -143.6 6.5
+screenshot: data/bugs/20261015-232559.png

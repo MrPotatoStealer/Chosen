@@ -1,0 +1,17 @@
+id: 20261015-154647
+description: make the grave open on start like it should
+map: maps/e1m1.bsp
+date: 2026-10-15 15:46:47
+camera: -493.84 -1873.66 6.85
+angles: -20.53 -173.91 0.00
+forward: -0.93 -0.10 0.35
+floor_below: -47.97
+aim_hit: -583.97 -1883.27 40.78
+aim_normal: 1.00 0.00 0.00
+aim_distance: 96.8
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 96
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp -493.8 -1873.7 -48.0 -173.9 -20.5
+screenshot: data/bugs/20261015-154647.png

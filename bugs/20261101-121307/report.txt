@@ -1,0 +1,21 @@
+id: 20261101-121307
+description: missing hud and weapons under water
+map: maps/e2m1.map
+engine: godot
+date: 2026-11-01 12:13:07
+frame: 2582
+camera: 4297.53 -466.81 148.12
+angles: 8.05 266.84 0.00
+forward: -0.05 -0.99 -0.14
+floor_below: 126.86
+aim_hit: 3850.16 -8565.70 -999.34
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3912 stat 6
+aim_texture: 
+player_origin: 4297.72 -466.81 126.86
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 4297.7 -466.8 126.9 266.8 8.1 134
+screenshot: data/bugs/20261101-121307.png
+recording: data/bugs/20261101-121307.rec (play 20261101-121307)

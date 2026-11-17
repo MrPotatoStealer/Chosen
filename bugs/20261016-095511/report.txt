@@ -1,0 +1,17 @@
+id: 20261016-095511
+description: coffing lid is a bit to high up for some reason, should be flush
+map: maps/E1M1.bsp
+date: 2026-10-16 09:55:11
+camera: -875.51 -2056.03 147.03
+angles: -24.65 -169.36 0.00
+forward: -0.89 -0.17 0.42
+floor_below: 94.12
+aim_hit: -920.37 -2064.46 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 50.2
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp -875.5 -2056.0 94.1 -169.4 -24.6
+screenshot: data/bugs/20261016-095511.png

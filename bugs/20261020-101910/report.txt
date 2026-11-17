@@ -1,0 +1,21 @@
+id: 20261020-101910
+description: strange shading on this
+map: maps/e1m2.map
+engine: godot
+date: 2026-10-20 10:19:10
+frame: 3538
+camera: -1945.66 -1563.59 234.04
+angles: 18.68 115.45 0.00
+forward: -0.41 0.86 -0.32
+floor_below: 176.03
+aim_hit: -1980.75 -1489.85 206.43
+aim_normal: 0.34 -0.94 0.00
+aim_distance: 86.2
+aim_object: blood_sector#11(sector12)
+aim_texture: blood/0084
+player_origin: -1945.66 -1563.59 210.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -1945.7 -1563.6 176.0 115.5 18.7
+screenshot: data/bugs/20261020-101910.png
+recording: data/bugs/20261020-101910.rec (play 20261020-101910)

@@ -1,0 +1,17 @@
+id: 20261015-155021
+description: still a small hole here in the geometry, it should be filled
+map: maps/e1m1.bsp
+date: 2026-10-15 15:50:21
+camera: 164.74 -3030.47 -29.02
+angles: 24.30 -255.36 0.00
+forward: -0.23 0.88 -0.41
+floor_below: -87.97
+aim_hit: 132.71 -2907.86 -86.25
+aim_normal: -0.63 -0.78 -0.00
+aim_distance: 139.0
+aim_object: world
+aim_texture: textures/blood/0361
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp 164.7 -3030.5 -88.0 -255.4 24.3
+screenshot: data/bugs/20261015-155021.png

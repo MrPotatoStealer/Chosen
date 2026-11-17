@@ -1,0 +1,21 @@
+id: 20261023-123124
+description: lid looks like just a plane, should look like a box
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-23 12:31:24
+frame: 104
+camera: -904.33 -2056.03 148.00
+angles: -28.12 217.77 0.00
+forward: -0.70 -0.54 0.47
+floor_below: 99.24
+aim_hit: -933.87 -2078.92 167.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 42.4
+aim_object: world
+aim_texture: blood/0253
+player_origin: -904.25 -2056.03 127.50
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -904.3 -2056.0 99.2 217.8 -28.1
+screenshot: data/bugs/20261023-123124.png
+recording: data/bugs/20261023-123124.rec (play 20261023-123124)

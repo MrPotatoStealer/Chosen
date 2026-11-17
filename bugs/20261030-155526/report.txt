@@ -1,0 +1,21 @@
+id: 20261030-155526
+description: ground mist is confused here about the portal I think
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-30 15:55:26
+frame: 1487
+camera: 392.72 -2643.66 -56.61
+angles: -12.47 35.91 0.00
+forward: 0.79 0.57 0.22
+floor_below: -111.97
+aim_hit: 717.04 -2408.85 31.97
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 410.1
+aim_object: world
+aim_texture: tools/caulk
+player_origin: 392.83 -2643.97 -77.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 392.8 -2644.0 -112.0 35.9 -12.5 65
+screenshot: data/bugs/20261030-155526.png
+recording: data/bugs/20261030-155526.rec (play 20261030-155526)

@@ -1,0 +1,17 @@
+id: 20261015-230252
+description: strange doors that should not be here?
+map: maps/e1m1.bsp
+date: 2026-10-15 23:02:52
+camera: 875.16 -2172.66 104.94
+angles: 2.53 -148.27 0.00
+forward: -0.85 -0.53 -0.04
+floor_below: 48.03
+aim_hit: 688.72 -2287.92 95.26
+aim_normal: 0.00 1.00 0.00
+aim_distance: 219.4
+aim_object: world
+aim_texture: textures/blood/0253
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 875.2 -2172.7 48.0 -148.3 2.5
+screenshot: data/bugs/20261015-230252.png

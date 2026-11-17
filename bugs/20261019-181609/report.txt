@@ -1,0 +1,21 @@
+id: 20261019-181609
+description: lights should not be active until the sprite itself is active, and destroyed if the sprite is destroyed
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 18:16:09
+frame: 754
+camera: -124.41 -1948.00 65.56
+angles: 12.21 313.40 0.00
+forward: 0.67 -0.71 -0.21
+floor_below: 8.03
+aim_hit: 47.97 -2130.26 11.28
+aim_normal: -1.00 0.00 -0.00
+aim_distance: 256.7
+aim_object: world
+aim_texture: blood_fxhide/0110
+player_origin: -124.41 -1948.00 42.72
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -124.4 -1948.0 8.0 313.4 12.2
+screenshot: data/bugs/20261019-181609.png
+recording: data/bugs/20261019-181609.rec (play 20261019-181609)

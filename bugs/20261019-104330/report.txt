@@ -1,0 +1,21 @@
+id: 20261019-104330
+description: secondary fire on weapon causing massive stutter
+map: maps/e1m1.map
+engine: godot
+date: 2026-10-19 10:43:30
+frame: 2525
+camera: 644.16 -2730.53 -55.19
+angles: 1.39 169.69 0.00
+forward: -0.98 0.18 -0.02
+floor_below: -111.97
+aim_hit: 128.03 -2636.61 -67.88
+aim_normal: 1.00 0.00 0.00
+aim_distance: 524.8
+aim_object: world
+aim_texture: blood/0421
+player_origin: 644.16 -2730.53 -77.28
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 2
+goto: warp 644.2 -2730.5 -112.0 169.7 1.4
+screenshot: data/bugs/20261019-104330.png
+recording: data/bugs/20261019-104330.rec (play 20261019-104330)

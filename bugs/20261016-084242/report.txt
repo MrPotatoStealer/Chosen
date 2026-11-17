@@ -1,0 +1,17 @@
+id: 20261016-084242
+description: small gap in geo, vertices needs to be merged?
+map: maps/e1m1.bsp
+date: 2026-10-16 08:42:42
+camera: 1351.22 -1797.16 103.93
+angles: -8.95 -311.69 0.00
+forward: 0.66 0.74 0.16
+floor_below: 40.03
+aim_hit: 1403.17 -1738.83 116.24
+aim_normal: -0.66 -0.75 -0.00
+aim_distance: 79.1
+aim_object: world
+aim_texture: textures/blood_sky/3678
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1351.2 -1797.2 40.0 -311.7 -9.0
+screenshot: data/bugs/20261016-084242.png

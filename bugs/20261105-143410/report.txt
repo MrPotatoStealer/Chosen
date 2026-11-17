@@ -1,0 +1,21 @@
+id: 20261105-143410
+description: looks like game can't render two floors over each other. Seems fine in editor
+map: maps/test.map
+engine: godot
+date: 2026-11-05 14:34:10
+frame: 261
+camera: 1545.52 -289.45 53.22
+angles: -41.43 105.40 0.00
+forward: -0.20 0.72 0.66
+floor_below: 34.69
+aim_hit: -85.78 5632.16 5473.76
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 1545.38 -289.50 34.69
+player_health: 100
+video: 3440x1438 fullscreen 0 hudsize 1
+goto: warp 1545.4 -289.5 34.7 105.4 -41.4 11
+screenshot: data/bugs/20261105-143410.png
+recording: data/bugs/20261105-143410.rec (play 20261105-143410)

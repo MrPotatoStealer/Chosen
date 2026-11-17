@@ -1,0 +1,21 @@
+id: 20261025-185832
+description: no damage on floor here?
+map: maps/e3m5.map
+engine: godot
+date: 2026-10-25 18:58:32
+frame: 543
+camera: 276.41 122.47 -44.74
+angles: 33.08 268.15 0.00
+forward: -0.03 -0.84 -0.55
+floor_below: -103.97
+aim_hit: 273.47 31.58 -103.97
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 108.5
+aim_object: world
+aim_texture: blood/0530
+player_origin: 276.41 122.47 -69.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp 276.4 122.5 -104.0 268.2 33.1
+screenshot: data/bugs/20261025-185832.png
+recording: data/bugs/20261025-185832.rec (play 20261025-185832)

@@ -1,0 +1,17 @@
+id: 20261015-232509
+description: incorrect texture offset, looks like the offset is from when the secret door is open
+map: maps/e1m1.bsp
+date: 2026-10-15 23:25:09
+camera: 1168.99 -1343.64 31.19
+angles: -16.79 -349.87 0.00
+forward: 0.94 0.17 0.29
+floor_below: -23.97
+aim_hit: 1343.97 -1312.36 84.83
+aim_normal: -1.00 0.00 0.00
+aim_distance: 185.7
+aim_object: world
+aim_texture: textures/blood/0109
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 1169.0 -1343.6 -24.0 -349.9 -16.8
+screenshot: data/bugs/20261015-232509.png

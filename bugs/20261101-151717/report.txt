@@ -1,0 +1,21 @@
+id: 20261101-151717
+description: light shining through wall is back
+map: maps/e1m1.map
+engine: godot
+date: 2026-11-01 15:17:17
+frame: 663
+camera: -93.64 -2048.45 65.09
+angles: 5.94 315.78 0.00
+forward: 0.71 -0.69 -0.10
+floor_below: 42.69
+aim_hit: 47.22 -2185.53 44.64
+aim_normal: -1.00 0.00 0.00
+aim_distance: 197.6
+aim_object: thing_object_explode#154 type 417 pic 128 stat 4
+aim_texture: 
+player_origin: -93.64 -2048.45 42.69
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -93.6 -2048.5 42.7 315.8 5.9 149
+screenshot: data/bugs/20261101-151717.png
+recording: data/bugs/20261101-151717.rec (play 20261101-151717)

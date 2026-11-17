@@ -1,0 +1,21 @@
+id: 20261030-191531
+description: water in boat, should not be there
+map: maps/e2m1.map
+engine: godot
+date: 2026-10-30 19:15:31
+frame: 2192
+camera: -282.76 -473.37 -36.94
+angles: 31.28 310.46 0.00
+forward: 0.55 -0.65 -0.52
+floor_below: -95.97
+aim_hit: -219.71 -547.28 -95.97
+aim_normal: 0.00 0.00 1.00
+aim_distance: 113.7
+aim_object: blood_sector#5(sector87)
+aim_texture: blood/0043_p9
+player_origin: -282.76 -473.37 -61.31
+player_health: 92
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -282.8 -473.4 -96.0 310.5 31.3 244
+screenshot: data/bugs/20261030-191531.png
+recording: data/bugs/20261030-191531.rec (play 20261030-191531)

@@ -1,0 +1,21 @@
+id: 20261029-152743
+description: trees are cutoff here
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 15:27:43
+frame: 562
+camera: -53.31 -2987.79 -416.15
+angles: -12.13 48.53 0.00
+forward: 0.65 0.73 0.21
+floor_below: -471.97
+aim_hit: 834.19 -1983.41 -128.03
+aim_normal: 0.00 0.00 -1.00
+aim_distance: 1370.9
+aim_object: world
+aim_texture: sky/3678
+player_origin: -53.31 -2987.79 -437.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -53.3 -2987.8 -472.0 48.5 -12.1 106
+screenshot: data/bugs/20261029-152743.png
+recording: data/bugs/20261029-152743.rec (play 20261029-152743)

@@ -1,0 +1,17 @@
+id: 20261015-154952
+description: gates are open from the start
+map: maps/e1m1.bsp
+date: 2026-10-15 15:49:52
+camera: 410.49 -2825.84 -55.06
+angles: 2.58 -176.16 0.00
+forward: -1.00 -0.07 -0.05
+floor_below: -111.97
+aim_hit: 215.01 -2838.97 -63.88
+aim_normal: 0.71 0.71 0.00
+aim_distance: 196.1
+aim_object: world
+aim_texture: textures/blood/0421
+player_health: 100
+video: 1280x720 fullscreen 0 hudsize 1
+goto: cmd warp 410.5 -2825.8 -112.0 -176.2 2.6
+screenshot: data/bugs/20261015-154952.png

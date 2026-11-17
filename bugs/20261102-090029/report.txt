@@ -1,0 +1,21 @@
+id: 20261102-090029
+description: napalm going through enemies
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-11-02 09:00:29
+frame: 2483
+camera: 108.69 2092.50 -259.34
+angles: 3.96 335.90 0.00
+forward: 0.91 -0.41 -0.07
+floor_below: -281.31
+aim_hit: 7568.65 -1244.84 -825.09
+aim_normal: 0.00 0.00 0.00
+aim_distance: 8192.0
+aim_object: player#0 type 231 pic 3870 stat 6
+aim_texture: 
+player_origin: 108.75 2092.50 -281.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 108.8 2092.5 -281.3 335.9 4.0 490
+screenshot: data/bugs/20261102-090029.png
+recording: data/bugs/20261102-090029.rec (play 20261102-090029)

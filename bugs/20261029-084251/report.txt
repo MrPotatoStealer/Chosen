@@ -1,0 +1,21 @@
+id: 20261029-084251
+description: missing boat?
+map: maps/dwe3m1.map
+engine: godot
+date: 2026-10-29 08:42:51
+frame: 847
+camera: -50.55 -581.18 -404.29
+angles: 37.71 260.36 0.00
+forward: -0.13 -0.78 -0.61
+floor_below: -463.97
+aim_hit: -66.95 -677.68 -479.97
+aim_normal: 0.00 -0.00 1.00
+aim_distance: 123.7
+aim_object: world
+aim_texture: blood/2915_p1
+player_origin: -50.55 -581.18 -429.31
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 2
+goto: warp -50.6 -581.2 -464.0 260.4 37.7 575
+screenshot: data/bugs/20261029-084251.png
+recording: data/bugs/20261029-084251.rec (play 20261029-084251)

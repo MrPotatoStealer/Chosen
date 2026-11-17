@@ -1,0 +1,17 @@
+id: 20261015-161312
+description: skewed gateway for some reason, I guess misaligment between two room over room that you are trying to match up but incorrectly
+map: maps/e1m1.bsp
+date: 2026-10-15 16:13:12
+camera: 765.78 -2395.34 -55.23
+angles: 0.57 -211.10 0.00
+forward: -0.86 0.52 -0.01
+floor_below: -111.97
+aim_hit: 621.62 -2308.37 -56.90
+aim_normal: 0.83 0.55 0.00
+aim_distance: 168.4
+aim_object: world
+aim_texture: textures/blood/1718
+player_health: 36
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 765.8 -2395.3 -112.0 -211.1 0.6
+screenshot: data/bugs/20261015-161312.png

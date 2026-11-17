@@ -1,0 +1,17 @@
+id: 20261015-161128
+description: strange geometry sticking out from wall, it should not bo visible
+map: maps/e1m1.bsp
+date: 2026-10-15 16:11:28
+camera: 616.33 -2386.53 -57.98
+angles: -28.34 -343.21 0.00
+forward: 0.84 0.25 0.47
+floor_below: -111.97
+aim_hit: 783.63 -2336.03 36.29
+aim_normal: 0.00 -1.00 0.00
+aim_distance: 198.6
+aim_object: world
+aim_texture: textures/blood/0211
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: cmd warp 616.3 -2386.5 -112.0 -343.2 -28.3
+screenshot: data/bugs/20261015-161128.png

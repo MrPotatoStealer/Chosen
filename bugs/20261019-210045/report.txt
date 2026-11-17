@@ -1,0 +1,21 @@
+id: 20261019-210045
+description: can see things thru the ceiling
+map: maps/e1m3.map
+engine: godot
+date: 2026-10-19 21:00:45
+frame: 3722
+camera: 620.23 187.73 -17.46
+angles: -29.11 200.32 0.00
+forward: -0.82 -0.30 0.49
+floor_below: -71.97
+aim_hit: 537.82 157.22 31.47
+aim_normal: 0.00 -0.00 -1.00
+aim_distance: 100.6
+aim_object: world
+aim_texture: tools/nodraw
+player_origin: 620.23 187.73 -37.28
+player_health: 100
+video: 3440x1440 fullscreen 1 hudsize 1
+goto: warp 620.2 187.7 -72.0 200.3 -29.1
+screenshot: data/bugs/20261019-210045.png
+recording: data/bugs/20261019-210045.rec (play 20261019-210045)
