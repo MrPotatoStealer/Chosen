@@ -15,5 +15,9 @@ The data folder holds files from your copy of Blood: don't share it.
 Settings and saved games: %APPDATA%\Godot\app_userdata\Chosen.
 The map editor, Chosen Forge, is a separate download.
 
+Found a bug? Where it goes wrong, open the console (` or F1) and type reportbug and a few words. It saves
+three files in data\data\bugs here (the console shows the path); zip them and attach the zip to a new issue at
+https://github.com/MrPotatoStealer/Chosen/issues
+
 Chosen is an unofficial fan project, free software under the GPL v2, with Ken Silverman's Build licence for
 the game's ports of Build's engine code (LICENSE.md, licenses\). Its source is public; Blood's files are not part of it.

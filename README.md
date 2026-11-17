@@ -55,6 +55,21 @@ ChosenLoader again when the title screen asks for it.
 
 The programs aren't signed, so Windows may warn the first time you start one (More info > Run anyway).
 
+## Reporting bugs
+
+Please report from inside the game: the report carries what's needed to replay exactly what happened.
+
+1. Where it goes wrong, open the console with `` ` `` (the key left of 1) or F1 and type `reportbug` and a few words,
+   e.g. `reportbug the door in the yard won't open`.
+2. It saves three files in `data\data\bugs\` in your Chosen folder (the console prints the path): `<id>.txt` (where
+   you were and what you were looking at), `<id>.png` (a screenshot) and `<id>.rec` (a recording of your play since
+   the level started).
+3. Zip the three and attach the zip to a [new issue](../../issues/new?template=bug_report.md), saying what you
+   expected and, if it happened in an add-on or a mod, which one.
+
+In Chosen Forge: Help > Report a Problem saves the editing session and a screenshot into a folder the status bar
+names; zip that folder and attach it the same way.
+
 ## Building from source (Windows)
 
 1. **Godot 4.7.2 .NET** (`Godot_v4.7.2-stable_mono_win64.zip` from godotengine.org), unpacked into
