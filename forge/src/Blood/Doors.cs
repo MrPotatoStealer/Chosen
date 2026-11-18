@@ -121,7 +121,7 @@ public static partial class Doors
     public static string Doorway(MapDocument d, int s, out int[] walls)
     {
         walls = null;
-        const string what = "a doorway: a sector of four walls in a rectangle, two opposite red walls (to the rooms on either side) and two white ones (the jambs)";
+        const string what = "a doorway: a sector of four walls in a rectangle, two opposite two-sided walls (to the rooms on either side) and two one-sided ones (the jambs)";
         if (s < 0 || s >= d.Sectors.Count)
             return "no sector";
         var sec = d.Sectors[s];
@@ -131,7 +131,7 @@ public static partial class Doors
         if (!Rectangle(d, w))
             return $"sector {s} isn't a rectangle: a door is made in " + what;
         if (!DoorwayLoop(d, w, out walls))
-            return $"sector {s}'s walls aren't two opposite red ones and two white ones: a door is made in " + what;
+            return $"sector {s}'s walls aren't two opposite two-sided ones and two one-sided ones: a door is made in " + what;
         return null;
     }
 

@@ -791,6 +791,10 @@ public static partial class HeadlessTests
         int la = Line(4096, 0, 4096, 4096), lshort = Line(16384, 1024, 16384, 3072);
         // (B's closet wall is shorter: refused)
         string refused = Blood.RoomLinks.MakeWallPortal(d, la, lshort, d.Walls[d.Lines[la].Front].Sector != a, out _, out _);
+        // (the rules Make Portal's dialog lists: A's outer wall, white and 4096 long, and B's closet wall, 2048: red and
+        // length not met, parallel and not a portal met; Forge report 20261117-183624)
+        var rules = Blood.RoomLinks.WallPortalRules(d, Line(0, 0, 0, 4096), lshort);
+        bool listed = rules.Count == 4 && rules[0].Problem != null && rules[1].Problem != null && rules[2].Problem == null && rules[3].Problem == null;
         // (B's own wall beside the closet: (16384, 3072) .. (16384, 4096) is 1024 long; a closet the same length below it)
         d.MakeSectorJoined(Rect(15872, 0, 16384, 1024), out _);
         d.NotifyChanged();
@@ -811,8 +815,9 @@ public static partial class HeadlessTests
             && d.Walls[wa].OverPicnum == 504 && (d.Walls[wa].Cstat & 33) == 33 && Errors(d) == 0;
         string mwhy = Blood.RoomLinks.MakeMirror(d, new[] { Line(0, 0, 0, 4096), lb }, out var mirrors);
         bool mirror = mwhy == null && mirrors.Count == 1 && d.Walls[mirrors[0]].Picnum == 504 && d.Walls[d.Lines[lb].Front].Picnum != 504;
-        bool ok = refused != null && made && mirror;
-        GD.Print($"selftest wall portal: different lengths refused ({refused}); made ({why ?? "ok"}): walls {wa} in {(wa >= 0 ? d.Walls[wa].Sector : -1)}, "
+        bool ok = refused != null && listed && made && mirror;
+        GD.Print($"selftest wall portal: different lengths refused ({refused}); rules listed {listed} ("
+            + string.Join("; ", rules.Select(r => r.Problem ?? "met")) + $"); made ({why ?? "ok"}): walls {wa} in {(wa >= 0 ? d.Walls[wa].Sector : -1)}, "
             + $"{wb} in {(wb >= 0 ? d.Walls[wb].Sector : -1)} {made}; mirror {string.Join(",", mirrors)} {mirror}" + (ok ? "" : ": FAILED"));
         return ok ? 0 : 1;
     }

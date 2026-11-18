@@ -182,6 +182,22 @@ public sealed class ToolDialog
         l.CustomMinimumSize = new Vector2(420, 0);
     }
 
+    /// <summary>A tool's rules for what is selected, one a line: those kept in green, the others in red with what to
+    /// change (problem); the dialog's button off unless all are kept (Make Portal on two walls: RoomLinks.WallPortalRules).</summary>
+    public void Rules(IEnumerable<(string Rule, string Problem)> rules)
+    {
+        bool all = true;
+        foreach (var (rule, problem) in rules)
+        {
+            all &= problem == null;
+            var l = Form.Info(_g, problem == null ? "Met" : "Not met", problem == null ? rule : $"{rule}.\n{char.ToUpper(problem[0])}{problem[1..]}.");
+            l.AutowrapMode = TextServer.AutowrapMode.WordSmart;
+            l.CustomMinimumSize = new Vector2(420, 0);
+            l.AddThemeColorOverride("font_color", problem == null ? new Color(0.55f, 0.85f, 0.55f) : new Color(1f, 0.55f, 0.45f));
+        }
+        _d.GetOkButton().Disabled = !all;
+    }
+
     /// <summary>Shown; Apply: the values remembered and command()'s window command done (null: nothing).</summary>
     public void Show(Func<string> command)
     {

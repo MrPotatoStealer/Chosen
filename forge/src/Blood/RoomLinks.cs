@@ -67,26 +67,16 @@ public static class RoomLinks
         wa = wb = -1;
         if (lineA < 0 || lineB < 0 || lineA >= d.Lines.Count || lineB >= d.Lines.Count || lineA == lineB)
             return "select two walls";
+        foreach (var (_, problem) in WallPortalRules(d, lineA, lineB))
+            if (problem != null)
+                return problem;
         var (fa, ba) = d.Lines[lineA];
         var (fb, bb) = d.Lines[lineB];
-        if (ba < 0 || bb < 0)
-            return "a wall portal joins two red walls: each a window, its one-way picture (504) showing the other's room in place of what lies behind it";
         wa = fromBack ? ba : fa;
         var (ax, ay, bx, by) = BuildGeom.WallEnds(d, wa);
         var (cx, cy, ex, ey) = BuildGeom.WallEnds(d, fb);
         // (the second line's side running the other way)
         wb = (long)(bx - ax) * (ex - cx) + (long)(by - ay) * (ey - cy) < 0 ? fb : bb;
-        (cx, cy, ex, ey) = BuildGeom.WallEnds(d, wb);
-        double la = Math.Sqrt((double)(bx - ax) * (bx - ax) + (double)(by - ay) * (by - ay));
-        double lb = Math.Sqrt((double)(ex - cx) * (ex - cx) + (double)(ey - cy) * (ey - cy));
-        if (Math.Abs(la - lb) > 1)
-            return $"the walls differ in length ({la:0} and {lb:0}): NBlood shows the other wall's room shifted, not scaled";
-        double cross = (double)(bx - ax) * (ey - cy) - (double)(by - ay) * (ex - cx);
-        if (Math.Abs(cross) > la * lb * 0.002)
-            return "the walls aren't parallel: NBlood shows the other wall's room shifted, not turned";
-        foreach (int w in new[] { wa, wb })
-            if (d.Walls[w].Type is WallLink or WallStack || d.Walls[d.Walls[w].NextWall].Type is WallLink or WallStack)
-                return $"wall {w} is a wall portal already";
         int id = NextLinkId(d);
         foreach (int w in new[] { wa, wb })
         {
@@ -98,6 +88,37 @@ public static class RoomLinks
             wall.Cstat = (wall.Cstat & ~16) | 32 | 1 | 64;
         }
         return null;
+    }
+
+    /// <summary>
+    /// NBlood's rules for a wall portal on lines a and b, each with what's wrong for these two (null: kept). Make Portal's
+    /// dialog lists them so a mapper sees what to change (Forge report 20261117-183624: two rooms' outer walls, white and
+    /// of different lengths, the refusal only a line in the status bar). None depends on the side the window is seen from.
+    /// </summary>
+    public static List<(string Rule, string Problem)> WallPortalRules(MapDocument d, int lineA, int lineB)
+    {
+        var rules = new List<(string, string)>();
+        var (fa, ba) = d.Lines[lineA];
+        var (fb, bb) = d.Lines[lineB];
+        var white = new[] { (lineA, ba), (lineB, bb) }.Where(x => x.Item2 < 0).Select(x => x.Item1).ToList();
+        rules.Add(("Both are two-sided walls (Build's red walls), with a room on each side: NBlood draws the window as the wall's one-way picture, which a one-sided wall never shows",
+            white.Count == 0 ? null : (white.Count == 1 ? $"wall {white[0]} is one-sided" : $"walls {white[0]} and {white[1]} are one-sided")
+                + ": draw a room behind it (a closet, or a doorway's far side) to make it two-sided"));
+        var (ax, ay, bx, by) = BuildGeom.WallEnds(d, fa);
+        var (cx, cy, ex, ey) = BuildGeom.WallEnds(d, fb);
+        double la = Math.Sqrt((double)(bx - ax) * (bx - ax) + (double)(by - ay) * (by - ay));
+        double lb = Math.Sqrt((double)(ex - cx) * (ex - cx) + (double)(ey - cy) * (ey - cy));
+        rules.Add(("The same length: the other room is shown shifted, never scaled",
+            Math.Abs(la - lb) > 1 ? $"they are {la:0} and {lb:0} long: split the longer wall (Split Walls, or a point inserted) to match" : null));
+        double cross = (double)(bx - ax) * (ey - cy) - (double)(by - ay) * (ex - cx);
+        double deg = Math.Asin(Math.Clamp(Math.Abs(cross) / Math.Max(1, la * lb), 0, 1)) * 180 / Math.PI;
+        rules.Add(("Parallel: the other room is shown shifted, never turned",
+            Math.Abs(cross) > la * lb * 0.002 ? $"they are {deg:0} degrees apart" : null));
+        bool Portal(int w) => w >= 0 && d.Walls[w].Type is WallLink or WallStack;
+        var taken = new[] { (lineA, fa, ba), (lineB, fb, bb) }.Where(x => Portal(x.Item2) || Portal(x.Item3)).Select(x => x.Item1).ToList();
+        rules.Add(("Neither is a wall portal already",
+            taken.Count > 0 ? $"wall {taken[0]} is a wall portal already" : null));
+        return rules;
     }
 
     /// <summary>Make Mirror: white walls given Blood's mirror picture (504: InitMirrors makes each a mirror of its
@@ -113,7 +134,7 @@ public static class RoomLinks
             d.Walls[f].Picnum = MirrorTile;
             made.Add(f);
         }
-        return made.Count > 0 ? null : "a mirror is a white wall (one side, nothing behind it)";
+        return made.Count > 0 ? null : "a mirror is a one-sided wall (nothing behind it)";
     }
 
     /// <summary>A link marker already in sector s of these types (upper: 7 9 11 13; lower: 6 10 12 14), or -1.</summary>

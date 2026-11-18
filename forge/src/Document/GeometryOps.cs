@@ -633,7 +633,7 @@ public sealed partial class MapDocument
     public string JoinWalls(int a, int b)
     {
         if (a == b || Walls[a].NextWall >= 0 || Walls[b].NextWall >= 0)
-            return "join walls: both must be white walls";
+            return "join walls: both must be one-sided walls";
         var (ax1, ay1, ax2, ay2) = BuildGeom.WallEnds(this, a);
         var (bx1, by1, bx2, by2) = BuildGeom.WallEnds(this, b);
         if (ax1 != bx2 || ay1 != by2 || ax2 != bx1 || ay2 != by1)
@@ -728,7 +728,7 @@ public sealed partial class MapDocument
         if (w < 0 || w >= Walls.Count)
             return "no such wall";
         if (Walls[w].NextWall >= 0)
-            return "a red wall: Delete joins its two rooms";
+            return "a two-sided wall: Delete joins its two rooms";
         int s = Walls[w].Sector;
         var (ax, ay, bx, by) = BuildGeom.WallEnds(this, w);
         var m = new Vector2I((int)Math.Round((ax + bx) * 0.5), (int)Math.Round((ay + by) * 0.5));

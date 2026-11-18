@@ -357,7 +357,7 @@ public class WallsMode : ClassicMode
     {
         if (Selection.Count != 2)
         {
-            Window.DisplayStatus("join walls: select the two white walls lying on each other (Tab picks among walls at one place)");
+            Window.DisplayStatus("join walls: select the two one-sided walls lying on each other (Tab picks among walls at one place)");
             return;
         }
         var l = Selection.ToList();
@@ -373,7 +373,7 @@ public class WallsMode : ClassicMode
         var walls = lines.Where(l => Doc.Lines[l].Back >= 0).Select(l => Doc.Walls[Doc.Lines[l].Front]).ToList();
         if (walls.Count == 0)
         {
-            Window.DisplayStatus("detach: no red wall chosen");
+            Window.DisplayStatus("detach: no two-sided wall chosen");
             return;
         }
         Window.Operation("Detach wall", () =>
@@ -606,10 +606,10 @@ public class SectorsMode : ClassicMode
         {
             cut = Doc.SeparateSectors(items);
             Doc.NotifyChanged();
-            return cut == 0 ? "separate: no red walls to other sectors (it moves on its own already)" : null;
+            return cut == 0 ? "separate: no two-sided walls to other sectors (it moves on its own already)" : null;
         });
         if (done)
-            Window.DisplayStatus($"separated: {cut} red wall(s) made white; {(items.Count == 1 ? $"sector {items[0]}" : $"the {items.Count} sectors")} move on their own now (moving it against a sector joins it again)");
+            Window.DisplayStatus($"separated: {cut} two-sided wall(s) made one-sided; {(items.Count == 1 ? $"sector {items[0]}" : $"the {items.Count} sectors")} move on their own now (moving it against a sector joins it again)");
     }
 
     /// <summary>Whether a sector has a red wall on its outer loop to a sector outside the set (something to separate).</summary>

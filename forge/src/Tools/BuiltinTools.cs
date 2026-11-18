@@ -449,7 +449,8 @@ public static class BuiltinTools
         }
         var d = new ToolDialog(w, null, $"Make Portal: Walls {lines[0]} and {lines[1]}", "Link");
         var side = d.Choice("side", $"Wall {lines[0]} seen from", new[] { $"Sector {sf}", sb >= 0 ? $"Sector {sb}" : "(nothing behind it)" }, Area(sb) > Area(sf) ? 1 : 0);
-        d.Note("NBlood's wall stack: each wall a window (its one-way picture 504) showing the room behind the other wall, shifted by their offset, not turned or scaled: two red walls, the same length and parallel; both then block moves and shots");
+        d.Note("NBlood's wall stack: each wall becomes a window (its one-way picture 504) onto the room behind the other wall, and both block moves and shots. The rules:");
+        d.Rules(Blood.RoomLinks.WallPortalRules(doc, lines[0], lines[1]));
         d.Show(() => $"makewallportal {lines[0]} {lines[1]} {(side.Selected == 1 ? "back" : "front")}");
     }
 

@@ -201,7 +201,7 @@ public static partial class Doors
         foreach (int w in WallsOf(d, s))
             if (d.Walls[w].NextWall >= 0)
                 door.Faces.Add(d.Walls[w].NextWall);
-        door.NotShaped = Doorway(d, s, out _) == null ? null : "not a doorway of four walls, two red ones across";
+        door.NotShaped = Doorway(d, s, out _) == null ? null : "not a doorway of four walls, two two-sided ones across";
         ReadRest(d, door, door.Faces, 0, 0, 64, 256);
         door.Now = door.Now with { Edge = door.Kind == DoorKind.LiftDown ? d.Sectors[s].FloorPicnum : d.Sectors[s].CeilingPicnum };
         return door;
@@ -263,7 +263,7 @@ public static partial class Doors
         thick = lip = 0;
         int s = door.Leaves[0];
         var sec = d.Sectors[s];
-        const string not = "not Make Door's sliding pair (two red walls across, each jamb notched for its leaf)";
+        const string not = "not Make Door's sliding pair (two two-sided walls across, each jamb notched for its leaf)";
         if (sec.WallNum != 16)
             return not;
         var w = WallsOf(d, s).ToArray();

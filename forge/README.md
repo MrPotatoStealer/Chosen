@@ -405,7 +405,8 @@ playing. The tools:
   in the dialog (the bigger room's at first) and the second's running the other way, both type 501 with one stack number
   (x-wall data, shared with the link markers' numbers: `NextLinkId`), the one-way picture 504, blocking moves and shots;
   each shows the room behind the other, shifted by the walls' offset, not turned (the game draws it; not yet the 3D
-  preview). **Make Mirror** (white walls; `makemirror <lines>`): Blood's mirror picture 504.
+  preview). The dialog lists the rules (`RoomLinks.WallPortalRules`: two-sided, the same length, parallel, not a portal
+  already), each met or not with what to change, and Link stays off until all are met. **Make Mirror** (white walls; `makemirror <lines>`): Blood's mirror picture 504.
 - **Make Door...** (the context menu over one sector; `makedoor <slide|swing|single|up|down|split|pivot> <side> <thickness> <lip> <inset> <picture>
   <busy> <wait> <sounds> <sector>` and then the rest named, `edge=<tile> sounds=<a,b,c,d> by=push|channel channel=<n>
   key=<0-6> once=0|1 hinge=0|1 carve=0|1`, a recording without them E1M1's sounds or none and one picture for faces and edges;
