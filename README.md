@@ -1,22 +1,33 @@
 # Chosen
 
 Blood (Monolith, 1997) rebuilt in Godot 4.7 and C#, with a modern map editor beside it. Chosen plays Blood's own
-levels straight from their .MAP files, as Blood plays them ([NBlood](https://github.com/nukeykt/NBlood) is the
-reference), and draws them either as Blood did or with a new look: fog, rain and dynamic light.
+levels straight from their .MAP files and aims to stay as true to the original as it can
+([NBlood](https://github.com/nukeykt/NBlood) is the reference), with optional enhanced effects on top: fog, rain and
+dynamic light.
 
 Chosen is an unofficial fan project. **It needs your own copy of Blood** (Blood: Refreshed Supply on Steam or GOG): it
 reads Blood's art, sounds, music and levels from your install, and this repository holds none of them.
 
+**Chosen is vibe coded.** Its code was written by Claude (Anthropic's AI), steered, played, tested and compared with
+NBlood by its author, who could never have built it alone. If AI-made software isn't for you, that's fair: you don't
+have to use it.
+
+**Built on NBlood.** Chosen didn't reverse-engineer Blood. How its game plays comes from NBlood's source: the
+reverse-engineering work of nukeykt and NBlood's contributors, NoOne's modern features, and Ken Silverman's Build
+engine underneath. Chosen ports that to Godot and C#; the credit for knowing how Blood works is theirs.
+
 | Classic | Enhanced |
 |---|---|
-| ![E1M1's cemetery yard drawn as Blood drew it](docs/images/e1m1-classic.jpg) | ![The same yard enhanced: rain, falling leaves, fog and mist on the ground](docs/images/e1m1-enhanced.jpg) |
+| ![E1M1's cemetery yard in the classic look](docs/images/e1m1-classic.jpg) | ![The same yard enhanced: rain, falling leaves, fog and mist on the ground](docs/images/e1m1-enhanced.jpg) |
 
 *E1M1's cemetery yard. F10 in the game switches between the two.*
 
 ## The game
 
-- **Blood as it plays:** the levels, monsters, weapons, sector effects and triggers from Blood's own data, checked
-  against NBlood view by view. Voxel models for the items and props that have them.
+- **True to the original:** the levels, monsters, weapons, sector effects and triggers from Blood's own data, checked
+  against NBlood view by view to keep them as close to Blood as possible. Where it plays differently, that's a bug:
+  please report it. The look can't be identical: Chosen draws with a modern 3D renderer, not Build's, so even the
+  classic look comes close to Blood's rather than matching it pixel for pixel. Voxel models for the items and props that have them.
 - **Classic or enhanced, each effect your choice** (Options > Enhanced): distance fog and mist on the ground, rain,
   snow and falling leaves blown by the wind, lightning, dynamic lights with shadows from flames, lamps and gunfire,
   water you can see into with reflections, caustics and ripples, moonlight, embers, smoke and dust, ambient
@@ -41,6 +52,12 @@ A map editor for Blood levels in the manner of UltimateDoomBuilder:
 - **.MAPX, Chosen's own format:** everything a .MAP holds, and what it can't: layers, names, the map's own dynamic
   lights, atmospheres (fog, ground mist, rain, snow and wind per area), its own art. The format is versioned, so maps
   made now keep opening as it grows. A .MAPX converts back to a .MAP, saying what Blood can't keep.
+- **A context menu** (Space) with the tools for what's selected: **Make Door** (sliding, swinging, lifting, lowering,
+  split and pivoting doors, their sectors, markers and x-object fields made for you), **Add Floor** (a room over or
+  under a room in one step, linked plain, as water or as goo), **Make Portal**, Gradient and the rest.
+- **Play mode** (P): the level's events run in the editor as the game runs them (channels, switches, wait times,
+  generators, moving sectors, sector lighting), so doors, lifts and whole sequences can be watched and set off (E)
+  from the 3D preview without starting the game.
 - **A 3D preview** that looks like the game, weather and all, where walls, floors and sprites are picked and edited,
   and **Test Map** (F9), which plays the map in Chosen.
 - Maps of a mod's folder are opened with that mod's art and data.
